@@ -78,7 +78,8 @@ export default Plugin.define({
     const known = new Map<string, Schema>();
 
     await ctx.tool.transform((editor) => {
-      for (const app of connected) editor.namespace({ name: app, description: `${appName(app)}, through your Composio account. ${DECLINED}` });
+      // Every action by name: the catalog only shows a few, and a guessed name is a reference that can't be called.
+      for (const app of connected) editor.namespace({ name: app, description: `${appName(app)}, through your Composio account. Its actions, the only names under tools.${app}: ${actions.filter((a) => a.app === app).map((a) => a.name).join(", ")}. Search for one to see its inputs. Results are JSON text: JSON.parse them. ${DECLINED}` });
       for (const a of actions) {
         editor.add({
           name: a.name,

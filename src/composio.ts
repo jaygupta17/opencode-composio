@@ -3,7 +3,13 @@
  * endpoint the MCP server uses, but we call its tools ourselves so each app
  * action can become its own OpenCode tool.
  */
+import { gunzipSync } from "node:zlib";
+
 const URL = "https://connect.composio.dev/mcp";
+/** Composio's sandbox cuts a command's output at about 40k characters; read saved results in pieces under that. */
+const CHUNK = 36_000;
+/** Pieces to read before giving up on a result: about 1.4 MB compressed, many MB of JSON. */
+const MAX_CHUNKS = 40;
 
 export class ComposioError extends Error {}
 
@@ -18,6 +24,7 @@ export type Found = {
 
 const schemaOf = (s: RawSchema): Schema => ({ slug: s.tool_slug, app: (s.toolkit ?? s.tool_slug.split("_")[0]).toLowerCase(), description: s.description ?? "", input: s.input_schema ?? { type: "object", properties: {} } });
 export type Link = { url: string; accountId?: string };
+type Result = { response?: { successful?: boolean; data?: unknown; data_preview?: unknown; error?: string }; error?: string; index?: number };
 
 export function client(key: string) {
   let id = 0;
@@ -54,6 +61,38 @@ export function client(key: string) {
     return out.data as T;
   }
 
+  /** A command in Composio's sandbox, where it keeps big results. */
+  async function bash(command: string, signal?: AbortSignal) {
+    const out = await call<{ stdout?: string; stderr?: string }>("COMPOSIO_REMOTE_BASH_TOOL", { command }, signal);
+    const stdout = out?.stdout ?? "";
+    if (!stdout || stdout.includes("(output truncated")) throw new ComposioError(out?.stderr?.trim() || "Composio's sandbox didn't answer.");
+    return stdout;
+  }
+
+  /** The whole of a big result, gzipped and read back in pieces small enough for the sandbox's output. */
+  async function saved(file: string, index: number, about: string | undefined, signal?: AbortSignal): Promise<unknown> {
+    const tokens = Number(/\((\d+) tokens\)/.exec(about ?? "")?.[1]);
+    const tooBig = () => new ComposioError(`That result is too big to bring back${tokens ? ` (${tokens.toLocaleString("en")} tokens)` : ""}. Ask for less: fewer results, a narrower time range, a search query, or only the fields you need.`);
+    if (!/^\/mnt\/files\/[\w./-]+\.json$/.test(file) || !Number.isInteger(index)) throw tooBig();
+    const packed = `${file}.${index}.gz64`;
+    const head = await bash(
+      `python3 -c "import json,gzip,base64;d=json.load(open('${file}'))['results'][${index}]['response'].get('data');b=base64.b64encode(gzip.compress(json.dumps(d,separators=(',',':')).encode(),9)).decode();open('${packed}','w').write(b);print(len(b));print(b[:${CHUNK}],end='')"`,
+      signal,
+    ).catch((e) => {
+      throw signal?.aborted ? e : tooBig();
+    });
+    const nl = head.indexOf("\n");
+    const total = Number(head.slice(0, nl));
+    if (!Number.isFinite(total) || total > CHUNK * MAX_CHUNKS) throw tooBig();
+    const offsets: number[] = [];
+    for (let o = CHUNK; o < total; o += CHUNK) offsets.push(o);
+    const rest = await Promise.all(offsets.map((o) => bash(`python3 -c "print(open('${packed}').read()[${o}:${o + CHUNK}],end='')"`, signal)));
+    void bash(`rm -f '${packed}'; echo ok`).catch(() => {});
+    const b64 = head.slice(nl + 1) + rest.join("");
+    if (b64.length !== total) throw tooBig();
+    return JSON.parse(gunzipSync(Buffer.from(b64, "base64")).toString("utf8"));
+  }
+
   return {
     /** Accounts per app, for the apps asked about. */
     async accounts(apps: string[]): Promise<Record<string, Account[]>> {
@@ -87,7 +126,7 @@ export function client(key: string) {
 
     /** Run one action. Resolves with its data, or throws its error in plain words. */
     async run(slug: string, args: unknown, signal?: AbortSignal): Promise<unknown> {
-      const data = await call<{ results?: { response?: { successful?: boolean; data?: unknown; error?: string }; error?: string }[] }>(
+      const data = await call<{ results?: Result[]; remote_file_info?: { file_path?: string; message?: string } }>(
         "COMPOSIO_MULTI_EXECUTE_TOOL",
         { tools: [{ tool_slug: slug, arguments: args ?? {} }], sync_response_to_workbench: false },
         signal,
@@ -96,7 +135,10 @@ export function client(key: string) {
       if (!r) throw new ComposioError("Composio didn't run the action.");
       const error = r.response?.successful === false ? (r.response.error ?? r.error) : r.error;
       if (error) throw new ComposioError(error);
-      return r.response?.data;
+      if (r.response && "data" in r.response) return r.response.data;
+      // A big result: Composio keeps it in its sandbox and sends only a preview, which would read as the whole thing.
+      if (r.response?.data_preview === undefined) return undefined;
+      return saved(data.remote_file_info?.file_path ?? "", r.index ?? 0, data.remote_file_info?.message, signal);
     },
   };
 }
