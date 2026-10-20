@@ -1,0 +1,7368 @@
+{
+ "gmail": {
+  "name": "Gmail",
+  "actions": [
+   {
+    "slug": "GMAIL_ADD_LABEL_TO_EMAIL",
+    "title": "Modify email labels"
+   },
+   {
+    "slug": "GMAIL_BATCH_DELETE_MESSAGES",
+    "title": "Batch delete Gmail messages"
+   },
+   {
+    "slug": "GMAIL_BATCH_MODIFY_MESSAGES",
+    "title": "Batch modify Gmail messages"
+   },
+   {
+    "slug": "GMAIL_CREATE_EMAIL_DRAFT",
+    "title": "Create email draft"
+   },
+   {
+    "slug": "GMAIL_CREATE_FILTER",
+    "title": "Create Gmail filter"
+   },
+   {
+    "slug": "GMAIL_CREATE_LABEL",
+    "title": "Create label"
+   },
+   {
+    "slug": "GMAIL_DELETE_DRAFT",
+    "title": "Delete Draft"
+   },
+   {
+    "slug": "GMAIL_DELETE_FILTER",
+    "title": "Delete Gmail filter"
+   },
+   {
+    "slug": "GMAIL_DELETE_LABEL",
+    "title": "Delete label from account (permanent)"
+   },
+   {
+    "slug": "GMAIL_DELETE_MESSAGE",
+    "title": "Delete message"
+   },
+   {
+    "slug": "GMAIL_DELETE_THREAD",
+    "title": "Delete thread"
+   },
+   {
+    "slug": "GMAIL_FETCH_EMAILS",
+    "title": "Fetch emails"
+   },
+   {
+    "slug": "GMAIL_FETCH_MESSAGE_BY_MESSAGE_ID",
+    "title": "Fetch message by message ID"
+   },
+   {
+    "slug": "GMAIL_FETCH_MESSAGE_BY_THREAD_ID",
+    "title": "Fetch Message by Thread ID"
+   },
+   {
+    "slug": "GMAIL_FORWARD_MESSAGE",
+    "title": "Forward email message"
+   },
+   {
+    "slug": "GMAIL_GET_ATTACHMENT",
+    "title": "Get Gmail attachment"
+   },
+   {
+    "slug": "GMAIL_GET_AUTO_FORWARDING",
+    "title": "Get Auto-Forwarding Settings"
+   },
+   {
+    "slug": "GMAIL_GET_CONTACTS",
+    "title": "Get contacts"
+   },
+   {
+    "slug": "GMAIL_GET_DRAFT",
+    "title": "Get Draft"
+   },
+   {
+    "slug": "GMAIL_GET_FILTER",
+    "title": "Get Gmail filter"
+   },
+   {
+    "slug": "GMAIL_GET_LABEL",
+    "title": "Get label details"
+   },
+   {
+    "slug": "GMAIL_GET_LANGUAGE_SETTINGS",
+    "title": "Get Language Settings"
+   },
+   {
+    "slug": "GMAIL_GET_PEOPLE",
+    "title": "Get People"
+   },
+   {
+    "slug": "GMAIL_GET_PROFILE",
+    "title": "Get Profile"
+   },
+   {
+    "slug": "GMAIL_GET_VACATION_SETTINGS",
+    "title": "Get Vacation Settings"
+   },
+   {
+    "slug": "GMAIL_IMPORT_MESSAGE",
+    "title": "Import message"
+   },
+   {
+    "slug": "GMAIL_INSERT_MESSAGE",
+    "title": "Insert message into mailbox"
+   },
+   {
+    "slug": "GMAIL_LIST_CSE_IDENTITIES",
+    "title": "List CSE identities"
+   },
+   {
+    "slug": "GMAIL_LIST_CSE_KEYPAIRS",
+    "title": "List CSE key pairs"
+   },
+   {
+    "slug": "GMAIL_LIST_DRAFTS",
+    "title": "List Drafts"
+   },
+   {
+    "slug": "GMAIL_LIST_FILTERS",
+    "title": "List Gmail filters"
+   },
+   {
+    "slug": "GMAIL_LIST_FORWARDING_ADDRESSES",
+    "title": "List forwarding addresses"
+   },
+   {
+    "slug": "GMAIL_LIST_HISTORY",
+    "title": "List Gmail history"
+   },
+   {
+    "slug": "GMAIL_LIST_LABELS",
+    "title": "List Gmail labels"
+   },
+   {
+    "slug": "GMAIL_LIST_MESSAGES",
+    "title": "List Gmail messages (Deprecated)"
+   },
+   {
+    "slug": "GMAIL_LIST_SEND_AS",
+    "title": "List send-as aliases"
+   },
+   {
+    "slug": "GMAIL_LIST_SMIME_INFO",
+    "title": "List S/MIME configs"
+   },
+   {
+    "slug": "GMAIL_LIST_THREADS",
+    "title": "List threads"
+   },
+   {
+    "slug": "GMAIL_MODIFY_THREAD_LABELS",
+    "title": "Modify thread labels"
+   },
+   {
+    "slug": "GMAIL_MOVE_THREAD_TO_TRASH",
+    "title": "Trash thread"
+   },
+   {
+    "slug": "GMAIL_MOVE_TO_TRASH",
+    "title": "Move to Trash"
+   },
+   {
+    "slug": "GMAIL_PATCH_LABEL",
+    "title": "Patch Label"
+   },
+   {
+    "slug": "GMAIL_PATCH_SEND_AS",
+    "title": "Patch send-as alias"
+   },
+   {
+    "slug": "GMAIL_REMOVE_LABEL",
+    "title": "Remove label (Deprecated)"
+   },
+   {
+    "slug": "GMAIL_REPLY_TO_THREAD",
+    "title": "Reply to email thread"
+   },
+   {
+    "slug": "GMAIL_SEARCH_PEOPLE",
+    "title": "Search People"
+   },
+   {
+    "slug": "GMAIL_SEND_DRAFT",
+    "title": "Send Draft"
+   },
+   {
+    "slug": "GMAIL_SEND_EMAIL",
+    "title": "Send Email"
+   },
+   {
+    "slug": "GMAIL_SETTINGS_GET_IMAP",
+    "title": "Get IMAP Settings"
+   },
+   {
+    "slug": "GMAIL_SETTINGS_GET_POP",
+    "title": "Get POP settings"
+   },
+   {
+    "slug": "GMAIL_SETTINGS_SEND_AS_GET",
+    "title": "Get send-as alias"
+   },
+   {
+    "slug": "GMAIL_STOP_WATCH",
+    "title": "Stop watch notifications"
+   },
+   {
+    "slug": "GMAIL_UNTRASH_MESSAGE",
+    "title": "Untrash Message"
+   },
+   {
+    "slug": "GMAIL_UNTRASH_THREAD",
+    "title": "Untrash thread"
+   },
+   {
+    "slug": "GMAIL_UPDATE_CONTACT",
+    "title": "Update Google Contact"
+   },
+   {
+    "slug": "GMAIL_UPDATE_DRAFT",
+    "title": "Update draft"
+   },
+   {
+    "slug": "GMAIL_UPDATE_IMAP_SETTINGS",
+    "title": "Update IMAP settings"
+   },
+   {
+    "slug": "GMAIL_UPDATE_LABEL",
+    "title": "Update Label"
+   },
+   {
+    "slug": "GMAIL_UPDATE_LANGUAGE_SETTINGS",
+    "title": "Update Language Settings"
+   },
+   {
+    "slug": "GMAIL_UPDATE_POP_SETTINGS",
+    "title": "Update POP settings"
+   },
+   {
+    "slug": "GMAIL_UPDATE_SEND_AS",
+    "title": "Update send-as alias"
+   },
+   {
+    "slug": "GMAIL_UPDATE_VACATION_SETTINGS",
+    "title": "Update Vacation Settings"
+   },
+   {
+    "slug": "GMAIL_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ },
+ "googlecalendar": {
+  "name": "Google Calendar",
+  "actions": [
+   {
+    "slug": "GOOGLECALENDAR_ACL_DELETE",
+    "title": "Delete ACL Rule"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_GET",
+    "title": "Get ACL Rule"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_INSERT",
+    "title": "Create ACL Rule"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_LIST",
+    "title": "List ACL Rules"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_PATCH",
+    "title": "Patch ACL Rule"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_UPDATE",
+    "title": "Update ACL Rule"
+   },
+   {
+    "slug": "GOOGLECALENDAR_ACL_WATCH",
+    "title": "Watch ACL Changes"
+   },
+   {
+    "slug": "GOOGLECALENDAR_BATCH_EVENTS",
+    "title": "Batch Events"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_DELETE",
+    "title": "Remove Calendar from List"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_GET",
+    "title": "Get Single Calendar by ID"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_INSERT",
+    "title": "Insert Calendar into List"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_PATCH",
+    "title": "Patch Calendar List Entry"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_UPDATE",
+    "title": "Update Calendar List Entry"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDAR_LIST_WATCH",
+    "title": "Watch Calendar List"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDARS_DELETE",
+    "title": "Delete Calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CALENDARS_UPDATE",
+    "title": "Update Calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CHANNELS_STOP",
+    "title": "Stop Channel"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CLEAR_CALENDAR",
+    "title": "Clear Calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_COLORS_GET",
+    "title": "Get Color Definitions"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CREATE_CALENDAR",
+    "title": "Create a new calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_CREATE_EVENT",
+    "title": "Create Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_DELETE_EVENT",
+    "title": "Delete event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_DUPLICATE_CALENDAR",
+    "title": "Create a calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_GET",
+    "title": "Get Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_IMPORT",
+    "title": "Import Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_INSTANCES",
+    "title": "Get Event Instances"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_LIST",
+    "title": "List Events"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_LIST_ALL_CALENDARS",
+    "title": "List Events from All Calendars"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_MOVE",
+    "title": "Move Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_EVENTS_WATCH",
+    "title": "Watch Events"
+   },
+   {
+    "slug": "GOOGLECALENDAR_FIND_EVENT",
+    "title": "Find event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_FIND_FREE_SLOTS",
+    "title": "Find free slots"
+   },
+   {
+    "slug": "GOOGLECALENDAR_FREE_BUSY_QUERY",
+    "title": "Query Calendar Availability"
+   },
+   {
+    "slug": "GOOGLECALENDAR_GET_CALENDAR",
+    "title": "Get Google Calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_GET_CALENDAR_PROFILE",
+    "title": "Get Calendar Profile (Deprecated)"
+   },
+   {
+    "slug": "GOOGLECALENDAR_GET_CURRENT_DATE_TIME",
+    "title": "Get current date and time"
+   },
+   {
+    "slug": "GOOGLECALENDAR_GET_CURRENT_USER",
+    "title": "Get Current Google Calendar User"
+   },
+   {
+    "slug": "GOOGLECALENDAR_LIST_BUILDINGS",
+    "title": "List Buildings"
+   },
+   {
+    "slug": "GOOGLECALENDAR_LIST_CALENDAR_RESOURCES",
+    "title": "List Calendar Resources"
+   },
+   {
+    "slug": "GOOGLECALENDAR_LIST_CALENDARS",
+    "title": "List Google Calendars"
+   },
+   {
+    "slug": "GOOGLECALENDAR_LIST_SETTINGS",
+    "title": "List Calendar Settings (Deprecated)"
+   },
+   {
+    "slug": "GOOGLECALENDAR_PATCH_CALENDAR",
+    "title": "Patch Calendar"
+   },
+   {
+    "slug": "GOOGLECALENDAR_PATCH_EVENT",
+    "title": "Patch Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_QUICK_ADD",
+    "title": "Quick Add Event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_REMOVE_ATTENDEE",
+    "title": "Remove attendee from event"
+   },
+   {
+    "slug": "GOOGLECALENDAR_SETTINGS_GET",
+    "title": "Get Calendar Setting"
+   },
+   {
+    "slug": "GOOGLECALENDAR_SETTINGS_LIST",
+    "title": "List Settings"
+   },
+   {
+    "slug": "GOOGLECALENDAR_SETTINGS_WATCH",
+    "title": "Watch Settings"
+   },
+   {
+    "slug": "GOOGLECALENDAR_SYNC_EVENTS",
+    "title": "Sync Events (Deprecated)"
+   },
+   {
+    "slug": "GOOGLECALENDAR_UPDATE_EVENT",
+    "title": "Update Google event"
+   }
+  ]
+ },
+ "googledrive": {
+  "name": "Google Drive",
+  "actions": [
+   {
+    "slug": "GOOGLEDRIVE_ADD_FILE_SHARING_PREFERENCE",
+    "title": "Add file sharing preference (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_ADD_PARENT",
+    "title": "Insert File Parent (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_ADD_PROPERTY",
+    "title": "Insert Property (v2 API)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_BATCH_GET_SPREADSHEET_VALUES",
+    "title": "Batch Get Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_BATCH_UPDATE_SPREADSHEET_VALUES",
+    "title": "Batch Update Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CLEAR_SPREADSHEET_VALUES",
+    "title": "Clear Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_COPY_FILE",
+    "title": "Copy file (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_COPY_FILE_ADVANCED",
+    "title": "Copy file with advanced options"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_COMMENT",
+    "title": "Create Comment"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_DRIVE",
+    "title": "Create Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_FILE",
+    "title": "Create File or Folder"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_FILE_FROM_TEXT",
+    "title": "Create a File from Text"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_FOLDER",
+    "title": "Create a folder"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_PERMISSION",
+    "title": "Create Permission"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_PERMISSIONS_BATCH",
+    "title": "Create Permissions Batch"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_REPLY",
+    "title": "Create Reply"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_SHORTCUT_TO_FILE",
+    "title": "Create Shortcut to File/Folder"
+   },
+   {
+    "slug": "GOOGLEDRIVE_CREATE_TEAM_DRIVE",
+    "title": "Create Team Drive (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_CHILD",
+    "title": "Delete Child (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_COMMENT",
+    "title": "Delete Comment"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_DRIVE",
+    "title": "Delete Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_FILE",
+    "title": "Delete file"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_PARENT",
+    "title": "Delete Parent (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_PERMISSION",
+    "title": "Delete Permission"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_PROPERTY",
+    "title": "Delete Property (v2 API)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_REPLY",
+    "title": "Delete Reply"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_REVISION",
+    "title": "Delete Revision"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DELETE_TEAM_DRIVE",
+    "title": "Delete Team Drive (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DOWNLOAD_FILE",
+    "title": "Download a file from Google Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DOWNLOAD_FILE2",
+    "title": "Download file content (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DOWNLOAD_FILE_OPERATION",
+    "title": "Download file via operation"
+   },
+   {
+    "slug": "GOOGLEDRIVE_DOWNLOAD_FILE_REVISION",
+    "title": "Download File Revision"
+   },
+   {
+    "slug": "GOOGLEDRIVE_EDIT_FILE",
+    "title": "Edit File"
+   },
+   {
+    "slug": "GOOGLEDRIVE_EMPTY_TRASH",
+    "title": "Empty Trash"
+   },
+   {
+    "slug": "GOOGLEDRIVE_EXPORT_GOOGLE_WORKSPACE_FILE",
+    "title": "Export Google Workspace file"
+   },
+   {
+    "slug": "GOOGLEDRIVE_FIND_FILE",
+    "title": "Find file"
+   },
+   {
+    "slug": "GOOGLEDRIVE_FIND_FOLDER",
+    "title": "Find folder"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GENERATE_IDS",
+    "title": "Generate File IDs"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_ABOUT",
+    "title": "Get about"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_APP",
+    "title": "Get App"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_CHANGE",
+    "title": "Get Change (v2 - Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_CHANGES_START_PAGE_TOKEN",
+    "title": "Get Changes Start Page Token"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_CHILD",
+    "title": "Get Child Reference (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_COMMENT",
+    "title": "Get Comment"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_DOCUMENT",
+    "title": "Get Document"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_DRIVE",
+    "title": "Get Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_FILE_METADATA",
+    "title": "Get File Metadata"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_FILE_PROPERTY",
+    "title": "Get Property (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_FILE_V2",
+    "title": "Get File (v2 API) (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_FORM",
+    "title": "Get Google Form"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_PARENT",
+    "title": "Get Parent Reference (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_PERMISSION",
+    "title": "Get Permission"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_PERMISSION_ID_FOR_EMAIL",
+    "title": "Get Permission ID for Email"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_PRESENTATION",
+    "title": "Get Google Slides Presentation"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_PRESENTATION_PAGE_THUMBNAIL",
+    "title": "Get Presentation Page Thumbnail"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_REPLY",
+    "title": "Get Reply"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_REVISION",
+    "title": "Get Revision"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_SPREADSHEET",
+    "title": "Get Spreadsheet"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_SPREADSHEET_VALUES",
+    "title": "Get Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GET_TEAM_DRIVE",
+    "title": "Get Team Drive (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_GOOGLE_DRIVE_DELETE_FOLDER_OR_FILE_ACTION",
+    "title": "Delete folder or file"
+   },
+   {
+    "slug": "GOOGLEDRIVE_HIDE_DRIVE",
+    "title": "Hide Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_INSERT_CHILD",
+    "title": "Insert Child Into Folder (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_ACCESS_PROPOSALS",
+    "title": "List Access Proposals"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_APPROVALS",
+    "title": "List Approvals"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_CHANGES",
+    "title": "List Changes"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_CHILDREN_V2",
+    "title": "List Folder Children (v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_COMMENTS",
+    "title": "List Comments"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_FILE_LABELS",
+    "title": "List File Labels"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_FILE_PROPERTIES",
+    "title": "List Properties (v2 API)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_FILES",
+    "title": "List Files and Folders (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_FORM_RESPONSES",
+    "title": "List Google Form Responses"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_LABEL_DEFINITIONS",
+    "title": "List Label Definitions"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_PERMISSIONS",
+    "title": "List Permissions"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_REPLIES",
+    "title": "List Replies to Comment"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_REVISIONS",
+    "title": "List File Revisions"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_SHARED_DRIVES",
+    "title": "List Shared Drives"
+   },
+   {
+    "slug": "GOOGLEDRIVE_LIST_TEAM_DRIVES",
+    "title": "List Team Drives (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_MODIFY_FILE_LABELS",
+    "title": "Modify File Labels"
+   },
+   {
+    "slug": "GOOGLEDRIVE_MOVE_FILE",
+    "title": "Move File"
+   },
+   {
+    "slug": "GOOGLEDRIVE_PARSE_FILE",
+    "title": "Export or download a file"
+   },
+   {
+    "slug": "GOOGLEDRIVE_PATCH_PERMISSION",
+    "title": "Patch Permission"
+   },
+   {
+    "slug": "GOOGLEDRIVE_PATCH_PROPERTY",
+    "title": "Patch Property (v2 API)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_READ_SPREADSHEET_VALUES",
+    "title": "Read Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_RESUMABLE_UPLOAD",
+    "title": "Resumable Upload"
+   },
+   {
+    "slug": "GOOGLEDRIVE_STOP_WATCH_CHANNEL",
+    "title": "Stop Watch Channel"
+   },
+   {
+    "slug": "GOOGLEDRIVE_TRASH_FILE",
+    "title": "Trash File"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UNHIDE_DRIVE",
+    "title": "Unhide Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UNTRASH_FILE",
+    "title": "Untrash File"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_COMMENT",
+    "title": "Update Comment"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_DRIVE",
+    "title": "Update Shared Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_FILE_METADATA_PATCH",
+    "title": "Update File Metadata (PATCH v2)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_FILE_PROPERTY",
+    "title": "Update Property (v2 API)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_FILE_PUT",
+    "title": "Update File (Metadata)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_FILE_REVISION_METADATA",
+    "title": "Update File Revision Metadata"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_PERMISSION",
+    "title": "Update Permission"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_REPLY",
+    "title": "Update Reply"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_SPREADSHEET_VALUES",
+    "title": "Update Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPDATE_TEAM_DRIVE",
+    "title": "Update Team Drive (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPLOAD_FILE",
+    "title": "Upload File"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPLOAD_FROM_URL",
+    "title": "Upload File from URL to Drive"
+   },
+   {
+    "slug": "GOOGLEDRIVE_UPLOAD_UPDATE_FILE",
+    "title": "Upload/Update File Content"
+   },
+   {
+    "slug": "GOOGLEDRIVE_WATCH_CHANGES",
+    "title": "Watch Drive Changes"
+   },
+   {
+    "slug": "GOOGLEDRIVE_WATCH_FILE",
+    "title": "Watch File for Changes"
+   },
+   {
+    "slug": "GOOGLEDRIVE_WRITE_SPREADSHEET_VALUES",
+    "title": "Write Spreadsheet Values"
+   }
+  ]
+ },
+ "googledocs": {
+  "name": "Google Docs",
+  "actions": [
+   {
+    "slug": "GOOGLEDOCS_COPY_DOCUMENT",
+    "title": "Copy Google Document"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_AND_POPULATE_TABLE",
+    "title": "Create and Populate Table in Google Doc"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_DOCUMENT",
+    "title": "Create a document"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_DOCUMENT2",
+    "title": "Create blank document (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_DOCUMENT_MARKDOWN",
+    "title": "Create Document Markdown"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_DRIVE_FILE",
+    "title": "Create Drive File"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_FOOTER",
+    "title": "Create Footer"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_FOOTNOTE",
+    "title": "Create Footnote"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_HEADER",
+    "title": "Create Header"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_NAMED_RANGE",
+    "title": "Create Named Range"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_PARAGRAPH_BULLETS",
+    "title": "Create Paragraph Bullets"
+   },
+   {
+    "slug": "GOOGLEDOCS_CREATE_TAB",
+    "title": "Create Document Tab"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_CONTENT_RANGE",
+    "title": "Delete Content Range in Document"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_FOOTER",
+    "title": "Delete Footer"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_HEADER",
+    "title": "Delete Header"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_NAMED_RANGE",
+    "title": "Delete Named Range"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_PARAGRAPH_BULLETS",
+    "title": "Delete Paragraph Bullets"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_TAB",
+    "title": "Delete Tab"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_TABLE_COLUMN",
+    "title": "Delete Table Column"
+   },
+   {
+    "slug": "GOOGLEDOCS_DELETE_TABLE_ROW",
+    "title": "Delete Table Row"
+   },
+   {
+    "slug": "GOOGLEDOCS_EXPORT_DOCUMENT_AS_PDF",
+    "title": "Export Google Doc as PDF"
+   },
+   {
+    "slug": "GOOGLEDOCS_GET_DOCS_DRIVE_FILE_METADATA",
+    "title": "Get Drive File Metadata"
+   },
+   {
+    "slug": "GOOGLEDOCS_GET_DOCS_SPREADSHEET_VALUES",
+    "title": "Get Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLEDOCS_GET_DOCUMENT_BY_ID",
+    "title": "Get document by id"
+   },
+   {
+    "slug": "GOOGLEDOCS_GET_DOCUMENT_END_INDEX",
+    "title": "Get Document End Index"
+   },
+   {
+    "slug": "GOOGLEDOCS_GET_DOCUMENT_PLAINTEXT",
+    "title": "Get document plain text"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_IMAGE_IN_TABLE_CELL",
+    "title": "Insert Image in Table Cell"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_INLINE_IMAGE",
+    "title": "Insert Inline Image"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_PAGE_BREAK",
+    "title": "Insert Page Break"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_TABLE_ACTION",
+    "title": "Insert Table in Google Doc"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_TABLE_COLUMN",
+    "title": "Insert Table Column"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_TABLE_ROW",
+    "title": "Insert Table Row"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_TEXT_ACTION",
+    "title": "Insert Text into Document"
+   },
+   {
+    "slug": "GOOGLEDOCS_INSERT_TEXT_IN_TABLE_CELL",
+    "title": "Insert Text in Table Cell"
+   },
+   {
+    "slug": "GOOGLEDOCS_LIST_DRIVE_ITEM_PERMISSIONS",
+    "title": "List Drive Item Permissions"
+   },
+   {
+    "slug": "GOOGLEDOCS_LIST_SPREADSHEET_CHARTS",
+    "title": "Get Charts from Spreadsheet"
+   },
+   {
+    "slug": "GOOGLEDOCS_REPLACE_ALL_TEXT",
+    "title": "Replace All Text in Document"
+   },
+   {
+    "slug": "GOOGLEDOCS_REPLACE_IMAGE",
+    "title": "Replace Image in Document"
+   },
+   {
+    "slug": "GOOGLEDOCS_SEARCH_DOCUMENTS",
+    "title": "Search Documents"
+   },
+   {
+    "slug": "GOOGLEDOCS_UNMERGE_TABLE_CELLS",
+    "title": "Unmerge Table Cells"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_DOCUMENT_BATCH",
+    "title": "Update Document Batch (Deprecated)"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_DOCUMENT_MARKDOWN",
+    "title": "Update Document Markdown"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_DOCUMENT_SECTION_MARKDOWN",
+    "title": "Update Document Section Markdown"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_DOCUMENT_STYLE",
+    "title": "Update Document Style"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_EXISTING_DOCUMENT",
+    "title": "Update existing document"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_TABLE_ROW_STYLE",
+    "title": "Update Table Row Style"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPDATE_TAB_PROPERTIES",
+    "title": "Update Tab Properties"
+   },
+   {
+    "slug": "GOOGLEDOCS_UPLOAD_DRIVE_FILE",
+    "title": "Upload Drive File"
+   }
+  ]
+ },
+ "googlesheets": {
+  "name": "Google Sheets",
+  "actions": [
+   {
+    "slug": "GOOGLESHEETS_ADD_SHEET",
+    "title": "Add Sheet to Existing Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_AGGREGATE_COLUMN_DATA",
+    "title": "Aggregate Column Data"
+   },
+   {
+    "slug": "GOOGLESHEETS_APPEND_DIMENSION",
+    "title": "Append Dimension"
+   },
+   {
+    "slug": "GOOGLESHEETS_AUTO_RESIZE_DIMENSIONS",
+    "title": "Auto-Resize Rows or Columns"
+   },
+   {
+    "slug": "GOOGLESHEETS_BATCH_CLEAR_VALUES_BY_DATA_FILTER",
+    "title": "Batch Clear Values By Data Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_BATCH_GET",
+    "title": "Batch get spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_BATCH_UPDATE",
+    "title": "Batch update spreadsheet (Deprecated)"
+   },
+   {
+    "slug": "GOOGLESHEETS_BATCH_UPDATE_VALUES_BY_DATA_FILTER",
+    "title": "Batch Update Values by Data Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_CLEAR_BASIC_FILTER",
+    "title": "Clear Basic Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_CLEAR_VALUES",
+    "title": "Clear spreadsheet values"
+   },
+   {
+    "slug": "GOOGLESHEETS_CREATE_CHART",
+    "title": "Create Chart in Google Sheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_CREATE_GOOGLE_SHEET1",
+    "title": "Create a Google Sheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_CREATE_SPREADSHEET_COLUMN",
+    "title": "Create spreadsheet column"
+   },
+   {
+    "slug": "GOOGLESHEETS_CREATE_SPREADSHEET_ROW",
+    "title": "Create spreadsheet row"
+   },
+   {
+    "slug": "GOOGLESHEETS_DELETE_CHART",
+    "title": "Delete Chart from Google Sheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_DELETE_DIMENSION",
+    "title": "Delete Dimension (Rows/Columns)"
+   },
+   {
+    "slug": "GOOGLESHEETS_DELETE_SHEET",
+    "title": "Delete Sheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_EXECUTE_SQL",
+    "title": "Execute SQL on Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_EXPORT_DRIVE_FILE",
+    "title": "Export Drive Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_EXPORT_SHEET_AS_PDF",
+    "title": "Export Sheet as PDF"
+   },
+   {
+    "slug": "GOOGLESHEETS_FIND_REPLACE",
+    "title": "Find and Replace in Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_FIND_WORKSHEET_BY_TITLE",
+    "title": "Find worksheet by title (Deprecated)"
+   },
+   {
+    "slug": "GOOGLESHEETS_FORMAT_CELL",
+    "title": "Format cell"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_BATCH_VALUES",
+    "title": "Batch Get Spreadsheet Values (Deprecated)"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_CONDITIONAL_FORMAT_RULES",
+    "title": "Get conditional format rules"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_DATA_VALIDATION_RULES",
+    "title": "Get Data Validation Rules"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_DRIVE_FILE_METADATA",
+    "title": "Get Drive File Metadata"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_SHEET_NAMES",
+    "title": "Get sheet names"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_SPREADSHEET_BY_DATA_FILTER",
+    "title": "Get Spreadsheet by Data Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_SPREADSHEET_INFO",
+    "title": "Get spreadsheet info"
+   },
+   {
+    "slug": "GOOGLESHEETS_GET_TABLE_SCHEMA",
+    "title": "Get Table Schema"
+   },
+   {
+    "slug": "GOOGLESHEETS_INSERT_DIMENSION",
+    "title": "Insert Dimension in Google Sheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_LIST_CHARTS",
+    "title": "List Charts in Google Sheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_LIST_DRIVE_CHANGES",
+    "title": "List Drive Changes"
+   },
+   {
+    "slug": "GOOGLESHEETS_LIST_TABLES",
+    "title": "List Tables in Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_LOOKUP_SPREADSHEET_ROW",
+    "title": "Look up spreadsheet row"
+   },
+   {
+    "slug": "GOOGLESHEETS_MOVE_CHART",
+    "title": "Move or Resize Chart in Google Sheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_MOVE_SPREADSHEET_TO_FOLDER",
+    "title": "Move Spreadsheet to Folder"
+   },
+   {
+    "slug": "GOOGLESHEETS_MUTATE_CONDITIONAL_FORMAT_RULES",
+    "title": "Mutate conditional format rules"
+   },
+   {
+    "slug": "GOOGLESHEETS_QUERY_TABLE",
+    "title": "Query Spreadsheet Table"
+   },
+   {
+    "slug": "GOOGLESHEETS_SEARCH_DEVELOPER_METADATA",
+    "title": "Search Developer Metadata"
+   },
+   {
+    "slug": "GOOGLESHEETS_SEARCH_SPREADSHEETS",
+    "title": "Search Spreadsheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_SET_BASIC_FILTER",
+    "title": "Set Basic Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_SET_DATA_VALIDATION_RULE",
+    "title": "Set Data Validation Rule"
+   },
+   {
+    "slug": "GOOGLESHEETS_SHEET_FROM_JSON",
+    "title": "Create sheet from JSON"
+   },
+   {
+    "slug": "GOOGLESHEETS_SORT_RANGE",
+    "title": "Sort Range"
+   },
+   {
+    "slug": "GOOGLESHEETS_SPREADSHEETS_SHEETS_COPY_TO",
+    "title": "Copy Sheet to Another Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_SPREADSHEETS_VALUES_APPEND",
+    "title": "Append Values to Spreadsheet"
+   },
+   {
+    "slug": "GOOGLESHEETS_SPREADSHEETS_VALUES_BATCH_CLEAR",
+    "title": "Batch Clear Spreadsheet Values"
+   },
+   {
+    "slug": "GOOGLESHEETS_SPREADSHEETS_VALUES_BATCH_GET_BY_DATA_FILTER",
+    "title": "Batch Get Spreadsheet Values by Data Filter"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPDATE_CHART",
+    "title": "Update Chart in Google Sheets"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPDATE_DIMENSION_PROPERTIES",
+    "title": "Update Dimension Properties (Hide/Unhide & Resize)"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPDATE_SHEET_PROPERTIES",
+    "title": "Update Sheet Properties"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPDATE_SPREADSHEET_PROPERTIES",
+    "title": "Update Spreadsheet Properties"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPDATE_VALUES_BATCH",
+    "title": "Batch update spreadsheet values"
+   },
+   {
+    "slug": "GOOGLESHEETS_UPSERT_ROWS",
+    "title": "Upsert Rows (Smart Update/Insert)"
+   },
+   {
+    "slug": "GOOGLESHEETS_VALUES_GET",
+    "title": "Get spreadsheet values"
+   },
+   {
+    "slug": "GOOGLESHEETS_VALUES_UPDATE",
+    "title": "Update spreadsheet values"
+   }
+  ]
+ },
+ "slack": {
+  "name": "Slack",
+  "actions": [
+   {
+    "slug": "SLACK_ADD_CALL_PARTICIPANTS",
+    "title": "Add call participants"
+   },
+   {
+    "slug": "SLACK_ADD_EMOJI",
+    "title": "Add emoji"
+   },
+   {
+    "slug": "SLACK_ADD_EMOJI_ALIAS",
+    "title": "Add an emoji alias"
+   },
+   {
+    "slug": "SLACK_ADD_ENTERPRISE_USER_TO_WORKSPACE",
+    "title": "Add Enterprise user to workspace"
+   },
+   {
+    "slug": "SLACK_ADD_REACTION_TO_AN_ITEM",
+    "title": "Add reaction to message"
+   },
+   {
+    "slug": "SLACK_ADD_REMOTE_FILE",
+    "title": "Add a remote file"
+   },
+   {
+    "slug": "SLACK_ADD_STAR",
+    "title": "Add a star to an item"
+   },
+   {
+    "slug": "SLACK_ADMIN_CONVERSATIONS_SEARCH",
+    "title": "Search for channels in Enterprise organization"
+   },
+   {
+    "slug": "SLACK_API_TEST",
+    "title": "Test Slack API connection"
+   },
+   {
+    "slug": "SLACK_ARCHIVE_CONVERSATION",
+    "title": "Archive a Slack conversation"
+   },
+   {
+    "slug": "SLACK_ASSISTANT_SEARCH_CONTEXT",
+    "title": "Real-time search"
+   },
+   {
+    "slug": "SLACK_ASSISTANT_SEARCH_INFO",
+    "title": "Check search capabilities"
+   },
+   {
+    "slug": "SLACK_CHAT_POST_MESSAGE",
+    "title": "Send message"
+   },
+   {
+    "slug": "SLACK_CLOSE_DM",
+    "title": "Close conversation channel"
+   },
+   {
+    "slug": "SLACK_COMPLETE_EXTERNAL_FILE_UPLOAD",
+    "title": "Complete external file upload"
+   },
+   {
+    "slug": "SLACK_CONVERT_CHANNEL_TO_PRIVATE",
+    "title": "Convert public channel to private"
+   },
+   {
+    "slug": "SLACK_CREATE_A_REMINDER",
+    "title": "Create a reminder"
+   },
+   {
+    "slug": "SLACK_CREATE_CANVAS",
+    "title": "Create Slack Canvas"
+   },
+   {
+    "slug": "SLACK_CREATE_CHANNEL",
+    "title": "Create channel"
+   },
+   {
+    "slug": "SLACK_CREATE_CHANNEL_BASED_CONVERSATION",
+    "title": "Create a channel-based conversation"
+   },
+   {
+    "slug": "SLACK_CREATE_ENTERPRISE_TEAM",
+    "title": "Create Enterprise team"
+   },
+   {
+    "slug": "SLACK_CREATE_SLACK_LIST",
+    "title": "Create Slack List"
+   },
+   {
+    "slug": "SLACK_CREATE_SLACK_LIST_ITEM",
+    "title": "Create Slack List item"
+   },
+   {
+    "slug": "SLACK_CREATE_USER_GROUP",
+    "title": "Create a Slack user group"
+   },
+   {
+    "slug": "SLACK_CUSTOMIZE_URL_UNFURL",
+    "title": "Customize URL unfurl"
+   },
+   {
+    "slug": "SLACK_DELETE_CANVAS",
+    "title": "Delete Slack Canvas"
+   },
+   {
+    "slug": "SLACK_DELETE_CHANNEL",
+    "title": "Delete a public or private channel"
+   },
+   {
+    "slug": "SLACK_DELETE_FILE",
+    "title": "Delete a file by ID"
+   },
+   {
+    "slug": "SLACK_DELETE_FILE_COMMENT",
+    "title": "Delete file comment"
+   },
+   {
+    "slug": "SLACK_DELETE_MULTIPLE_SLACK_LIST_ITEMS",
+    "title": "Delete multiple Slack List items"
+   },
+   {
+    "slug": "SLACK_DELETE_REMINDER",
+    "title": "Delete a Slack reminder"
+   },
+   {
+    "slug": "SLACK_DELETES_A_MESSAGE_FROM_A_CHAT",
+    "title": "Delete a message from a chat"
+   },
+   {
+    "slug": "SLACK_DELETE_SCHEDULED_MESSAGE",
+    "title": "Delete scheduled chat message"
+   },
+   {
+    "slug": "SLACK_DELETE_SLACK_LIST_ACCESS",
+    "title": "Delete Slack List access"
+   },
+   {
+    "slug": "SLACK_DELETE_SLACK_LIST_ITEM",
+    "title": "Delete Slack List item"
+   },
+   {
+    "slug": "SLACK_DELETE_USER_PROFILE_PHOTO",
+    "title": "Delete user profile photo"
+   },
+   {
+    "slug": "SLACK_DISABLE_USER_GROUP",
+    "title": "Disable a Slack user group"
+   },
+   {
+    "slug": "SLACK_DOWNLOAD_SLACK_FILE",
+    "title": "Download Slack file"
+   },
+   {
+    "slug": "SLACK_EDIT_CANVAS",
+    "title": "Edit Slack Canvas"
+   },
+   {
+    "slug": "SLACK_ENABLE_PUBLIC_SHARING_OF_A_FILE",
+    "title": "Share file public url"
+   },
+   {
+    "slug": "SLACK_ENABLE_USER_GROUP",
+    "title": "Enable a user group"
+   },
+   {
+    "slug": "SLACK_END_CALL",
+    "title": "End a call"
+   },
+   {
+    "slug": "SLACK_END_DND",
+    "title": "End DND session"
+   },
+   {
+    "slug": "SLACK_END_SNOOZE",
+    "title": "End snooze"
+   },
+   {
+    "slug": "SLACK_FETCH_CONVERSATION_HISTORY",
+    "title": "Fetch conversation history"
+   },
+   {
+    "slug": "SLACK_FETCH_ITEM_REACTIONS",
+    "title": "Fetch item reactions"
+   },
+   {
+    "slug": "SLACK_FETCH_MESSAGE_THREAD_FROM_A_CONVERSATION",
+    "title": "Retrieve conversation replies"
+   },
+   {
+    "slug": "SLACK_FETCH_TEAM_INFO",
+    "title": "Fetch team info"
+   },
+   {
+    "slug": "SLACK_FIND_CHANNELS",
+    "title": "Find channels"
+   },
+   {
+    "slug": "SLACK_FIND_USER_BY_EMAIL_ADDRESS",
+    "title": "Lookup users by email"
+   },
+   {
+    "slug": "SLACK_FIND_USERS",
+    "title": "Find users"
+   },
+   {
+    "slug": "SLACK_GET_APP_PERMISSION_SCOPES",
+    "title": "Get app permission scopes"
+   },
+   {
+    "slug": "SLACK_GET_AUDIT_ACTION_TYPES",
+    "title": "Get Audit Action Types"
+   },
+   {
+    "slug": "SLACK_GET_AUDIT_SCHEMAS",
+    "title": "Get Audit Schemas"
+   },
+   {
+    "slug": "SLACK_GET_BOT_USER",
+    "title": "Fetch bot user information"
+   },
+   {
+    "slug": "SLACK_GET_CALL_INFO",
+    "title": "Retrieve call information"
+   },
+   {
+    "slug": "SLACK_GET_CANVAS",
+    "title": "Get Slack Canvas (Deprecated)"
+   },
+   {
+    "slug": "SLACK_GET_CHANNEL_CONVERSATION_PREFERENCES",
+    "title": "Get channel conversation preferences"
+   },
+   {
+    "slug": "SLACK_GET_REMINDER",
+    "title": "Get reminder information"
+   },
+   {
+    "slug": "SLACK_GET_REMOTE_FILE",
+    "title": "Get remote file"
+   },
+   {
+    "slug": "SLACK_GET_SLACK_LIST_ITEM",
+    "title": "Get Slack List item"
+   },
+   {
+    "slug": "SLACK_GET_TEAM_PROFILE",
+    "title": "Retrieve team profile details"
+   },
+   {
+    "slug": "SLACK_GET_UNREAD_MESSAGES_FROM_USER",
+    "title": "Get unread messages from user"
+   },
+   {
+    "slug": "SLACK_GET_USER_DND_STATUS",
+    "title": "Get team DND status"
+   },
+   {
+    "slug": "SLACK_GET_USER_PRESENCE",
+    "title": "Retrieve user presence"
+   },
+   {
+    "slug": "SLACK_GET_WORKSPACE_CONNECTIONS_FOR_CHANNEL",
+    "title": "Get workspace connections for channel"
+   },
+   {
+    "slug": "SLACK_GET_WORKSPACE_SETTINGS",
+    "title": "Fetch workspace settings information"
+   },
+   {
+    "slug": "SLACK_INVITE_USERS_TO_A_SLACK_CHANNEL",
+    "title": "Invite users to a Slack channel"
+   },
+   {
+    "slug": "SLACK_INVITE_USER_TO_CHANNEL",
+    "title": "Invite users to channel"
+   },
+   {
+    "slug": "SLACK_INVITE_USER_TO_WORKSPACE",
+    "title": "Invite user to workspace"
+   },
+   {
+    "slug": "SLACK_JOIN_AN_EXISTING_CONVERSATION",
+    "title": "Join conversation by channel id"
+   },
+   {
+    "slug": "SLACK_LEAVE_A_CONVERSATION",
+    "title": "Leave conversation channel"
+   },
+   {
+    "slug": "SLACK_LEAVE_CONVERSATION",
+    "title": "Leave conversation channel"
+   },
+   {
+    "slug": "SLACK_LIST_ADMIN_APPS_APPROVED",
+    "title": "List approved apps"
+   },
+   {
+    "slug": "SLACK_LIST_ADMIN_APPS_REQUESTS",
+    "title": "List app requests"
+   },
+   {
+    "slug": "SLACK_LIST_ADMIN_EMOJI",
+    "title": "List admin emoji"
+   },
+   {
+    "slug": "SLACK_LIST_ALL_CHANNELS",
+    "title": "List all channels"
+   },
+   {
+    "slug": "SLACK_LIST_ALL_USERS",
+    "title": "List all users"
+   },
+   {
+    "slug": "SLACK_LIST_APPROVED_WORKSPACE_INVITE_REQUESTS",
+    "title": "List approved workspace invite requests"
+   },
+   {
+    "slug": "SLACK_LIST_AUTH_TEAMS",
+    "title": "List authorized teams"
+   },
+   {
+    "slug": "SLACK_LIST_AVAILABLE_WORKSPACES",
+    "title": "List available workspaces"
+   },
+   {
+    "slug": "SLACK_LIST_CANVASES",
+    "title": "List Slack Canvases (Deprecated)"
+   },
+   {
+    "slug": "SLACK_LIST_CONVERSATIONS",
+    "title": "List conversations"
+   },
+   {
+    "slug": "SLACK_LIST_CUSTOM_EMOJIS",
+    "title": "List team custom emojis"
+   },
+   {
+    "slug": "SLACK_LIST_DENIED_WORKSPACE_INVITE_REQUESTS",
+    "title": "List denied workspace invite requests"
+   },
+   {
+    "slug": "SLACK_LIST_ENTERPRISE_TEAMS",
+    "title": "List Enterprise teams"
+   },
+   {
+    "slug": "SLACK_LIST_FILES_WITH_FILTERS_IN_SLACK",
+    "title": "List Slack files"
+   },
+   {
+    "slug": "SLACK_LIST_IDP_GROUPS_LINKED_TO_CHANNEL",
+    "title": "List IDP groups linked to channel"
+   },
+   {
+    "slug": "SLACK_LIST_PENDING_WORKSPACE_INVITE_REQUESTS",
+    "title": "List pending workspace invite requests"
+   },
+   {
+    "slug": "SLACK_LIST_PINNED_ITEMS",
+    "title": "List pinned items in a channel"
+   },
+   {
+    "slug": "SLACK_LIST_REMINDERS",
+    "title": "List reminders"
+   },
+   {
+    "slug": "SLACK_LIST_REMOTE_FILES",
+    "title": "List remote files"
+   },
+   {
+    "slug": "SLACK_LIST_RESTRICTED_APPS",
+    "title": "List Restricted Apps"
+   },
+   {
+    "slug": "SLACK_LIST_SCHEDULED_MESSAGES",
+    "title": "List scheduled messages"
+   },
+   {
+    "slug": "SLACK_LIST_SLACK_LIST_ITEMS",
+    "title": "List Slack List items"
+   },
+   {
+    "slug": "SLACK_LIST_STARRED_ITEMS",
+    "title": "List starred items"
+   },
+   {
+    "slug": "SLACK_LIST_UNREAD_CHANNEL_MESSAGES",
+    "title": "List unread channel messages"
+   },
+   {
+    "slug": "SLACK_LIST_USER_GROUP_MEMBERS",
+    "title": "List all users in a user group"
+   },
+   {
+    "slug": "SLACK_LIST_USER_GROUPS",
+    "title": "List user groups"
+   },
+   {
+    "slug": "SLACK_LIST_USER_REACTIONS",
+    "title": "List user reactions"
+   },
+   {
+    "slug": "SLACK_LIST_WORKSPACE_ADMINS",
+    "title": "List workspace admins"
+   },
+   {
+    "slug": "SLACK_LIST_WORKSPACE_OWNERS",
+    "title": "List workspace owners"
+   },
+   {
+    "slug": "SLACK_LIST_WORKSPACE_USERS",
+    "title": "List admin users"
+   },
+   {
+    "slug": "SLACK_LOOKUP_CANVAS_SECTIONS",
+    "title": "Lookup Canvas Sections"
+   },
+   {
+    "slug": "SLACK_MANUALLY_SET_USER_PRESENCE",
+    "title": "Set user presence"
+   },
+   {
+    "slug": "SLACK_OPEN_DM",
+    "title": "Open DM"
+   },
+   {
+    "slug": "SLACK_PIN_ITEM",
+    "title": "Pin an item to a channel"
+   },
+   {
+    "slug": "SLACK_READ_AUDIT_LOGS",
+    "title": "Read Audit Logs"
+   },
+   {
+    "slug": "SLACK_REMOVE_CALL_PARTICIPANTS",
+    "title": "Remove call participants"
+   },
+   {
+    "slug": "SLACK_REMOVE_EMOJI",
+    "title": "Remove emoji"
+   },
+   {
+    "slug": "SLACK_REMOVE_REACTION_FROM_ITEM",
+    "title": "Remove reaction from item"
+   },
+   {
+    "slug": "SLACK_REMOVE_REMOTE_FILE",
+    "title": "Remove remote file"
+   },
+   {
+    "slug": "SLACK_REMOVE_STAR",
+    "title": "Remove a star from an item"
+   },
+   {
+    "slug": "SLACK_REMOVE_USER_FROM_CONVERSATION",
+    "title": "Remove user from conversation"
+   },
+   {
+    "slug": "SLACK_REMOVE_USER_FROM_WORKSPACE",
+    "title": "Remove user from workspace"
+   },
+   {
+    "slug": "SLACK_RENAME_CONVERSATION",
+    "title": "Rename a conversation"
+   },
+   {
+    "slug": "SLACK_RENAME_EMOJI",
+    "title": "Rename an emoji"
+   },
+   {
+    "slug": "SLACK_RESERVE_FILE_UPLOAD",
+    "title": "Reserve Slack file upload"
+   },
+   {
+    "slug": "SLACK_RESET_USER_SESSIONS",
+    "title": "Reset user sessions"
+   },
+   {
+    "slug": "SLACK_RESTRICT_APP_INSTALLATION",
+    "title": "Restrict app installation"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_A_USER_S_IDENTITY_DETAILS",
+    "title": "Retrieve a user's identity details"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_CONVERSATION_INFORMATION",
+    "title": "Retrieve conversation information"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_CONVERSATION_MEMBERS_LIST",
+    "title": "Get conversation members"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_CURRENT_USER_DND_STATUS",
+    "title": "Retrieve user DND status"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_DETAILED_INFORMATION_ABOUT_A_FILE",
+    "title": "Retrieve detailed file information"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_DETAILED_USER_INFORMATION",
+    "title": "Retrieve detailed user information"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_MESSAGE_PERMALINK_URL",
+    "title": "Retrieve message permalink"
+   },
+   {
+    "slug": "SLACK_RETRIEVE_USER_PROFILE_INFORMATION",
+    "title": "Retrieve user profile information"
+   },
+   {
+    "slug": "SLACK_REVOKE_FILE_PUBLIC_SHARING",
+    "title": "Revoke a file's public url"
+   },
+   {
+    "slug": "SLACK_RTM_CONNECT",
+    "title": "Start RTM session"
+   },
+   {
+    "slug": "SLACK_RTM_START",
+    "title": "Start RTM session"
+   },
+   {
+    "slug": "SLACK_SCHEDULE_MESSAGE",
+    "title": "Schedule message"
+   },
+   {
+    "slug": "SLACK_SCIM_GET_CONFIG",
+    "title": "Get SCIM service provider configuration"
+   },
+   {
+    "slug": "SLACK_SEARCH_ALL",
+    "title": "Search all content"
+   },
+   {
+    "slug": "SLACK_SEARCH_FILES",
+    "title": "Search Slack files"
+   },
+   {
+    "slug": "SLACK_SEARCH_MESSAGES",
+    "title": "Search messages"
+   },
+   {
+    "slug": "SLACK_SEND_EPHEMERAL_MESSAGE",
+    "title": "Send ephemeral message"
+   },
+   {
+    "slug": "SLACK_SEND_ME_MESSAGE",
+    "title": "Share a me message in a channel"
+   },
+   {
+    "slug": "SLACK_SEND_MESSAGE",
+    "title": "Send message"
+   },
+   {
+    "slug": "SLACK_SET_ADMIN_USER",
+    "title": "Set admin user"
+   },
+   {
+    "slug": "SLACK_SET_CONVERSATION_PREFS",
+    "title": "Set conversation preferences"
+   },
+   {
+    "slug": "SLACK_SET_CONVERSATION_PURPOSE",
+    "title": "Set a conversation's purpose"
+   },
+   {
+    "slug": "SLACK_SET_DEFAULT_CHANNELS",
+    "title": "Set default channels"
+   },
+   {
+    "slug": "SLACK_SET_DND_DURATION",
+    "title": "Set DND duration"
+   },
+   {
+    "slug": "SLACK_SET_PROFILE_PHOTO",
+    "title": "Set profile photo"
+   },
+   {
+    "slug": "SLACK_SET_READ_CURSOR_IN_A_CONVERSATION",
+    "title": "Set conversation read cursor"
+   },
+   {
+    "slug": "SLACK_SET_SLACK_LIST_ACCESS",
+    "title": "Set Slack List access"
+   },
+   {
+    "slug": "SLACK_SET_STATUS",
+    "title": "Set Slack user profile information"
+   },
+   {
+    "slug": "SLACK_SET_THE_TOPIC_OF_A_CONVERSATION",
+    "title": "Set conversation topic"
+   },
+   {
+    "slug": "SLACK_SET_USER_ACTIVE",
+    "title": "Mark user as active"
+   },
+   {
+    "slug": "SLACK_SET_USER_PRESENCE",
+    "title": "Set user presence"
+   },
+   {
+    "slug": "SLACK_SET_USER_PROFILE",
+    "title": "Set Slack user profile information"
+   },
+   {
+    "slug": "SLACK_SET_WORKSPACE_DESCRIPTION",
+    "title": "Set workspace description"
+   },
+   {
+    "slug": "SLACK_SET_WORKSPACE_ICON",
+    "title": "Set workspace icon"
+   },
+   {
+    "slug": "SLACK_SET_WORKSPACE_NAME",
+    "title": "Set workspace name"
+   },
+   {
+    "slug": "SLACK_SET_WORKSPACE_OWNER",
+    "title": "Set workspace owner"
+   },
+   {
+    "slug": "SLACK_SET_WORKSPACES_FOR_CHANNEL",
+    "title": "Set workspaces for channel"
+   },
+   {
+    "slug": "SLACK_SHARE_REMOTE_FILE",
+    "title": "Share a remote file in channels"
+   },
+   {
+    "slug": "SLACK_START_CALL",
+    "title": "Start call"
+   },
+   {
+    "slug": "SLACK_TEST_AUTH",
+    "title": "Test authentication"
+   },
+   {
+    "slug": "SLACK_UNARCHIVE_CHANNEL",
+    "title": "Unarchive channel"
+   },
+   {
+    "slug": "SLACK_UNPIN_ITEM",
+    "title": "Unpin message from channel"
+   },
+   {
+    "slug": "SLACK_UPDATE_CALL_INFO",
+    "title": "Update call information"
+   },
+   {
+    "slug": "SLACK_UPDATE_REMOTE_FILE",
+    "title": "Update an existing remote file"
+   },
+   {
+    "slug": "SLACK_UPDATES_A_SLACK_MESSAGE",
+    "title": "Update a Slack message"
+   },
+   {
+    "slug": "SLACK_UPDATE_SLACK_LIST",
+    "title": "Update Slack List"
+   },
+   {
+    "slug": "SLACK_UPDATE_SLACK_LIST_ITEM",
+    "title": "Update Slack List item"
+   },
+   {
+    "slug": "SLACK_UPDATE_USER_GROUP",
+    "title": "Update Slack user group"
+   },
+   {
+    "slug": "SLACK_UPDATE_USER_GROUP_MEMBERS",
+    "title": "Update user group members"
+   },
+   {
+    "slug": "SLACK_UPLOAD_OR_CREATE_A_FILE_IN_SLACK",
+    "title": "Upload or create a file in Slack"
+   },
+   {
+    "slug": "SLACK_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ },
+ "notion": {
+  "name": "Notion",
+  "actions": [
+   {
+    "slug": "NOTION_ADD_MULTIPLE_PAGE_CONTENT",
+    "title": "Add multiple content blocks (bulk, user-friendly)"
+   },
+   {
+    "slug": "NOTION_ADD_PAGE_CONTENT",
+    "title": "Add single content block to Notion page (Deprecated)"
+   },
+   {
+    "slug": "NOTION_APPEND_BLOCK_CHILDREN",
+    "title": "Append raw Notion blocks (advanced API)"
+   },
+   {
+    "slug": "NOTION_APPEND_CODE_BLOCKS",
+    "title": "Append code blocks (code, quote, equation)"
+   },
+   {
+    "slug": "NOTION_APPEND_LAYOUT_BLOCKS",
+    "title": "Append layout blocks (divider, TOC, columns)"
+   },
+   {
+    "slug": "NOTION_APPEND_MEDIA_BLOCKS",
+    "title": "Append media blocks (image, video, audio, files)"
+   },
+   {
+    "slug": "NOTION_APPEND_TABLE_BLOCKS",
+    "title": "Append table blocks"
+   },
+   {
+    "slug": "NOTION_APPEND_TASK_BLOCKS",
+    "title": "Append task blocks (to-do, toggle, callout)"
+   },
+   {
+    "slug": "NOTION_APPEND_TEXT_BLOCKS",
+    "title": "Append text blocks (paragraphs, headings, lists)"
+   },
+   {
+    "slug": "NOTION_ARCHIVE_NOTION_PAGE",
+    "title": "Archive Notion Page"
+   },
+   {
+    "slug": "NOTION_CREATE_COMMENT",
+    "title": "Create comment"
+   },
+   {
+    "slug": "NOTION_CREATE_DATABASE",
+    "title": "Create Notion Database"
+   },
+   {
+    "slug": "NOTION_CREATE_FILE_UPLOAD",
+    "title": "Create Notion file upload"
+   },
+   {
+    "slug": "NOTION_CREATE_NOTION_PAGE",
+    "title": "Create Notion page"
+   },
+   {
+    "slug": "NOTION_CREATE_VIEW",
+    "title": "Create Notion view"
+   },
+   {
+    "slug": "NOTION_CREATE_VIEW_QUERY",
+    "title": "Create Notion view query"
+   },
+   {
+    "slug": "NOTION_DELETE_BLOCK",
+    "title": "Delete a block"
+   },
+   {
+    "slug": "NOTION_DELETE_VIEW",
+    "title": "Delete Notion view"
+   },
+   {
+    "slug": "NOTION_DELETE_VIEW_QUERY",
+    "title": "Delete Notion view query"
+   },
+   {
+    "slug": "NOTION_DUPLICATE_PAGE",
+    "title": "Duplicate page"
+   },
+   {
+    "slug": "NOTION_FETCH_ALL_BLOCK_CONTENTS",
+    "title": "Fetch All Notion Block Contents"
+   },
+   {
+    "slug": "NOTION_FETCH_BLOCK_CONTENTS",
+    "title": "Fetch Notion Block Children"
+   },
+   {
+    "slug": "NOTION_FETCH_BLOCK_METADATA",
+    "title": "Fetch Notion block metadata"
+   },
+   {
+    "slug": "NOTION_FETCH_COMMENTS",
+    "title": "Fetch comments"
+   },
+   {
+    "slug": "NOTION_FETCH_DATA",
+    "title": "Fetch Notion Data"
+   },
+   {
+    "slug": "NOTION_FETCH_DATABASE",
+    "title": "Fetch Database"
+   },
+   {
+    "slug": "NOTION_FETCH_ROW",
+    "title": "Fetch database row"
+   },
+   {
+    "slug": "NOTION_GET_ABOUT_ME",
+    "title": "Get About Me (Deprecated)"
+   },
+   {
+    "slug": "NOTION_GET_ABOUT_USER",
+    "title": "Get about user"
+   },
+   {
+    "slug": "NOTION_GET_PAGE_MARKDOWN",
+    "title": "Get page markdown"
+   },
+   {
+    "slug": "NOTION_GET_PAGE_PROPERTY_ACTION",
+    "title": "Get page property"
+   },
+   {
+    "slug": "NOTION_GET_PLUGIN",
+    "title": "Get plugin"
+   },
+   {
+    "slug": "NOTION_GET_VIEW_QUERY_RESULTS",
+    "title": "Get Notion view query results"
+   },
+   {
+    "slug": "NOTION_INSERT_ROW_DATABASE",
+    "title": "Insert row database"
+   },
+   {
+    "slug": "NOTION_INSERT_ROW_FROM_NL",
+    "title": "Insert Row From Natural Language"
+   },
+   {
+    "slug": "NOTION_LIST_DATA_SOURCE_TEMPLATES",
+    "title": "List data source templates"
+   },
+   {
+    "slug": "NOTION_LIST_FILE_UPLOADS",
+    "title": "List Notion file uploads"
+   },
+   {
+    "slug": "NOTION_LIST_PLUGINS",
+    "title": "List plugins"
+   },
+   {
+    "slug": "NOTION_LIST_USERS",
+    "title": "List users"
+   },
+   {
+    "slug": "NOTION_LIST_VIEWS",
+    "title": "List Notion views"
+   },
+   {
+    "slug": "NOTION_MOVE_PAGE",
+    "title": "Move Page"
+   },
+   {
+    "slug": "NOTION_QUERY_DATABASE",
+    "title": "Query database"
+   },
+   {
+    "slug": "NOTION_QUERY_DATABASE_WITH_FILTER",
+    "title": "Query database with filter"
+   },
+   {
+    "slug": "NOTION_QUERY_DATA_SOURCE",
+    "title": "Query data source"
+   },
+   {
+    "slug": "NOTION_REPLACE_PAGE_CONTENT",
+    "title": "Replace page content (with backup)"
+   },
+   {
+    "slug": "NOTION_RETRIEVE_COMMENT",
+    "title": "Retrieve Comment"
+   },
+   {
+    "slug": "NOTION_RETRIEVE_DATABASE_PROPERTY",
+    "title": "Retrieve Database Property"
+   },
+   {
+    "slug": "NOTION_RETRIEVE_FILE_UPLOAD",
+    "title": "Retrieve Notion file upload"
+   },
+   {
+    "slug": "NOTION_RETRIEVE_PAGE",
+    "title": "Retrieve page"
+   },
+   {
+    "slug": "NOTION_RETRIEVE_VIEW",
+    "title": "Retrieve Notion view"
+   },
+   {
+    "slug": "NOTION_SEARCH_NOTION_PAGE",
+    "title": "Search Notion pages and databases"
+   },
+   {
+    "slug": "NOTION_SEND_FILE_UPLOAD",
+    "title": "Send file upload"
+   },
+   {
+    "slug": "NOTION_UPDATE_BLOCK",
+    "title": "Update block"
+   },
+   {
+    "slug": "NOTION_UPDATE_PAGE",
+    "title": "Update Page"
+   },
+   {
+    "slug": "NOTION_UPDATE_PAGE_MARKDOWN",
+    "title": "Update page markdown"
+   },
+   {
+    "slug": "NOTION_UPDATE_ROW_DATABASE",
+    "title": "Update Database Row (Page)"
+   },
+   {
+    "slug": "NOTION_UPDATE_SCHEMA_DATABASE",
+    "title": "Update database schema"
+   },
+   {
+    "slug": "NOTION_UPDATE_VIEW",
+    "title": "Update Notion view"
+   },
+   {
+    "slug": "NOTION_UPSERT_ROW_DATABASE",
+    "title": "Upsert database rows"
+   },
+   {
+    "slug": "NOTION_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ },
+ "github": {
+  "name": "GitHub",
+  "actions": [
+   {
+    "slug": "GITHUB_ABORT_REPOSITORY_MIGRATION",
+    "title": "Abort Repository Migration"
+   },
+   {
+    "slug": "GITHUB_ACCEPT_REPOSITORY_INVITATION",
+    "title": "Accept a repository invitation"
+   },
+   {
+    "slug": "GITHUB_ADD_APP_ACCESS_RESTRICTIONS",
+    "title": "Add app access restrictions"
+   },
+   {
+    "slug": "GITHUB_ADD_A_REPOSITORY_COLLABORATOR",
+    "title": "Add a repository collaborator"
+   },
+   {
+    "slug": "GITHUB_ADD_ASSIGNEES_TO_AN_ISSUE",
+    "title": "Add assignees to an issue"
+   },
+   {
+    "slug": "GITHUB_ADD_EMAIL_ADDRESS_FOR_AUTHENTICATED_USER",
+    "title": "Add email for auth user"
+   },
+   {
+    "slug": "GITHUB_ADD_FIELD_TO_USER_PROJECT",
+    "title": "Add field to user project"
+   },
+   {
+    "slug": "GITHUB_ADD_ITEM_TO_USER_PROJECT",
+    "title": "Add item to user project"
+   },
+   {
+    "slug": "GITHUB_ADD_LABELS_TO_AN_ISSUE",
+    "title": "Add labels to an issue"
+   },
+   {
+    "slug": "GITHUB_ADD_ORG_RUNNER_LABELS",
+    "title": "Add org runner labels"
+   },
+   {
+    "slug": "GITHUB_ADD_OR_UPDATE_TEAM_MEMBERSHIP_FOR_USER",
+    "title": "Add or update team membership for a user"
+   },
+   {
+    "slug": "GITHUB_ADD_OR_UPDATE_TEAM_PROJECT_PERMISSIONS",
+    "title": "Add or update team project permissions"
+   },
+   {
+    "slug": "GITHUB_ADD_OR_UPDATE_TEAM_REPOSITORY_PERMISSIONS",
+    "title": "Add or update team repository permissions"
+   },
+   {
+    "slug": "GITHUB_ADD_PROJECT_COLLABORATOR",
+    "title": "Add project collaborator"
+   },
+   {
+    "slug": "GITHUB_ADD_REPOSITORY_TO_APP_INSTALLATION",
+    "title": "Add a repository to an app installation"
+   },
+   {
+    "slug": "GITHUB_ADD_REPO_TO_ORG_SECRET_WITH_SELECTED_ACCESS",
+    "title": "Add repo to org secret with selected access"
+   },
+   {
+    "slug": "GITHUB_ADD_REPO_TO_ORG_SECRET_WITH_SELECTED_VISIBILITY",
+    "title": "Add selected repo to org secret"
+   },
+   {
+    "slug": "GITHUB_ADD_RUNNER_LABELS",
+    "title": "Add runner labels"
+   },
+   {
+    "slug": "GITHUB_ADD_SELECTED_REPOSITORY_TO_ORGANIZATION_SECRET",
+    "title": "Add selected repository to an organization secret"
+   },
+   {
+    "slug": "GITHUB_ADD_SELECTED_REPOSITORY_TO_ORGANIZATION_VARIABLE",
+    "title": "Add selected repository to an organization variable"
+   },
+   {
+    "slug": "GITHUB_ADD_SELECTED_REPOSITORY_TO_USER_SECRET",
+    "title": "Add a selected repository to a user secret"
+   },
+   {
+    "slug": "GITHUB_ADD_SOCIAL_ACCOUNTS_FOR_AUTHENTICATED_USER",
+    "title": "Add social accounts for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_ADD_STATUS_CHECK_CONTEXTS",
+    "title": "Add status check contexts"
+   },
+   {
+    "slug": "GITHUB_ADD_SUB_ISSUE",
+    "title": "Add sub-issue to an issue"
+   },
+   {
+    "slug": "GITHUB_ADD_TEAM_ACCESS_RESTRICTIONS",
+    "title": "Add team access restrictions"
+   },
+   {
+    "slug": "GITHUB_ADD_USER_ACCESS_RESTRICTIONS",
+    "title": "Add user access restrictions"
+   },
+   {
+    "slug": "GITHUB_ADD_USERS_TO_CODESPACES_ACCESS_FOR_ORGANIZATION",
+    "title": "Add users to codespaces access for an organization"
+   },
+   {
+    "slug": "GITHUB_API_ROOT",
+    "title": "Get GitHub API root"
+   },
+   {
+    "slug": "GITHUB_APPROVE_WORKFLOW_RUN_FOR_FORK_PULL_REQUEST",
+    "title": "Approve a workflow run for a fork pull request"
+   },
+   {
+    "slug": "GITHUB_ASSIGN_ORGANIZATION_ROLE_TO_TEAM",
+    "title": "Assign an organization role to a team"
+   },
+   {
+    "slug": "GITHUB_ASSIGN_ORGANIZATION_ROLE_TO_USER",
+    "title": "Assign an organization role to a user"
+   },
+   {
+    "slug": "GITHUB_AUTH_USER_DOCKER_CONFLICT_PACKAGES_LIST",
+    "title": "List Docker Migration Conflicting Packages"
+   },
+   {
+    "slug": "GITHUB_BLOCK_USER",
+    "title": "Block a user"
+   },
+   {
+    "slug": "GITHUB_BLOCK_USER_FROM_ORGANIZATION",
+    "title": "Block a user from an organization"
+   },
+   {
+    "slug": "GITHUB_CANCEL_GITHUB_PAGES_DEPLOYMENT",
+    "title": "Cancel a GitHub Pages deployment"
+   },
+   {
+    "slug": "GITHUB_CANCEL_SPONSORSHIP",
+    "title": "Cancel sponsorship"
+   },
+   {
+    "slug": "GITHUB_CANCEL_WORKFLOW_RUN",
+    "title": "Cancel a workflow run"
+   },
+   {
+    "slug": "GITHUB_CHECK_FOLLOWING",
+    "title": "Check if following user"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_GIST_IS_STARRED",
+    "title": "Check if a gist is starred"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_PULL_REQUEST_HAS_BEEN_MERGED",
+    "title": "Check if pull request merged"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_PULL_REQUEST_MERGED",
+    "title": "Check if pull request merged"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_REPO_STARRED_BY_AUTH_USER",
+    "title": "Check if repo starred by auth user"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_CAN_BE_ASSIGNED",
+    "title": "Check if a user can be assigned"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_CAN_BE_ASSIGNED_TO_ISSUE",
+    "title": "Check if a user can be assigned to an issue"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_FOLLOWS_ANOTHER_USER",
+    "title": "Check if a user follows another user"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_IS_BLOCKED_BY_AUTHENTICATED_USER",
+    "title": "Check if a user is blocked by the authenticated user"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_IS_BLOCKED_BY_ORGANIZATION",
+    "title": "Check if a user is blocked by an organization"
+   },
+   {
+    "slug": "GITHUB_CHECK_IF_USER_IS_REPOSITORY_COLLABORATOR",
+    "title": "Check if a user is a repository collaborator"
+   },
+   {
+    "slug": "GITHUB_CHECK_PERSON_FOLLOWED_BY_AUTH_USER",
+    "title": "Check if person is followed by authenticated user"
+   },
+   {
+    "slug": "GITHUB_CHECK_PRIVATE_VULNERABILITY_REPORTING_STATUS",
+    "title": "Check private vulnerability reporting status"
+   },
+   {
+    "slug": "GITHUB_CHECK_PUBLIC_ORGANIZATION_MEMBERSHIP_FOR_USER",
+    "title": "Check public organization membership"
+   },
+   {
+    "slug": "GITHUB_CHECK_REPOSITORY_STARRED",
+    "title": "Check if repository is starred"
+   },
+   {
+    "slug": "GITHUB_CHECK_TEAM_PERMISSIONS_FOR_A_PROJECT",
+    "title": "Check team permissions for a project"
+   },
+   {
+    "slug": "GITHUB_CHECK_TEAM_PERMISSIONS_FOR_A_REPOSITORY",
+    "title": "Check team permissions for a repository"
+   },
+   {
+    "slug": "GITHUB_CHECK_TOKEN",
+    "title": "Check a token"
+   },
+   {
+    "slug": "GITHUB_CLEAR_PROJECT_V2_ITEM_FIELD_VALUE",
+    "title": "Clear Project V2 Item Field Value"
+   },
+   {
+    "slug": "GITHUB_CLEAR_REPOSITORY_CACHE_BY_KEY",
+    "title": "Clear repository cache by key"
+   },
+   {
+    "slug": "GITHUB_CLEAR_SELF_HOSTED_RUNNER_ORG_LABELS",
+    "title": "Clear self-hosted runner org labels"
+   },
+   {
+    "slug": "GITHUB_CLOSE_ISSUE",
+    "title": "Close an issue"
+   },
+   {
+    "slug": "GITHUB_CLOSE_PULL_REQUEST",
+    "title": "Close a pull request"
+   },
+   {
+    "slug": "GITHUB_COMMIT_MULTIPLE_FILES",
+    "title": "Commit Multiple Files"
+   },
+   {
+    "slug": "GITHUB_COMPARE_TWO_COMMITS",
+    "title": "Compare two commits"
+   },
+   {
+    "slug": "GITHUB_CONFIGURE_JIT_RUNNER_FOR_ORG",
+    "title": "Configure JIT runner for an org"
+   },
+   {
+    "slug": "GITHUB_CONFIGURE_OIDC_SUBJECT_CLAIM_TEMPLATE",
+    "title": "Configure OIDC subject claim template"
+   },
+   {
+    "slug": "GITHUB_CONVERT_ORG_MEMBER_TO_OUTSIDE_COLLABORATOR",
+    "title": "Convert an organization member to outside collaborator"
+   },
+   {
+    "slug": "GITHUB_CONVERT_PULL_REQUEST_TO_DRAFT",
+    "title": "Convert Pull Request to Draft"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_BLOB",
+    "title": "Create a blob"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CHECK_RUN",
+    "title": "Create a check run"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CHECK_SUITE",
+    "title": "Create a check suite"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CODESPACE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Create a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CODESPACE_FROM_A_PULL_REQUEST",
+    "title": "Create a codespace from a pull request"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CODESPACE_IN_A_REPOSITORY",
+    "title": "Create a codespace in a repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_COMMIT",
+    "title": "Create a commit"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_COMMIT_COMMENT",
+    "title": "Create a commit comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_COMMIT_STATUS",
+    "title": "Create a commit status"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_CUSTOM_ORGANIZATION_ROLE",
+    "title": "Create a custom organization role"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DEPLOY_KEY",
+    "title": "Create a deploy key"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DEPLOYMENT",
+    "title": "Create a deployment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DEPLOYMENT_BRANCH_POLICY",
+    "title": "Create a deployment branch policy"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DEPLOYMENT_STATUS",
+    "title": "Create a deployment status"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DISCUSSION",
+    "title": "Create a discussion"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_DISCUSSION_COMMENT",
+    "title": "Create a discussion comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_FORK",
+    "title": "Create a fork"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_GIST",
+    "title": "Create a gist"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_GIST_COMMENT",
+    "title": "Create a gist comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_GITHUB_APP_FROM_A_MANIFEST",
+    "title": "Create a GitHub App from a manifest"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_GITHUB_PAGES_DEPLOYMENT",
+    "title": "Create a github pages deployment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_GITHUB_PAGES_SITE",
+    "title": "Create a github pages site"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_LABEL",
+    "title": "Create a label"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_MILESTONE",
+    "title": "Create a milestone"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY",
+    "title": "Create an autolink reference for a repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ENVIRONMENT_VARIABLE",
+    "title": "Create an environment variable"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ISSUE",
+    "title": "Create an issue"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ISSUE_COMMENT",
+    "title": "Create an issue comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ORGANIZATION_PROJECT",
+    "title": "Create an organization project"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ORGANIZATION_REPOSITORY",
+    "title": "Create an organization repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ORGANIZATION_VARIABLE",
+    "title": "Create an organization variable"
+   },
+   {
+    "slug": "GITHUB_CREATE_AN_ORGANIZATION_WEBHOOK",
+    "title": "Create an organization webhook"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_PROJECT_CARD",
+    "title": "Create a project card"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_PROJECT_COLUMN",
+    "title": "Create a project column (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_PULL_REQUEST",
+    "title": "Create a pull request"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REFERENCE",
+    "title": "Create a reference"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REGISTRATION_TOKEN_FOR_AN_ORGANIZATION",
+    "title": "Create a registration token for an organization"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REGISTRATION_TOKEN_FOR_A_REPOSITORY",
+    "title": "Create a registration token for a repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_RELEASE",
+    "title": "Create a release"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REMOVE_TOKEN_FOR_AN_ORGANIZATION",
+    "title": "Create a remove token for an organization"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REMOVE_TOKEN_FOR_A_REPOSITORY",
+    "title": "Create a remove token for a repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPLY_FOR_A_REVIEW_COMMENT",
+    "title": "Create a reply for a review comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_DISPATCH_EVENT",
+    "title": "Create a repository dispatch event"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER",
+    "title": "Create a repository for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_FROM_AN_UNPUBLISHED_CODESPACE",
+    "title": "Create a repository from an unpublished codespace"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_PROJECT",
+    "title": "Create a repository project"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_RULESET",
+    "title": "Create a repository ruleset"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_USING_A_TEMPLATE",
+    "title": "Create a repository using a template"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_VARIABLE",
+    "title": "Create a repository variable"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REPOSITORY_WEBHOOK",
+    "title": "Create a repository webhook"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REVIEW_COMMENT_FOR_A_PULL_REQUEST",
+    "title": "Create a review comment for a pull request"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_REVIEW_FOR_A_PULL_REQUEST",
+    "title": "Create a review for a pull request"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_SCOPED_ACCESS_TOKEN",
+    "title": "Create a scoped access token"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_SNAPSHOT_OF_DEPENDENCIES_FOR_A_REPOSITORY",
+    "title": "Create a dependency snapshot"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_TAG_OBJECT",
+    "title": "Create a tag object"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_TAG_PROTECTION_STATE_FOR_A_REPOSITORY",
+    "title": "Create a tag protection state for a repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_TEAM",
+    "title": "Create a team"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_TEMPORARY_PRIVATE_FORK",
+    "title": "Create a temporary private fork"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_TREE",
+    "title": "Create a tree"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_USER_PROJECT",
+    "title": "Create a user project"
+   },
+   {
+    "slug": "GITHUB_CREATE_A_WORKFLOW_DISPATCH_EVENT",
+    "title": "Create a workflow dispatch event"
+   },
+   {
+    "slug": "GITHUB_CREATE_BRANCH",
+    "title": "Create a branch"
+   },
+   {
+    "slug": "GITHUB_CREATE_COMMIT_SIGNATURE_PROTECTION",
+    "title": "Create commit signature protection"
+   },
+   {
+    "slug": "GITHUB_CREATE_DEPLOYMENT_PROTECTION_RULE",
+    "title": "Create a custom deployment protection rule on an environment"
+   },
+   {
+    "slug": "GITHUB_CREATE_DRAFT_ITEM_FOR_USER_PROJECT",
+    "title": "Create draft item for user project"
+   },
+   {
+    "slug": "GITHUB_CREATE_INFERENCE_CHAT_COMPLETIONS",
+    "title": "Create inference chat completions"
+   },
+   {
+    "slug": "GITHUB_CREATE_INFERENCE_EMBEDDINGS",
+    "title": "Create inference embeddings"
+   },
+   {
+    "slug": "GITHUB_CREATE_ISSUE_TYPE",
+    "title": "Create issue type"
+   },
+   {
+    "slug": "GITHUB_CREATE_JIT_RUNNER_CONFIG",
+    "title": "Create JIT runner config for repo"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_AN_ENVIRONMENT",
+    "title": "Create or update an environment"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_AN_ENVIRONMENT_SECRET",
+    "title": "Create or update an environment secret"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_AN_ORGANIZATION_SECRET",
+    "title": "Create or update an organization secret"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_A_REPOSITORY_SECRET",
+    "title": "Create or update a repository secret"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_A_SECRET_FOR_THE_AUTHENTICATED_USER",
+    "title": "Create or update a secret for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_CUSTOM_PROPERTIES_FOR_AN_ORG",
+    "title": "Create or update custom properties for an organization"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_CUSTOM_PROPERTY_ORG",
+    "title": "Create or update a custom property for an organization"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_FILE_CONTENTS",
+    "title": "Create or update file contents"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_GITHUB_PAGES_SITE",
+    "title": "Create or Update GitHub Pages Site"
+   },
+   {
+    "slug": "GITHUB_CREATE_OR_UPDATE_REPO_SECRET_WITH_ENCRYPTED_VALUE",
+    "title": "Create or update repo secret with encrypted value"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_A_COMMIT_COMMENT",
+    "title": "Create reaction for a commit comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_AN_ISSUE",
+    "title": "Create reaction for an issue"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_AN_ISSUE_COMMENT",
+    "title": "Create reaction for an issue comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_A_PULL_REQUEST_REVIEW_COMMENT",
+    "title": "Create reaction for a pull request review comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_A_RELEASE",
+    "title": "Create reaction for a release"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_A_TEAM_DISCUSSION",
+    "title": "Create reaction for a team discussion"
+   },
+   {
+    "slug": "GITHUB_CREATE_REACTION_FOR_A_TEAM_DISCUSSION_COMMENT",
+    "title": "Create reaction for a team discussion comment"
+   },
+   {
+    "slug": "GITHUB_CREATE_REPOSITORY",
+    "title": "Create repository"
+   },
+   {
+    "slug": "GITHUB_CREATE_SPONSORSHIP",
+    "title": "Create sponsorship"
+   },
+   {
+    "slug": "GITHUB_CREATE_SPONSORS_TIER",
+    "title": "Create Sponsors Tier"
+   },
+   {
+    "slug": "GITHUB_CREATE_UPDATE_ORG_SECRET_WITH_LIB_SODIUM",
+    "title": "Create or Update Organization Secret with LibSodium"
+   },
+   {
+    "slug": "GITHUB_CREATE_USER_LIST",
+    "title": "Create user list"
+   },
+   {
+    "slug": "GITHUB_CREATE_VIEW_FOR_USER_PROJECT",
+    "title": "Create view for user project"
+   },
+   {
+    "slug": "GITHUB_DECLINE_A_REPOSITORY_INVITATION",
+    "title": "Decline a repository invitation"
+   },
+   {
+    "slug": "GITHUB_DELETE_ACCESS_RESTRICTIONS",
+    "title": "Delete access restrictions"
+   },
+   {
+    "slug": "GITHUB_DELETE_ADMIN_BRANCH_PROTECTION",
+    "title": "Delete admin branch protection"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_FILE",
+    "title": "Delete a file"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_PACKAGE_VERSION_FOR_THE_AUTHENTICATED_USER",
+    "title": "Delete a package version for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_DELETE_APP_AUTHORIZATION",
+    "title": "Delete an app authorization"
+   },
+   {
+    "slug": "GITHUB_DELETE_APP_TOKEN",
+    "title": "Delete an app token"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REFERENCE",
+    "title": "Delete a reference"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_RELEASE",
+    "title": "Delete a release"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_RELEASE_ASSET",
+    "title": "Delete a release asset"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_RELEASE_REACTION",
+    "title": "Delete a release reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY",
+    "title": "Delete a repository"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_INVITATION",
+    "title": "Delete a repository invitation"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_RULESET",
+    "title": "Delete a repository ruleset"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_SECRET",
+    "title": "Delete a repository secret"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_SUBSCRIPTION",
+    "title": "Delete a repository subscription"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_VARIABLE",
+    "title": "Delete a repository variable"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REPOSITORY_WEBHOOK",
+    "title": "Delete a repository webhook"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_REVIEW_COMMENT_FOR_A_PULL_REQUEST",
+    "title": "Delete a review comment for a pull request"
+   },
+   {
+    "slug": "GITHUB_DELETE_ARTIFACT",
+    "title": "Delete an artifact"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_SECRET_FOR_THE_AUTHENTICATED_USER",
+    "title": "Delete a secret for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_SELF_HOSTED_RUNNER_FROM_AN_ORGANIZATION",
+    "title": "Delete a self hosted runner from an organization"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_SELF_HOSTED_RUNNER_FROM_A_REPOSITORY",
+    "title": "Delete a self hosted runner from a repository"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_TAG_PROTECTION_STATE_FOR_A_REPOSITORY",
+    "title": "Delete a tag protection state for a repository"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_TEAM",
+    "title": "Delete a team"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_THREAD_SUBSCRIPTION",
+    "title": "Delete a thread subscription"
+   },
+   {
+    "slug": "GITHUB_DELETE_AUTOLINK_REFERENCE",
+    "title": "Delete an autolink reference from a repository"
+   },
+   {
+    "slug": "GITHUB_DELETE_A_WORKFLOW_RUN",
+    "title": "Delete a workflow run"
+   },
+   {
+    "slug": "GITHUB_DELETE_BRANCH_PROTECTION",
+    "title": "Delete branch protection"
+   },
+   {
+    "slug": "GITHUB_DELETE_CODE_SCANNING_ANALYSIS",
+    "title": "Delete a code scanning analysis from a repository"
+   },
+   {
+    "slug": "GITHUB_DELETE_CODESPACE",
+    "title": "Delete a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_DELETE_COMMIT_COMMENT",
+    "title": "Delete a commit comment"
+   },
+   {
+    "slug": "GITHUB_DELETE_COMMIT_COMMENT_REACTION",
+    "title": "Delete a commit comment reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_COMMIT_SIGNATURE_PROTECTION",
+    "title": "Delete commit signature protection"
+   },
+   {
+    "slug": "GITHUB_DELETE_CUSTOM_ORGANIZATION_ROLE",
+    "title": "Delete a custom organization role"
+   },
+   {
+    "slug": "GITHUB_DELETE_DEPENDEBOT_SECRET_BY_NAME",
+    "title": "Delete dependabot secret by name"
+   },
+   {
+    "slug": "GITHUB_DELETE_DEPLOY_KEY",
+    "title": "Delete a deploy key"
+   },
+   {
+    "slug": "GITHUB_DELETE_DEPLOYMENT",
+    "title": "Delete a deployment"
+   },
+   {
+    "slug": "GITHUB_DELETE_DEPLOYMENT_BRANCH_POLICY",
+    "title": "Delete a deployment branch policy"
+   },
+   {
+    "slug": "GITHUB_DELETE_DISCUSSION",
+    "title": "Delete a discussion"
+   },
+   {
+    "slug": "GITHUB_DELETE_DISCUSSION_COMMENT",
+    "title": "Delete a discussion comment"
+   },
+   {
+    "slug": "GITHUB_DELETE_EMAIL_ADDRESS",
+    "title": "Delete authenticated user email address"
+   },
+   {
+    "slug": "GITHUB_DELETE_ENVIRONMENT",
+    "title": "Delete an environment"
+   },
+   {
+    "slug": "GITHUB_DELETE_ENVIRONMENT_SECRET",
+    "title": "Delete an environment secret"
+   },
+   {
+    "slug": "GITHUB_DELETE_ENVIRONMENT_VARIABLE",
+    "title": "Delete an environment variable"
+   },
+   {
+    "slug": "GITHUB_DELETE_GIST",
+    "title": "Delete a gist"
+   },
+   {
+    "slug": "GITHUB_DELETE_GIST_COMMENT",
+    "title": "Delete a gist comment"
+   },
+   {
+    "slug": "GITHUB_DELETE_GITHUB_ACTIONS_CACHE_BY_ID",
+    "title": "Delete GitHub Actions cache by ID"
+   },
+   {
+    "slug": "GITHUB_DELETE_GITHUB_PAGES_SITE",
+    "title": "Delete a GitHub Pages site"
+   },
+   {
+    "slug": "GITHUB_DELETE_ISSUE_COMMENT",
+    "title": "Delete an issue comment"
+   },
+   {
+    "slug": "GITHUB_DELETE_ISSUE_COMMENT_REACTION",
+    "title": "Delete an issue comment reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_ISSUE_REACTION",
+    "title": "Delete an issue reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_LABEL",
+    "title": "Delete a label"
+   },
+   {
+    "slug": "GITHUB_DELETE_MILESTONE",
+    "title": "Delete a milestone"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORGANIZATION",
+    "title": "Delete an organization"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORGANIZATION_SECRET",
+    "title": "Delete an organization secret"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORGANIZATION_VARIABLE",
+    "title": "Delete an organization variable"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORGANIZATION_WEBHOOK",
+    "title": "Delete an organization webhook"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORG_CODESPACE",
+    "title": "Delete a codespace from the organization"
+   },
+   {
+    "slug": "GITHUB_DELETE_ORG_PACKAGE",
+    "title": "Delete a package for an organization"
+   },
+   {
+    "slug": "GITHUB_DELETE_PACKAGE",
+    "title": "Delete a package for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_DELETE_PACKAGE_VERSION",
+    "title": "Delete package version"
+   },
+   {
+    "slug": "GITHUB_DELETE_PACKAGE_VERSION_FOR_AN_ORGANIZATION",
+    "title": "Delete package version for an organization"
+   },
+   {
+    "slug": "GITHUB_DELETE_PACKAGE_VERSION_FOR_A_USER",
+    "title": "Delete package version for a user"
+   },
+   {
+    "slug": "GITHUB_DELETE_PENDING_REVIEW",
+    "title": "Delete a pending review for a pull request"
+   },
+   {
+    "slug": "GITHUB_DELETE_PROJECT",
+    "title": "Delete a project"
+   },
+   {
+    "slug": "GITHUB_DELETE_PROJECT_CARD",
+    "title": "Delete a project card (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_DELETE_PROJECT_COLUMN",
+    "title": "Delete a project field (column)"
+   },
+   {
+    "slug": "GITHUB_DELETE_PROJECT_ITEM_FOR_USER",
+    "title": "Delete project item for user"
+   },
+   {
+    "slug": "GITHUB_DELETE_PULL_REQUEST_COMMENT_REACTION",
+    "title": "Delete a pull request comment reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_PULL_REQUEST_REVIEW_PROTECTION",
+    "title": "Delete pull request review protection"
+   },
+   {
+    "slug": "GITHUB_DELETE_REPO_CODESPACE_SECRET_BY_NAME",
+    "title": "Delete repo codespace secret by name"
+   },
+   {
+    "slug": "GITHUB_DELETE_SOCIAL_ACCOUNTS_FOR_THE_AUTHENTICATED_USER",
+    "title": "Delete social accounts for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_DELETE_TEAM_DISCUSSION_COMMENT_REACTION",
+    "title": "Delete team discussion comment reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_TEAM_DISCUSSION_REACTION",
+    "title": "Delete team discussion reaction"
+   },
+   {
+    "slug": "GITHUB_DELETE_USER_LIST",
+    "title": "Delete User List"
+   },
+   {
+    "slug": "GITHUB_DELETE_USER_PACKAGE",
+    "title": "Delete a package for a user"
+   },
+   {
+    "slug": "GITHUB_DELETE_WORKFLOW_RUN_LOGS",
+    "title": "Delete workflow run logs"
+   },
+   {
+    "slug": "GITHUB_DISABLE_A_CUSTOM_PROTECTION_RULE_FOR_AN_ENVIRONMENT",
+    "title": "Disable a custom protection rule for an environment"
+   },
+   {
+    "slug": "GITHUB_DISABLE_A_WORKFLOW",
+    "title": "Disable a workflow"
+   },
+   {
+    "slug": "GITHUB_DISABLE_PRIVATE_VULN_REPORTING_FOR_REPO",
+    "title": "Disable private vulnerability reporting for a repository"
+   },
+   {
+    "slug": "GITHUB_DISABLE_REPOSITORY_ACTIONS_IN_ORG",
+    "title": "Disable Repository Actions In Org"
+   },
+   {
+    "slug": "GITHUB_DISMISS_A_REVIEW_FOR_A_PULL_REQUEST",
+    "title": "Dismiss a review for a pull request"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_AN_ARTIFACT",
+    "title": "Download an artifact"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_A_REPOSITORY_ARCHIVE_TAR",
+    "title": "Download a repository tarball"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_A_REPOSITORY_ARCHIVE_ZIP",
+    "title": "Download a repository archive ZIP"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_JOB_LOGS_FOR_A_WORKFLOW_RUN",
+    "title": "Download job logs for a workflow run"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_WORKFLOW_RUN_ATTEMPT_LOGS",
+    "title": "Download workflow run attempt logs"
+   },
+   {
+    "slug": "GITHUB_DOWNLOAD_WORKFLOW_RUN_LOGS",
+    "title": "Download workflow run logs"
+   },
+   {
+    "slug": "GITHUB_ENABLE_A_WORKFLOW",
+    "title": "Enable a workflow"
+   },
+   {
+    "slug": "GITHUB_ENABLE_GITHUB_ACTIONS_IN_SELECTED_REPOSITORIES",
+    "title": "Enable GitHub actions in selected repositories"
+   },
+   {
+    "slug": "GITHUB_ENABLE_PRIVATE_VULN_REPORTING_FOR_REPO",
+    "title": "Enable private vulnerability reporting for a repository"
+   },
+   {
+    "slug": "GITHUB_ENABLE_REPO_FOR_GITHUB_ACTIONS",
+    "title": "Enable repo for Github Actions"
+   },
+   {
+    "slug": "GITHUB_ENCRYPT_AND_UPDATE_DEV_SECRET",
+    "title": "Encrypt and update dev secret"
+   },
+   {
+    "slug": "GITHUB_ENCRYPT_ORG_DEV_ENV_SECRET",
+    "title": "Encrypt org dev env secret"
+   },
+   {
+    "slug": "GITHUB_EXPORT_A_CODESPACE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Export a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_EXPORT_SBOM_FOR_REPO",
+    "title": "Export an SBOM for a repository"
+   },
+   {
+    "slug": "GITHUB_FIND_PULL_REQUESTS",
+    "title": "Find Pull Requests"
+   },
+   {
+    "slug": "GITHUB_FIND_REPOSITORIES",
+    "title": "Find Repositories"
+   },
+   {
+    "slug": "GITHUB_FOLLOW_ORGANIZATION_GRAPHQL",
+    "title": "Follow Organization (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_FOLLOW_USER",
+    "title": "Follow a user"
+   },
+   {
+    "slug": "GITHUB_FOLLOW_USER_GRAPHQL",
+    "title": "Follow User (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_FORCE_CANCEL_WORKFLOW_RUN",
+    "title": "Force cancel a workflow run"
+   },
+   {
+    "slug": "GITHUB_FORK_GIST",
+    "title": "Fork a gist"
+   },
+   {
+    "slug": "GITHUB_GENERATE_RELEASE_NOTES",
+    "title": "Generate release notes content for a release"
+   },
+   {
+    "slug": "GITHUB_GET_A_BLOB",
+    "title": "Get a blob"
+   },
+   {
+    "slug": "GITHUB_GET_A_BRANCH",
+    "title": "Get a branch"
+   },
+   {
+    "slug": "GITHUB_GET_ACCESS_RESTRICTIONS",
+    "title": "Get access restrictions"
+   },
+   {
+    "slug": "GITHUB_GET_A_COMMIT",
+    "title": "Get a commit"
+   },
+   {
+    "slug": "GITHUB_GET_ADMIN_BRANCH_PROTECTION",
+    "title": "Get admin branch protection"
+   },
+   {
+    "slug": "GITHUB_GET_ALL_API_VERSIONS",
+    "title": "Get all API versions"
+   },
+   {
+    "slug": "GITHUB_GET_ALL_CONTRIBUTOR_COMMIT_ACTIVITY",
+    "title": "Get all contributor commit activity"
+   },
+   {
+    "slug": "GITHUB_GET_ALL_DEPLOYMENT_PROTECTION_RULES_FOR_ENV",
+    "title": "Get all deployment protection rules for an environment"
+   },
+   {
+    "slug": "GITHUB_GET_A_MILESTONE",
+    "title": "Get a milestone"
+   },
+   {
+    "slug": "GITHUB_GET_AN_APP",
+    "title": "Get an app"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ARTIFACT",
+    "title": "Get an artifact"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ASSIGNMENT",
+    "title": "Get an assignment"
+   },
+   {
+    "slug": "GITHUB_GET_AN_AUTOLINK_REFERENCE_OF_A_REPOSITORY",
+    "title": "Get an autolink reference of a repository"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ENVIRONMENT",
+    "title": "Get an environment"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ENVIRONMENT_PUBLIC_KEY",
+    "title": "Get an environment public key"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ENVIRONMENT_SECRET",
+    "title": "Get an environment secret"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ENVIRONMENT_VARIABLE",
+    "title": "Get an environment variable"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ISSUE",
+    "title": "Get an issue"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ISSUE_COMMENT",
+    "title": "Get an issue comment"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ISSUE_EVENT",
+    "title": "Get an issue event"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION",
+    "title": "Get an organization"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION_PUBLIC_KEY",
+    "title": "Get an organization public key"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION_ROLE",
+    "title": "Get an organization role"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION_SECRET",
+    "title": "Get an organization secret"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION_VARIABLE",
+    "title": "Get an organization variable"
+   },
+   {
+    "slug": "GITHUB_GET_AN_ORGANIZATION_WEBHOOK",
+    "title": "Get an organization webhook"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_FOR_AN_ORGANIZATION",
+    "title": "Get a package for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_FOR_A_USER",
+    "title": "Get a package for a user"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get a package for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_VERSION_FOR_AN_ORGANIZATION",
+    "title": "Get a package version for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_VERSION_FOR_A_USER",
+    "title": "Get a package version for a user"
+   },
+   {
+    "slug": "GITHUB_GET_A_PACKAGE_VERSION_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get authenticated user package version"
+   },
+   {
+    "slug": "GITHUB_GET_A_PROJECT",
+    "title": "Get a project"
+   },
+   {
+    "slug": "GITHUB_GET_A_PROJECT_CARD",
+    "title": "Get a project card"
+   },
+   {
+    "slug": "GITHUB_GET_A_PROJECT_COLUMN",
+    "title": "Get a project column (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_GET_A_PULL_REQUEST",
+    "title": "Get a pull request"
+   },
+   {
+    "slug": "GITHUB_GET_A_REFERENCE",
+    "title": "Get a reference"
+   },
+   {
+    "slug": "GITHUB_GET_A_RELEASE",
+    "title": "Get a release"
+   },
+   {
+    "slug": "GITHUB_GET_A_RELEASE_ASSET",
+    "title": "Get a release asset"
+   },
+   {
+    "slug": "GITHUB_GET_A_RELEASE_BY_TAG_NAME",
+    "title": "Get a release by tag name"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY",
+    "title": "Get a repository"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_PUBLIC_KEY",
+    "title": "Get a repository public key"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_README",
+    "title": "Get a repository readme"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_README_FOR_A_DIRECTORY",
+    "title": "Get a repository readme for a directory"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_RULESET",
+    "title": "Get a repository ruleset"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_RULE_SUITE",
+    "title": "Get a repository rule suite"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_SECRET",
+    "title": "Get a repository secret"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_SUBSCRIPTION",
+    "title": "Get a repository subscription"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_VARIABLE",
+    "title": "Get a repository variable"
+   },
+   {
+    "slug": "GITHUB_GET_A_REPOSITORY_WEBHOOK",
+    "title": "Get a repository webhook"
+   },
+   {
+    "slug": "GITHUB_GET_A_REVIEW_COMMENT_FOR_A_PULL_REQUEST",
+    "title": "Get a review comment for a pull request"
+   },
+   {
+    "slug": "GITHUB_GET_A_REVIEW_FOR_A_PULL_REQUEST",
+    "title": "Get a review for a pull request"
+   },
+   {
+    "slug": "GITHUB_GET_A_SECRET_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get a secret for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_A_SELF_HOSTED_RUNNER_FOR_AN_ORGANIZATION",
+    "title": "Get a self hosted runner for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_A_SELF_HOSTED_RUNNER_FOR_A_REPOSITORY",
+    "title": "Get a self hosted runner for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_ASSIGNMENT_GRADES",
+    "title": "Get assignment grades"
+   },
+   {
+    "slug": "GITHUB_GET_A_TAG",
+    "title": "Get a tag"
+   },
+   {
+    "slug": "GITHUB_GET_A_TEAM_BY_NAME",
+    "title": "Get a team by name"
+   },
+   {
+    "slug": "GITHUB_GET_A_THREAD",
+    "title": "Get a thread"
+   },
+   {
+    "slug": "GITHUB_GET_A_THREAD_SUBSCRIPTION_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get a thread subscription for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_A_TREE",
+    "title": "List repository files and directories"
+   },
+   {
+    "slug": "GITHUB_GET_A_USER",
+    "title": "Get a user"
+   },
+   {
+    "slug": "GITHUB_GET_A_WEBHOOK_CONFIGURATION_FOR_AN_ORGANIZATION",
+    "title": "Get a webhook configuration for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_A_WEBHOOK_CONFIGURATION_FOR_A_REPOSITORY",
+    "title": "Get a webhook configuration for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_A_WEBHOOK_DELIVERY_FOR_AN_ORGANIZATION_WEBHOOK",
+    "title": "Get a webhook delivery for an organization webhook"
+   },
+   {
+    "slug": "GITHUB_GET_A_WORKFLOW",
+    "title": "Get a workflow"
+   },
+   {
+    "slug": "GITHUB_GET_A_WORKFLOW_RUN",
+    "title": "Get a workflow run"
+   },
+   {
+    "slug": "GITHUB_GET_A_WORKFLOW_RUN_ATTEMPT",
+    "title": "Get a workflow run attempt"
+   },
+   {
+    "slug": "GITHUB_GET_BILLING_USAGE_REPORT_USER",
+    "title": "Get billing usage report for user"
+   },
+   {
+    "slug": "GITHUB_GET_BRANCH_PROTECTION",
+    "title": "Get branch protection"
+   },
+   {
+    "slug": "GITHUB_GET_CATALOG_MODELS",
+    "title": "Get catalog models"
+   },
+   {
+    "slug": "GITHUB_GET_CHECK_RUN",
+    "title": "Get a check run"
+   },
+   {
+    "slug": "GITHUB_GET_CHECK_SUITE",
+    "title": "Get a check suite"
+   },
+   {
+    "slug": "GITHUB_GET_CLASSROOM",
+    "title": "Get a classroom"
+   },
+   {
+    "slug": "GITHUB_GET_CODE_OF_CONDUCT",
+    "title": "Get a code of conduct"
+   },
+   {
+    "slug": "GITHUB_GET_CODE_OF_CONDUCT_GRAPH_QL",
+    "title": "Get Code of Conduct (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_GET_CODEQL_DATABASE",
+    "title": "Get a CodeQL database for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_CODE_SCANNING_ALERT",
+    "title": "Get a code scanning alert"
+   },
+   {
+    "slug": "GITHUB_GET_CODE_SCANNING_ANALYSIS",
+    "title": "Get a code scanning analysis for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_CODE_SCANNING_DEFAULT_SETUP",
+    "title": "Get a code scanning default setup configuration"
+   },
+   {
+    "slug": "GITHUB_GET_CODESPACE",
+    "title": "Get a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_COMMIT_AUTHORS",
+    "title": "Get commit authors"
+   },
+   {
+    "slug": "GITHUB_GET_COMMIT_COMMENT",
+    "title": "Get a commit comment"
+   },
+   {
+    "slug": "GITHUB_GET_COMMIT_OBJECT",
+    "title": "Get a commit object"
+   },
+   {
+    "slug": "GITHUB_GET_COMMIT_SIGNATURE_PROTECTION",
+    "title": "Get commit signature protection"
+   },
+   {
+    "slug": "GITHUB_GET_COMMIT_STATUSES",
+    "title": "Get commit statuses"
+   },
+   {
+    "slug": "GITHUB_GET_COMMUNITY_PROFILE_METRICS",
+    "title": "Get community profile metrics"
+   },
+   {
+    "slug": "GITHUB_GET_CONTEXTUAL_INFORMATION_FOR_A_USER",
+    "title": "Get contextual information for a user"
+   },
+   {
+    "slug": "GITHUB_GET_CUSTOM_DEPLOYMENT_PROTECTION_RULE",
+    "title": "Get a custom deployment protection rule"
+   },
+   {
+    "slug": "GITHUB_GET_DEFAULT_ATTRIBUTES_FOR_A_CODESPACE",
+    "title": "Get default attributes for a codespace"
+   },
+   {
+    "slug": "GITHUB_GET_DEFAULT_WORKFLOW_PERMISSIONS_FOR_AN_ORGANIZATION",
+    "title": "Get default workflow permissions for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_DEFAULT_WORKFLOW_PERMISSIONS_FOR_A_REPOSITORY",
+    "title": "Get default workflow permissions for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_DEPENDENCY_DIFF",
+    "title": "Get a diff of the dependencies between commits"
+   },
+   {
+    "slug": "GITHUB_GET_DEPLOY_KEY",
+    "title": "Get a deploy key"
+   },
+   {
+    "slug": "GITHUB_GET_DEPLOYMENT",
+    "title": "Get a deployment"
+   },
+   {
+    "slug": "GITHUB_GET_DEPLOYMENT_BRANCH_POLICY",
+    "title": "Get a deployment branch policy"
+   },
+   {
+    "slug": "GITHUB_GET_DEPLOYMENT_STATUS",
+    "title": "Get a deployment status"
+   },
+   {
+    "slug": "GITHUB_GET_DETAILS_ABOUT_A_CODESPACE_EXPORT",
+    "title": "Get details about a codespace export"
+   },
+   {
+    "slug": "GITHUB_GET_DISCUSSION",
+    "title": "Get a discussion"
+   },
+   {
+    "slug": "GITHUB_GET_DISCUSSION_COMMENT",
+    "title": "Get a discussion comment"
+   },
+   {
+    "slug": "GITHUB_GET_EMOJIS",
+    "title": "Get emojis"
+   },
+   {
+    "slug": "GITHUB_GET_ENTERPRISE_MEMBER_INVITATION",
+    "title": "Get Enterprise Member Invitation"
+   },
+   {
+    "slug": "GITHUB_GET_FEEDS",
+    "title": "Get feeds"
+   },
+   {
+    "slug": "GITHUB_GET_GIST",
+    "title": "Get a gist"
+   },
+   {
+    "slug": "GITHUB_GET_GIST_COMMENT",
+    "title": "Get a gist comment"
+   },
+   {
+    "slug": "GITHUB_GET_GIST_REVISION",
+    "title": "Get a gist revision"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_ACTIONS_CACHE_USAGE_FOR_AN_ORGANIZATION",
+    "title": "Get GitHub Actions cache usage for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_ACTIONS_CACHE_USAGE_FOR_A_REPOSITORY",
+    "title": "Get github actions cache usage for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_ACTIONS_PERMISSIONS_FOR_AN_ORGANIZATION",
+    "title": "Get github actions permissions for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_ACTIONS_PERMISSIONS_FOR_A_REPOSITORY",
+    "title": "Get GitHub Actions permissions for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_BILLING_PREMIUM_REQUEST_USAGE_REPORT_USER",
+    "title": "Get billing premium request usage"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_BILLING_USAGE_SUMMARY_FOR_USER",
+    "title": "Get billing usage summary for user"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_META_INFORMATION",
+    "title": "Get github meta information"
+   },
+   {
+    "slug": "GITHUB_GET_GITHUB_PAGES_BUILD",
+    "title": "Get github pages build"
+   },
+   {
+    "slug": "GITHUB_GET_GITIGNORE_TEMPLATE",
+    "title": "Get a gitignore template"
+   },
+   {
+    "slug": "GITHUB_GET_GLOBAL_SECURITY_ADVISORY",
+    "title": "Get a global security advisory"
+   },
+   {
+    "slug": "GITHUB_GET_GRAPHQL_NODE",
+    "title": "Fetch GraphQL Node"
+   },
+   {
+    "slug": "GITHUB_GET_GRAPHQL_RATE_LIMIT",
+    "title": "Get GraphQL rate limit"
+   },
+   {
+    "slug": "GITHUB_GET_INFORMATION_ABOUT_A_SARIF_UPLOAD",
+    "title": "Get information about a sarif upload"
+   },
+   {
+    "slug": "GITHUB_GET_INTERACTION_RESTRICTIONS_FOR_AN_ORGANIZATION",
+    "title": "Get interaction restrictions for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_INTERACTION_RESTRICTIONS_FOR_A_REPOSITORY",
+    "title": "Get interaction restrictions for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_INTERACTION_RESTRICTIONS_FOR_PUBLIC_REPOS",
+    "title": "Get interaction restrictions for public repositories"
+   },
+   {
+    "slug": "GITHUB_GET_ISSUE_COMMENTS",
+    "title": "Get issue comments"
+   },
+   {
+    "slug": "GITHUB_GET_LABEL",
+    "title": "Get a label"
+   },
+   {
+    "slug": "GITHUB_GET_LARGE_FILES",
+    "title": "Get large files"
+   },
+   {
+    "slug": "GITHUB_GET_LATEST_PAGES_BUILD",
+    "title": "Get latest pages build"
+   },
+   {
+    "slug": "GITHUB_GET_LICENSE",
+    "title": "Get a license"
+   },
+   {
+    "slug": "GITHUB_GET_LICENSE_GRAPH_QL",
+    "title": "Get License (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_GET_OCTOCAT",
+    "title": "Get octocat"
+   },
+   {
+    "slug": "GITHUB_GET_OIDC_SUBJECT_CLAIM_TEMPLATE",
+    "title": "Customize OIDC subject claim template"
+   },
+   {
+    "slug": "GITHUB_GET_ORG_ALLOWED_ACTIONS",
+    "title": "Get allowed actions and workflows for an org"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_AUDIT_LOG",
+    "title": "Get organization audit log"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_CUSTOM_PROPERTY",
+    "title": "Get a custom property for an organization"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_PROJECT_ITEM",
+    "title": "Get organization project item"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_PUBLIC_KEY",
+    "title": "Get organization public key for Codespaces secrets"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_PUBLIC_KEY_FOR_DEPENDABOT",
+    "title": "Fetch Public Key For Secret Encryption"
+   },
+   {
+    "slug": "GITHUB_GET_ORGANIZATION_TEAMS",
+    "title": "Get organization teams"
+   },
+   {
+    "slug": "GITHUB_GET_ORG_DEV_ENVIRONMENT_SECRET_SAFELY",
+    "title": "Get org dev environment secret safely"
+   },
+   {
+    "slug": "GITHUB_GET_ORG_OIDC_SUBJECT_CLAIM_TEMPLATE",
+    "title": "Get custom OIDC subject claim template"
+   },
+   {
+    "slug": "GITHUB_GET_PAGES_DNS_HEALTH_CHECK",
+    "title": "Get a dns health check for github pages"
+   },
+   {
+    "slug": "GITHUB_GET_PAGES_SITE",
+    "title": "Get a GitHub Pages site"
+   },
+   {
+    "slug": "GITHUB_GET_PAGE_VIEWS",
+    "title": "Get page views"
+   },
+   {
+    "slug": "GITHUB_GET_PARENT_ISSUE",
+    "title": "Get parent issue"
+   },
+   {
+    "slug": "GITHUB_GET_PENDING_DEPLOYMENTS_FOR_A_WORKFLOW_RUN",
+    "title": "Get pending deployments for a workflow run"
+   },
+   {
+    "slug": "GITHUB_GET_PROJECT_PERMISSION_FOR_A_USER",
+    "title": "Get project permission for a user"
+   },
+   {
+    "slug": "GITHUB_GET_PUBLIC_KEY_FOR_SECRET_ENCRYPTION",
+    "title": "Get public key for secret encryption"
+   },
+   {
+    "slug": "GITHUB_GET_PUBLIC_KEY_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get public key for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_PULL_REQUEST_REVIEW_PROTECTION",
+    "title": "Get pull request review protection"
+   },
+   {
+    "slug": "GITHUB_GET_PULL_REQUESTS",
+    "title": "Get Pull Requests"
+   },
+   {
+    "slug": "GITHUB_GET_RATE_LIMIT_STATUS_FOR_THE_AUTHENTICATED_USER",
+    "title": "Get rate limit status for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_RAW_REPOSITORY_CONTENT",
+    "title": "Get Raw Repository Content"
+   },
+   {
+    "slug": "GITHUB_GET_REPO_ALLOWED_ACTIONS",
+    "title": "Get allowed actions and workflows for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_REPO_DEV_ENV_SECRET",
+    "title": "Get repository development environment secret"
+   },
+   {
+    "slug": "GITHUB_GET_REPOS_ATTESTATIONS",
+    "title": "Get repository attestations"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_CLONES",
+    "title": "Get repository clones"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_CONTENT",
+    "title": "Get repository content"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_DISCUSSION_THREAD",
+    "title": "Get repository Discussion thread"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_GRAPH_QL",
+    "title": "Get Repository via GraphQL"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_OWNER",
+    "title": "Get Repository Owner"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_PERMISSIONS_FOR_A_USER",
+    "title": "Get repository permissions for a user"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_PUBLIC_KEY_FOR_ENCRYPTION",
+    "title": "Retrieve repo public key for encryption"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_SECRET_SECURELY",
+    "title": "Get repository secret securely"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_SECURITY_ADVISORY",
+    "title": "Get repository security advisory"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_STAR_HISTORY",
+    "title": "Get repository star history"
+   },
+   {
+    "slug": "GITHUB_GET_REPOSITORY_WEBHOOK_DELIVERY",
+    "title": "Get a delivery for a repository webhook"
+   },
+   {
+    "slug": "GITHUB_GET_RULES_FOR_A_BRANCH",
+    "title": "Get rules for a branch"
+   },
+   {
+    "slug": "GITHUB_GET_SINGLE_ORG_SECRET_WITHOUT_DECRYPTION",
+    "title": "Get Organization Dependabot Secret"
+   },
+   {
+    "slug": "GITHUB_GET_STATUS_CHECKS_PROTECTION",
+    "title": "Get status checks protection"
+   },
+   {
+    "slug": "GITHUB_GET_TEAM_MEMBERS",
+    "title": "Get team members"
+   },
+   {
+    "slug": "GITHUB_GET_TEAM_MEMBERSHIP_FOR_A_USER",
+    "title": "Get team membership for a user"
+   },
+   {
+    "slug": "GITHUB_GET_TEAMS_WITH_ACCESS_TO_THE_PROTECTED_BRANCH",
+    "title": "Get teams with access to the protected branch"
+   },
+   {
+    "slug": "GITHUB_GET_THE_AUTHENTICATED_USER",
+    "title": "Get the authenticated user"
+   },
+   {
+    "slug": "GITHUB_GET_THE_COMBINED_STATUS_FOR_A_SPECIFIC_REFERENCE",
+    "title": "Get the combined status for a specific reference"
+   },
+   {
+    "slug": "GITHUB_GET_THE_HOURLY_COMMIT_COUNT_FOR_EACH_DAY",
+    "title": "Get the hourly commit count for each day"
+   },
+   {
+    "slug": "GITHUB_GET_THE_LAST_YEAR_OF_COMMIT_ACTIVITY",
+    "title": "Get the last year of commit activity"
+   },
+   {
+    "slug": "GITHUB_GET_THE_LATEST_RELEASE",
+    "title": "Get the latest release"
+   },
+   {
+    "slug": "GITHUB_GET_THE_LICENSE_FOR_A_REPOSITORY",
+    "title": "Get the license for a repository"
+   },
+   {
+    "slug": "GITHUB_GET_THE_REVIEW_HISTORY_FOR_A_WORKFLOW_RUN",
+    "title": "Get the review history for a workflow run"
+   },
+   {
+    "slug": "GITHUB_GET_THE_STATUS_OF_A_GITHUB_PAGES_DEPLOYMENT",
+    "title": "Get the status of a GitHub Pages deployment"
+   },
+   {
+    "slug": "GITHUB_GET_THE_WEEKLY_COMMIT_ACTIVITY",
+    "title": "Get the weekly commit activity"
+   },
+   {
+    "slug": "GITHUB_GET_THE_WEEKLY_COMMIT_COUNT",
+    "title": "Get the weekly commit count"
+   },
+   {
+    "slug": "GITHUB_GET_THE_ZEN_OF_GITHUB",
+    "title": "Get the Zen of GitHub"
+   },
+   {
+    "slug": "GITHUB_GET_TOP_REFERRAL_PATHS",
+    "title": "Get top referral paths"
+   },
+   {
+    "slug": "GITHUB_GET_TOP_REFERRAL_SOURCES",
+    "title": "Get top referral sources"
+   },
+   {
+    "slug": "GITHUB_GET_USER_BY_ID",
+    "title": "Get user by ID"
+   },
+   {
+    "slug": "GITHUB_GET_USER_PROJECT_ITEM",
+    "title": "Get user project item"
+   },
+   {
+    "slug": "GITHUB_GET_USERS_ATTESTATIONS",
+    "title": "Get user attestations by subject digest"
+   },
+   {
+    "slug": "GITHUB_GET_USERS_PROJECTS_V2",
+    "title": "Get user's projects v2"
+   },
+   {
+    "slug": "GITHUB_GET_USERS_WITH_ACCESS_TO_THE_PROTECTED_BRANCH",
+    "title": "Get users with access to the protected branch"
+   },
+   {
+    "slug": "GITHUB_GET_VIEWER_GRAPHQL",
+    "title": "Get Viewer via GraphQL"
+   },
+   {
+    "slug": "GITHUB_GET_WORKFLOW_EXTERNAL_ACCESS",
+    "title": "Get workflow external access level"
+   },
+   {
+    "slug": "GITHUB_GET_WORKFLOW_RUN_JOB",
+    "title": "Get a job for a workflow run"
+   },
+   {
+    "slug": "GITHUB_GET_WORKFLOW_RUN_USAGE",
+    "title": "Get workflow run usage"
+   },
+   {
+    "slug": "GITHUB_GET_WORKFLOW_USAGE",
+    "title": "Get workflow usage"
+   },
+   {
+    "slug": "GITHUB_IS_REPOSITORY_STARRED_BY_THE_USER",
+    "title": "Check if repo starred by auth user"
+   },
+   {
+    "slug": "GITHUB_LIST_ACCEPTED_ASSIGNMENTS_FOR_AN_ASSIGNMENT",
+    "title": "List accepted assignments for an assignment"
+   },
+   {
+    "slug": "GITHUB_LIST_ACCESSIBLE_REPOSITORIES",
+    "title": "List repositories accessible via GitHub App installation"
+   },
+   {
+    "slug": "GITHUB_LIST_APP_INSTALLATIONS",
+    "title": "List app installations for user token"
+   },
+   {
+    "slug": "GITHUB_LIST_APPS_WITH_ACCESS_TO_THE_PROTECTED_BRANCH",
+    "title": "Get apps with access to the protected branch"
+   },
+   {
+    "slug": "GITHUB_LIST_ARTIFACTS_FOR_A_REPOSITORY",
+    "title": "List artifacts for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_ASSIGNEES",
+    "title": "List assignees"
+   },
+   {
+    "slug": "GITHUB_LIST_ASSIGNMENTS_FOR_A_CLASSROOM",
+    "title": "List assignments for a classroom"
+   },
+   {
+    "slug": "GITHUB_LIST_ATTESTATION_REPOSITORIES",
+    "title": "List attestation repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_AVAILABLE_MACHINE_TYPES_FOR_A_REPOSITORY",
+    "title": "List available machine types for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_BRANCHES",
+    "title": "List branches"
+   },
+   {
+    "slug": "GITHUB_LIST_BRANCHES_FOR_HEAD_COMMIT",
+    "title": "List branches for head commit"
+   },
+   {
+    "slug": "GITHUB_LIST_CHECK_RUN_ANNOTATIONS",
+    "title": "List check run annotations"
+   },
+   {
+    "slug": "GITHUB_LIST_CHECK_RUNS_FOR_A_REF",
+    "title": "List check runs for a git ref"
+   },
+   {
+    "slug": "GITHUB_LIST_CHECK_RUNS_IN_A_CHECK_SUITE",
+    "title": "List check runs in a check suite"
+   },
+   {
+    "slug": "GITHUB_LIST_CHECK_SUITES_FOR_A_GIT_REFERENCE",
+    "title": "List check suites for a git reference"
+   },
+   {
+    "slug": "GITHUB_LIST_CHILD_TEAMS",
+    "title": "List child teams"
+   },
+   {
+    "slug": "GITHUB_LIST_CLASSROOMS",
+    "title": "List classrooms"
+   },
+   {
+    "slug": "GITHUB_LIST_CODEOWNERS_ERRORS",
+    "title": "List codeowners errors"
+   },
+   {
+    "slug": "GITHUB_LIST_CODEQL_DATABASES_FOR_A_REPOSITORY",
+    "title": "List CodeQL databases for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_CODE_SCANNING_ALERTS_FOR_AN_ORGANIZATION",
+    "title": "List code scanning alerts for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_CODE_SCANNING_ALERTS_FOR_A_REPOSITORY",
+    "title": "List code scanning alerts for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_CODE_SCANNING_ANALYSES_FOR_A_REPOSITORY",
+    "title": "List code scanning analyses for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_CODES_OF_CONDUCT",
+    "title": "Get all codes of conduct"
+   },
+   {
+    "slug": "GITHUB_LIST_CODES_OF_CONDUCT_GRAPHQL",
+    "title": "List Codes of Conduct (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_LIST_CODESPACES_FOR_A_USER_IN_ORGANIZATION",
+    "title": "List codespaces for a user in organization"
+   },
+   {
+    "slug": "GITHUB_LIST_CODESPACES_FOR_THE_AUTHENTICATED_USER",
+    "title": "List codespaces for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_CODESPACES_FOR_THE_ORGANIZATION",
+    "title": "List codespaces for the organization"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMENT_CHANGES",
+    "title": "List comment changes across organization"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMENTS_FOR_A_PULL_REQUEST_REVIEW",
+    "title": "List comments for a pull request review"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMIT_COMMENTS",
+    "title": "List commit comments"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMIT_COMMENTS_FOR_A_REPOSITORY",
+    "title": "List commit comments for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMITS",
+    "title": "List commits"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMITS_ON_A_PULL_REQUEST",
+    "title": "List commits on a pull request"
+   },
+   {
+    "slug": "GITHUB_LIST_COMMONLY_USED_LICENSES",
+    "title": "Get all commonly used licenses"
+   },
+   {
+    "slug": "GITHUB_LIST_CUSTOM_PROPERTIES_FOR_AN_ORGANIZATION",
+    "title": "Get all custom properties for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_CUSTOM_PROPERTY_VALUES_FOR_A_REPOSITORY",
+    "title": "Get all custom property values for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_CUSTOM_PROPERTY_VALUES_FOR_ORG_REPOS",
+    "title": "List custom property values for organization repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_DELIVERIES_FOR_AN_ORGANIZATION_WEBHOOK",
+    "title": "List deliveries for an organization webhook"
+   },
+   {
+    "slug": "GITHUB_LIST_DELIVERIES_FOR_A_REPOSITORY_WEBHOOK",
+    "title": "List deliveries for a repository webhook"
+   },
+   {
+    "slug": "GITHUB_LIST_DEPLOY_KEYS",
+    "title": "List deploy keys"
+   },
+   {
+    "slug": "GITHUB_LIST_DEPLOYMENT_BRANCH_POLICIES",
+    "title": "List deployment branch policies"
+   },
+   {
+    "slug": "GITHUB_LIST_DEPLOYMENTS",
+    "title": "List deployments"
+   },
+   {
+    "slug": "GITHUB_LIST_DEPLOYMENT_STATUSES",
+    "title": "List deployment statuses"
+   },
+   {
+    "slug": "GITHUB_LIST_DISCUSSION_COMMENTS",
+    "title": "List discussion comments"
+   },
+   {
+    "slug": "GITHUB_LIST_DISCUSSIONS",
+    "title": "List discussions"
+   },
+   {
+    "slug": "GITHUB_LIST_EMAIL_ADDRESSES_FOR_THE_AUTHENTICATED_USER",
+    "title": "List email addresses for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_ENVIRONMENT_CUSTOM_DEPLOYMENT_RULES",
+    "title": "List environment custom deployment rules"
+   },
+   {
+    "slug": "GITHUB_LIST_ENVIRONMENTS",
+    "title": "List environments"
+   },
+   {
+    "slug": "GITHUB_LIST_ENVIRONMENT_SECRETS",
+    "title": "List environment secrets"
+   },
+   {
+    "slug": "GITHUB_LIST_ENVIRONMENT_VARIABLES",
+    "title": "List environment variables"
+   },
+   {
+    "slug": "GITHUB_LIST_EVENTS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List events for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_EVENTS_FOR_USER",
+    "title": "List events for user"
+   },
+   {
+    "slug": "GITHUB_LIST_EVENTS_RECEIVED_BY_THE_AUTHENTICATED_USER",
+    "title": "List events received by the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_FOLLOWERS_OF_A_USER",
+    "title": "List followers of a user"
+   },
+   {
+    "slug": "GITHUB_LIST_FOLLOWERS_OF_THE_AUTHENTICATED_USER",
+    "title": "List followers of the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_FOLLOWING_FOR_USER",
+    "title": "List following for user"
+   },
+   {
+    "slug": "GITHUB_LIST_FORKS",
+    "title": "List forks"
+   },
+   {
+    "slug": "GITHUB_LIST_GIST_COMMENTS",
+    "title": "List gist comments"
+   },
+   {
+    "slug": "GITHUB_LIST_GIST_COMMITS",
+    "title": "List gist commits"
+   },
+   {
+    "slug": "GITHUB_LIST_GIST_FORKS",
+    "title": "List gist forks"
+   },
+   {
+    "slug": "GITHUB_LIST_GISTS_FOR_A_USER",
+    "title": "List gists for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_GISTS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List gists for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_GITHUB_ACTIONS_CACHES_FOR_A_REPOSITORY",
+    "title": "List github actions caches for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_GITHUB_PAGES_BUILDS",
+    "title": "List GitHub Pages builds"
+   },
+   {
+    "slug": "GITHUB_LIST_GITIGNORE_TEMPLATES",
+    "title": "Get all gitignore templates"
+   },
+   {
+    "slug": "GITHUB_LIST_GLOBAL_SECURITY_ADVISORIES",
+    "title": "List global security advisories"
+   },
+   {
+    "slug": "GITHUB_LIST_GPG_KEYS_FOR_A_USER",
+    "title": "List GPG keys for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_INSTALLATION_REQUESTS_FOR_THE_AUTHENTICATED_APP",
+    "title": "List installation requests for the authenticated app"
+   },
+   {
+    "slug": "GITHUB_LIST_INSTANCES_OF_A_CODE_SCANNING_ALERT",
+    "title": "List instances of a code scanning alert"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_COMMENTS",
+    "title": "List issue comments"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_COMMENTS_FOR_A_REPOSITORY",
+    "title": "List issue comments for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_DEPENDENCIES_BLOCKED_BY",
+    "title": "List issue dependencies blocked by"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_DEPENDENCIES_BLOCKING",
+    "title": "List issue dependencies blocking"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_EVENTS",
+    "title": "List issue events"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_EVENTS_FOR_A_REPOSITORY",
+    "title": "List issue events for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUES_ASSIGNED_TO_THE_AUTHENTICATED_USER",
+    "title": "List issues for user"
+   },
+   {
+    "slug": "GITHUB_LIST_ISSUE_TYPES",
+    "title": "List issue types"
+   },
+   {
+    "slug": "GITHUB_LIST_JOBS_FOR_A_WORKFLOW_RUN",
+    "title": "List jobs for a workflow run"
+   },
+   {
+    "slug": "GITHUB_LIST_JOBS_FOR_A_WORKFLOW_RUN_ATTEMPT",
+    "title": "List jobs for a workflow run attempt"
+   },
+   {
+    "slug": "GITHUB_LIST_LABELS_FOR_AN_ISSUE",
+    "title": "List labels for an issue"
+   },
+   {
+    "slug": "GITHUB_LIST_LABELS_FOR_A_REPOSITORY",
+    "title": "List labels for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_LABELS_FOR_A_SELF_HOSTED_RUNNER_FOR_A_REPOSITORY",
+    "title": "List labels for a self-hosted runner for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_LABELS_FOR_ISSUES_IN_A_MILESTONE",
+    "title": "List labels for issues in a milestone"
+   },
+   {
+    "slug": "GITHUB_LIST_LABELS_FOR_SELF_HOSTED_RUNNER_ORG",
+    "title": "List labels for a self-hosted runner for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_LICENSES_GRAPH_QL",
+    "title": "List Licenses (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_LIST_MACHINE_TYPES_FOR_A_CODESPACE",
+    "title": "List machine types for a codespace"
+   },
+   {
+    "slug": "GITHUB_LIST_MATCHING_REFERENCES",
+    "title": "List matching references"
+   },
+   {
+    "slug": "GITHUB_LIST_MILESTONES",
+    "title": "List milestones"
+   },
+   {
+    "slug": "GITHUB_LIST_NOTIFICATIONS",
+    "title": "List notifications for authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_NOTIFICATIONS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List notifications for the authenticated user (Deprecated)"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_CODESPACES_SECRETS",
+    "title": "List org level codespaces secrets"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_EVENTS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List organization events for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_MEMBERS",
+    "title": "List organization members"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_MEMBERSHIPS_FOR_THE_AUTHENTICATED_U",
+    "title": "List organization memberships for authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_PROJECTS",
+    "title": "List organization projects"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_REPOSITORIES",
+    "title": "List organization repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_ROLES_FOR_AN_ORGANIZATION",
+    "title": "Get all organization roles for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATIONS",
+    "title": "List organizations"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_SECRETS",
+    "title": "List organization secrets"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATIONS_FOR_A_USER",
+    "title": "List organizations for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATIONS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List organizations for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATIONS_FOR_USER",
+    "title": "List organizations for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_VARIABLES",
+    "title": "List organization variables"
+   },
+   {
+    "slug": "GITHUB_LIST_ORGANIZATION_WEBHOOKS",
+    "title": "List organization webhooks"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_FINE_GRAINED_PERMISSIONS",
+    "title": "List organization fine-grained permissions"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_ISSUES_FOR_THE_AUTHENTICATED_USER",
+    "title": "List organization issues assigned to the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_PACKAGE_VERSIONS",
+    "title": "List package versions for an organization package"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_PROJECT_VIEW_ITEMS",
+    "title": "List organization project view items"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_REPOS_WITH_GITHUB_ACTIONS_ENABLED",
+    "title": "List organization repositories with Github Actions enabled"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_RESOURCE_ACCESS_TOKENS",
+    "title": "List org resource access tokens"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_RESOURCES_WITH_PERSONAL_TOKENS",
+    "title": "List org resources with personal tokens"
+   },
+   {
+    "slug": "GITHUB_LIST_ORG_SECRETS_WITHOUT_VALUES",
+    "title": "List organization Dependabot secrets without values"
+   },
+   {
+    "slug": "GITHUB_LIST_OUTSIDE_COLLABORATORS_FOR_AN_ORGANIZATION",
+    "title": "List outside collaborators for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_OWNED_PACKAGE_VERSIONS",
+    "title": "List owned package versions"
+   },
+   {
+    "slug": "GITHUB_LIST_PACKAGES_FOR_AN_ORGANIZATION",
+    "title": "List packages for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_PACKAGES_FOR_A_USER",
+    "title": "List packages for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_PACKAGES_FOR_THE_AUTHENTICATED_USER",
+    "title": "List packages for the authenticated user's namespace"
+   },
+   {
+    "slug": "GITHUB_LIST_PACKAGE_VERSIONS_FOR_A_PACKAGE_OWNED_BY_A_USER",
+    "title": "List package versions for a package owned by a user"
+   },
+   {
+    "slug": "GITHUB_LIST_PENDING_TEAM_INVITATIONS",
+    "title": "List pending team invitations"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_CARDS",
+    "title": "List project cards (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_COLLABORATORS",
+    "title": "List project collaborators (classic)"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_COLUMNS",
+    "title": "List project columns"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_FIELDS_FOR_USER",
+    "title": "List project fields for user"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_ITEMS_FOR_USER",
+    "title": "List project items for user"
+   },
+   {
+    "slug": "GITHUB_LIST_PROJECT_VIEW_ITEMS_FOR_USER",
+    "title": "List items for user project view"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_EMAILS_FOR_AUTH_USER",
+    "title": "List public email addresses for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_EVENTS",
+    "title": "List public events"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_EVENTS_FOR_A_NETWORK_OF_REPOSITORIES",
+    "title": "List public events for a network of repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_EVENTS_FOR_A_USER",
+    "title": "List public events for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_EVENTS_RECEIVED_BY_A_USER",
+    "title": "List public events received by a user"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_GISTS",
+    "title": "List public gists"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_KEYS_FOR_A_USER",
+    "title": "List public keys for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_ORGANIZATION_EVENTS",
+    "title": "List public organization events"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_ORGANIZATION_MEMBERS",
+    "title": "List public organization members"
+   },
+   {
+    "slug": "GITHUB_LIST_PUBLIC_REPOSITORIES",
+    "title": "List public repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_PULL_REQUESTS",
+    "title": "List pull requests"
+   },
+   {
+    "slug": "GITHUB_LIST_PULL_REQUESTS_ASSOCIATED_WITH_A_COMMIT",
+    "title": "List pull requests associated with a commit"
+   },
+   {
+    "slug": "GITHUB_LIST_PULL_REQUESTS_FILES",
+    "title": "List pull requests files"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_A_COMMIT_COMMENT",
+    "title": "List reactions for a commit comment"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_AN_ISSUE",
+    "title": "List reactions for an issue"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_AN_ISSUE_COMMENT",
+    "title": "List reactions for an issue comment"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_A_PULL_REQUEST_REVIEW_COMMENT",
+    "title": "List reactions for a pull request review comment"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_A_RELEASE",
+    "title": "List reactions for a release"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_A_TEAM_DISCUSSION",
+    "title": "List reactions for a team discussion"
+   },
+   {
+    "slug": "GITHUB_LIST_REACTIONS_FOR_A_TEAM_DISCUSSION_COMMENT",
+    "title": "List reactions for a team discussion comment"
+   },
+   {
+    "slug": "GITHUB_LIST_RELEASE_ASSETS",
+    "title": "List release assets"
+   },
+   {
+    "slug": "GITHUB_LIST_RELEASES",
+    "title": "List releases"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_ACCESS_BY_TOKEN",
+    "title": "List repo access by token"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_CODESPACES",
+    "title": "List repo codespaces for authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_DEV_CONTAINER_CONFIGS_FOR_USER",
+    "title": "List repo dev container configs for user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_INVITATIONS_FOR_AUTH_USER",
+    "title": "List authenticated user's repository invitations"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_NOTIFICATIONS_FOR_AUTH_USER",
+    "title": "List repository notifications for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPO_SECRETS_WITHOUT_VALUES",
+    "title": "List repo secrets without values"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES",
+    "title": "List repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_ACCESSIBLE_TO_THE_APP_INSTALLATION",
+    "title": "List repos accessible to app installation"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_FOR_A_USER",
+    "title": "List repositories for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_FOR_THE_AUTHENTICATED_USER",
+    "title": "List repositories for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_STARRED_BY_A_USER",
+    "title": "List repositories starred by a user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_STARRED_BY_THE_AUTHENTICATED_USER",
+    "title": "List repositories starred by the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_WATCHED_BY_A_USER",
+    "title": "List repositories watched by a user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_WATCHED_BY_THE_AUTHENTICATED_USER",
+    "title": "List repositories watched by the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORIES_WITH_GITHUB_ACTIONS_CACHE_USAGE",
+    "title": "List repos with ghactions cache usage"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_ACTIVITIES",
+    "title": "List repository activities"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_AUTOLINKS",
+    "title": "Get all autolinks of a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_COLLABORATORS",
+    "title": "List repository collaborators"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_CONTRIBUTORS",
+    "title": "List repository contributors"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_DEPENDABOT_ALERTS",
+    "title": "List repository Dependabot alerts"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_EVENTS",
+    "title": "List repository events"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_INVITATIONS",
+    "title": "List repository invitations"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_ISSUES",
+    "title": "List repository issues"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_LANGUAGES",
+    "title": "List repository languages"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_ORGANIZATION_SECRETS",
+    "title": "List repository organization secrets"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_ORGANIZATION_VARIABLES",
+    "title": "List repository organization variables"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_PROJECTS",
+    "title": "List repository projects"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_RULESETS",
+    "title": "Get all repository rulesets"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_RULE_SUITES",
+    "title": "List repository rule suites"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_SECRETS",
+    "title": "List repository secrets"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_SECRETS_WITHOUT_DECRYPTING",
+    "title": "List repository secrets without decrypting"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_SECURITY_ADVISORIES",
+    "title": "List repository security advisories"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_TAGS",
+    "title": "List repository tags"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_TEAMS",
+    "title": "List repository teams"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_TOPICS",
+    "title": "Get all repository topics"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_VARIABLES",
+    "title": "List repository variables"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_WEBHOOKS",
+    "title": "List repository webhooks"
+   },
+   {
+    "slug": "GITHUB_LIST_REPOSITORY_WORKFLOWS",
+    "title": "List repository workflows"
+   },
+   {
+    "slug": "GITHUB_LIST_REQUESTED_REVIEWERS_FOR_A_PULL_REQUEST",
+    "title": "Get all requested reviewers for a pull request"
+   },
+   {
+    "slug": "GITHUB_LIST_REVIEW_COMMENTS_IN_A_REPOSITORY",
+    "title": "List review comments in a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_REVIEW_COMMENTS_ON_A_PULL_REQUEST",
+    "title": "List review comments on a pull request"
+   },
+   {
+    "slug": "GITHUB_LIST_REVIEWS_FOR_A_PULL_REQUEST",
+    "title": "List reviews for a pull request"
+   },
+   {
+    "slug": "GITHUB_LIST_RUNNER_APPLICATIONS_FOR_AN_ORGANIZATION",
+    "title": "List runner applications for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_RUNNER_APPLICATIONS_FOR_A_REPOSITORY",
+    "title": "List runner applications for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_SECRET_SCANNING_ALERTS_FOR_A_REPOSITORY",
+    "title": "List secret scanning alerts for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_SECRETS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List secrets for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_SECURITY_ADVISORIES_GRAPHQL",
+    "title": "List security advisories (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_LIST_SECURITY_VULNERABILITIES",
+    "title": "List security vulnerabilities"
+   },
+   {
+    "slug": "GITHUB_LIST_SELECTED_REPOSITORIES_FOR_AN_ORGANIZATION_SECRET",
+    "title": "List selected repositories for a Codespaces organization secret"
+   },
+   {
+    "slug": "GITHUB_LIST_SELECTED_REPOSITORIES_FOR_A_USER_SECRET",
+    "title": "List selected repositories for a user secret"
+   },
+   {
+    "slug": "GITHUB_LIST_SELECTED_REPOSITORIES_FOR_SECRET_ACCESS",
+    "title": "List selected repos for secret access"
+   },
+   {
+    "slug": "GITHUB_LIST_SELECTED_REPOS_ORG_VARIABLE",
+    "title": "List selected repositories for an organization variable"
+   },
+   {
+    "slug": "GITHUB_LIST_SELF_HOSTED_RUNNERS_FOR_AN_ORGANIZATION",
+    "title": "List self hosted runners for an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_SELF_HOSTED_RUNNERS_FOR_A_REPOSITORY",
+    "title": "List self hosted runners for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_SOCIAL_ACCOUNTS_FOR_A_USER",
+    "title": "List social accounts for a user"
+   },
+   {
+    "slug": "GITHUB_LIST_SOCIAL_ACCOUNTS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List social accounts for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_SPONSORABLES",
+    "title": "List Sponsorable Users and Organizations"
+   },
+   {
+    "slug": "GITHUB_LIST_SSH_SIGNING_KEYS_FOR_A_USER",
+    "title": "List SSH signing keys for user"
+   },
+   {
+    "slug": "GITHUB_LIST_STARGAZERS",
+    "title": "List stargazers"
+   },
+   {
+    "slug": "GITHUB_LIST_STARRED_GISTS",
+    "title": "List starred gists"
+   },
+   {
+    "slug": "GITHUB_LIST_STARRED_REPOSITORIES_FOR_USER",
+    "title": "List starred repositories for user"
+   },
+   {
+    "slug": "GITHUB_LIST_STATUS_CHECK_CONTEXTS",
+    "title": "Get all status check contexts"
+   },
+   {
+    "slug": "GITHUB_LIST_SUB_ISSUES",
+    "title": "List sub-issues for an issue"
+   },
+   {
+    "slug": "GITHUB_LIST_SUBSCRIPTIONS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List marketplace subscriptions for authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_SUBSCRIPTIONS_FOR_THE_AUTHENTICATED_USER_STUBBED",
+    "title": "List stubbed subscriptions for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_TAG_PROTECTION_STATES_FOR_A_REPOSITORY",
+    "title": "List tag protection states for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAM_MEMBERS",
+    "title": "List team members"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAM_PROJECTS",
+    "title": "List team projects"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAM_REPOSITORIES",
+    "title": "List team repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAMS",
+    "title": "List teams"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAMS_FOR_THE_AUTHENTICATED_USER",
+    "title": "List teams for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_TEAMS_THAT_ARE_ASSIGNED_TO_AN_ORGANIZATION_ROLE",
+    "title": "List teams assigned to an organization role"
+   },
+   {
+    "slug": "GITHUB_LIST_THE_PEOPLE_A_USER_FOLLOWS",
+    "title": "List the people a user follows"
+   },
+   {
+    "slug": "GITHUB_LIST_THE_PEOPLE_THE_AUTHENTICATED_USER_FOLLOWS",
+    "title": "List people the authenticated user follows"
+   },
+   {
+    "slug": "GITHUB_LIST_TIMELINE_EVENTS_FOR_AN_ISSUE",
+    "title": "List timeline events for an issue"
+   },
+   {
+    "slug": "GITHUB_LIST_TOKEN_ACCESS_REPOSITORIES",
+    "title": "List token access repositories"
+   },
+   {
+    "slug": "GITHUB_LIST_USER_PROJECTS",
+    "title": "List user projects"
+   },
+   {
+    "slug": "GITHUB_LIST_USERS",
+    "title": "List users"
+   },
+   {
+    "slug": "GITHUB_LIST_USERS_BLOCKED_BY_AN_ORGANIZATION",
+    "title": "List users blocked by an organization"
+   },
+   {
+    "slug": "GITHUB_LIST_USERS_BLOCKED_BY_THE_AUTHENTICATED_USER",
+    "title": "List users blocked by the authenticated user"
+   },
+   {
+    "slug": "GITHUB_LIST_USERS_THAT_ARE_ASSIGNED_TO_AN_ORGANIZATION_ROLE",
+    "title": "List users assigned org role"
+   },
+   {
+    "slug": "GITHUB_LIST_WATCHERS",
+    "title": "List watchers"
+   },
+   {
+    "slug": "GITHUB_LIST_WORKFLOW_RUN_ARTIFACTS",
+    "title": "List workflow run artifacts"
+   },
+   {
+    "slug": "GITHUB_LIST_WORKFLOW_RUNS_FOR_A_REPOSITORY",
+    "title": "List workflow runs for a repository"
+   },
+   {
+    "slug": "GITHUB_LIST_WORKFLOW_RUNS_FOR_A_WORKFLOW",
+    "title": "List workflow runs for a workflow"
+   },
+   {
+    "slug": "GITHUB_LOCK_AN_ISSUE",
+    "title": "Lock an issue"
+   },
+   {
+    "slug": "GITHUB_LOOKUP_ENTERPRISE_ADMINISTRATOR_INVITATION",
+    "title": "Lookup Enterprise Administrator Invitation"
+   },
+   {
+    "slug": "GITHUB_LOOKUP_GITHUB_RESOURCE",
+    "title": "Lookup GitHub Resource"
+   },
+   {
+    "slug": "GITHUB_LOOKUP_NODES_BY_IDS",
+    "title": "Lookup nodes by IDs"
+   },
+   {
+    "slug": "GITHUB_LOOKUP_ORGANIZATION_GRAPH_QL",
+    "title": "Lookup Organization (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_LOOKUP_TOPIC_BY_NAME",
+    "title": "Look Up Topic by Name"
+   },
+   {
+    "slug": "GITHUB_MANAGE_ACCESS_CONTROL_FOR_ORGANIZATION_CODESPACES",
+    "title": "Manage access control for organization codespaces"
+   },
+   {
+    "slug": "GITHUB_MANAGE_CUSTOM_PROPERTIES_FOR_ORG_REPOS",
+    "title": "Manage custom properties for org repos"
+   },
+   {
+    "slug": "GITHUB_MANAGE_ISSUE_BLOCKING_DEPENDENCY",
+    "title": "Manage issue blocking dependency"
+   },
+   {
+    "slug": "GITHUB_MANAGE_SECRETS_IN_SELECTED_REPOSITORIES",
+    "title": "List selected repositories for a GitHub Actions organization secret"
+   },
+   {
+    "slug": "GITHUB_MAP_A_COMMIT_AUTHOR",
+    "title": "Map a commit author"
+   },
+   {
+    "slug": "GITHUB_MARK_A_THREAD_AS_DONE",
+    "title": "Mark a thread as done"
+   },
+   {
+    "slug": "GITHUB_MARK_A_THREAD_AS_READ",
+    "title": "Mark a thread as read"
+   },
+   {
+    "slug": "GITHUB_MARK_NOTIFICATIONS_AS_READ",
+    "title": "Mark notifications as read"
+   },
+   {
+    "slug": "GITHUB_MARK_PULL_REQUEST_READY_FOR_REVIEW",
+    "title": "Mark pull request ready for review"
+   },
+   {
+    "slug": "GITHUB_MARK_REPOSITORY_NOTIFICATIONS_AS_READ",
+    "title": "Mark repository notifications as read"
+   },
+   {
+    "slug": "GITHUB_MERGE_A_BRANCH",
+    "title": "Merge a branch"
+   },
+   {
+    "slug": "GITHUB_MERGE_A_PULL_REQUEST",
+    "title": "Merge a pull request"
+   },
+   {
+    "slug": "GITHUB_MOVE_A_PROJECT_CARD",
+    "title": "Move a project card (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_MOVE_A_PROJECT_COLUMN",
+    "title": "Move a project column (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_PING_AN_ORGANIZATION_WEBHOOK",
+    "title": "Ping an organization webhook"
+   },
+   {
+    "slug": "GITHUB_PING_A_REPOSITORY_WEBHOOK",
+    "title": "Ping a repository webhook"
+   },
+   {
+    "slug": "GITHUB_PRIVATELY_REPORT_A_SECURITY_VULNERABILITY",
+    "title": "Privately report a security vulnerability"
+   },
+   {
+    "slug": "GITHUB_PUBLISH_SPONSORS_TIER_GRAPH_QL",
+    "title": "Publish Sponsors Tier (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_REDELIVER_A_DELIVERY_FOR_AN_ORGANIZATION_WEBHOOK",
+    "title": "Redeliver a delivery for an organization webhook"
+   },
+   {
+    "slug": "GITHUB_REDELIVER_A_DELIVERY_FOR_A_REPOSITORY_WEBHOOK",
+    "title": "Redeliver a delivery for a repository webhook"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_CUSTOM_PROPERTY_FOR_AN_ORGANIZATION",
+    "title": "Remove a custom property for an organization"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_LABEL_FROM_AN_ISSUE",
+    "title": "Remove a label from an issue"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ALL_LABELS_FROM_AN_ISSUE",
+    "title": "Remove all labels from an issue"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ALL_ORGANIZATION_ROLES_FOR_A_TEAM",
+    "title": "Remove all organization roles for a team"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ALL_ORGANIZATION_ROLES_FOR_A_USER",
+    "title": "Remove all organization roles for a user"
+   },
+   {
+    "slug": "GITHUB_REMOVE_AN_ORGANIZATION_MEMBER",
+    "title": "Remove an organization member"
+   },
+   {
+    "slug": "GITHUB_REMOVE_AN_ORGANIZATION_ROLE_FROM_A_TEAM",
+    "title": "Remove an organization role from a team"
+   },
+   {
+    "slug": "GITHUB_REMOVE_AN_ORGANIZATION_ROLE_FROM_A_USER",
+    "title": "Remove an organization role from a user"
+   },
+   {
+    "slug": "GITHUB_REMOVE_APP_ACCESS_RESTRICTIONS",
+    "title": "Remove app access restrictions"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_PROJECT_FROM_A_TEAM",
+    "title": "Remove a project from a team"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_REPOSITORY_COLLABORATOR",
+    "title": "Remove a repository collaborator"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_REPOSITORY_FROM_AN_APP_INSTALLATION",
+    "title": "Remove a repository from an app installation"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_REPOSITORY_FROM_A_TEAM",
+    "title": "Remove a repository from a team"
+   },
+   {
+    "slug": "GITHUB_REMOVE_A_SELECTED_REPOSITORY_FROM_A_USER_SECRET",
+    "title": "Remove a selected repository from a user secret"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ASSIGNEES_FROM_AN_ISSUE",
+    "title": "Remove assignees from an issue"
+   },
+   {
+    "slug": "GITHUB_REMOVE_CUSTOM_LABEL_FROM_REPO_RUNNER",
+    "title": "Remove custom label from repo runner"
+   },
+   {
+    "slug": "GITHUB_REMOVE_CUSTOM_LABEL_FROM_SELF_HOSTED_RUNNER",
+    "title": "Remove custom label from self hosted runner"
+   },
+   {
+    "slug": "GITHUB_REMOVE_CUSTOM_LABELS_FROM_SELF_HOSTED_REPO_RUNNER",
+    "title": "Remove custom labels from self hosted repo runner"
+   },
+   {
+    "slug": "GITHUB_REMOVE_INTERACTION_RESTRICTIONS_FOR_AN_ORGANIZATION",
+    "title": "Remove interaction restrictions for an organization"
+   },
+   {
+    "slug": "GITHUB_REMOVE_INTERACTION_RESTRICTIONS_FOR_A_REPOSITORY",
+    "title": "Remove interaction restrictions for a repository"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ORG_DEV_ENV_SECRET_BY_NAME",
+    "title": "Remove org dev env secret by name"
+   },
+   {
+    "slug": "GITHUB_REMOVE_ORG_SECRET_BY_NAME",
+    "title": "Remove org secret by name"
+   },
+   {
+    "slug": "GITHUB_REMOVE_OUTSIDE_COLLABORATOR_FROM_AN_ORGANIZATION",
+    "title": "Remove outside collaborator from an organization"
+   },
+   {
+    "slug": "GITHUB_REMOVE_PUBLIC_ORG_MEMBERSHIP",
+    "title": "Remove public org membership"
+   },
+   {
+    "slug": "GITHUB_REMOVE_PUBLIC_REPO_INTERACTION_RESTRICTIONS",
+    "title": "Remove user public repo interaction restrictions"
+   },
+   {
+    "slug": "GITHUB_REMOVE_REPO_FROM_ORG_DEV_ENV_SECRET",
+    "title": "Remove repository from organization dev environment secret"
+   },
+   {
+    "slug": "GITHUB_REMOVE_REPO_FROM_ORG_SECRET_WITH_SELECTED_VISIBILITY",
+    "title": "Remove selected repo from org secret"
+   },
+   {
+    "slug": "GITHUB_REMOVE_REQUESTED_REVIEWERS_FROM_A_PULL_REQUEST",
+    "title": "Remove requested reviewers from a pull request"
+   },
+   {
+    "slug": "GITHUB_REMOVE_REVIEW_REQUEST",
+    "title": "Remove review request"
+   },
+   {
+    "slug": "GITHUB_REMOVE_SELECTED_REPO_FROM_ORG_SECRET",
+    "title": "Remove selected repository from an organization secret"
+   },
+   {
+    "slug": "GITHUB_REMOVE_SELECTED_REPO_FROM_ORG_VARIABLE",
+    "title": "Remove selected repository from an organization variable"
+   },
+   {
+    "slug": "GITHUB_REMOVE_STATUS_CHECK_CONTEXTS",
+    "title": "Remove status check contexts"
+   },
+   {
+    "slug": "GITHUB_REMOVE_STATUS_CHECK_PROTECTION",
+    "title": "Remove status check protection"
+   },
+   {
+    "slug": "GITHUB_REMOVE_TEAM_ACCESS_RESTRICTIONS",
+    "title": "Remove team access restrictions"
+   },
+   {
+    "slug": "GITHUB_REMOVE_TEAM_MEMBERSHIP",
+    "title": "Remove team membership"
+   },
+   {
+    "slug": "GITHUB_REMOVE_TEAM_MEMBERSHIP_FOR_A_USER",
+    "title": "Remove team membership for a user"
+   },
+   {
+    "slug": "GITHUB_REMOVE_USER_ACCESS_RESTRICTIONS",
+    "title": "Remove user access restrictions"
+   },
+   {
+    "slug": "GITHUB_REMOVE_USER_AS_A_COLLABORATOR",
+    "title": "Remove user as a collaborator (classic project)"
+   },
+   {
+    "slug": "GITHUB_REMOVE_USERS_CODESPACES_ACCESS_ORG",
+    "title": "Remove users from codespaces access for an organization"
+   },
+   {
+    "slug": "GITHUB_RENAME_A_BRANCH",
+    "title": "Rename a branch"
+   },
+   {
+    "slug": "GITHUB_RENDER_A_MARKDOWN_DOCUMENT",
+    "title": "Render a markdown document"
+   },
+   {
+    "slug": "GITHUB_RENDER_MARKDOWN_RAW",
+    "title": "Render Markdown (Raw Mode)"
+   },
+   {
+    "slug": "GITHUB_REOPEN_ISSUE",
+    "title": "Reopen an issue"
+   },
+   {
+    "slug": "GITHUB_REOPEN_PULL_REQUEST",
+    "title": "Reopen Pull Request"
+   },
+   {
+    "slug": "GITHUB_REPLACE_ALL_REPOSITORY_TOPICS",
+    "title": "Replace all repository topics"
+   },
+   {
+    "slug": "GITHUB_REPLACE_ORG_SECRET_VISIBILITY_TO_SELECTED",
+    "title": "Replace org secret visibility to selected"
+   },
+   {
+    "slug": "GITHUB_REPLACE_REPO_ACCESS_ON_ORG_DEV_ENV_SECRET_SET",
+    "title": "Replace repository access for an org Codespaces secret"
+   },
+   {
+    "slug": "GITHUB_REQUEST_A_GITHUB_PAGES_BUILD",
+    "title": "Request a github pages build"
+   },
+   {
+    "slug": "GITHUB_REQUEST_REVIEWERS",
+    "title": "Request reviewers for a pull request"
+   },
+   {
+    "slug": "GITHUB_REQUEST_REVIEWERS_FOR_A_PULL_REQUEST",
+    "title": "Add reviewers to a specific pull request"
+   },
+   {
+    "slug": "GITHUB_REREQUEST_A_CHECK_RUN",
+    "title": "Rerequest a check run"
+   },
+   {
+    "slug": "GITHUB_REREQUEST_A_CHECK_SUITE",
+    "title": "Rerequest a check suite"
+   },
+   {
+    "slug": "GITHUB_RE_RUN_A_JOB_FROM_A_WORKFLOW_RUN",
+    "title": "Re-run a job from a workflow run"
+   },
+   {
+    "slug": "GITHUB_RE_RUN_A_WORKFLOW",
+    "title": "Rerun a workflow"
+   },
+   {
+    "slug": "GITHUB_RE_RUN_FAILED_JOBS_FROM_A_WORKFLOW_RUN",
+    "title": "Rerun failed jobs from a workflow run"
+   },
+   {
+    "slug": "GITHUB_RESET_A_TOKEN",
+    "title": "Reset a token"
+   },
+   {
+    "slug": "GITHUB_RESTORE_A_PACKAGE_FOR_AN_ORGANIZATION",
+    "title": "Restore a package for an organization"
+   },
+   {
+    "slug": "GITHUB_RESTORE_A_PACKAGE_FOR_A_USER",
+    "title": "Restore a package for a user"
+   },
+   {
+    "slug": "GITHUB_RESTORE_A_PACKAGE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Restore a package for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_RESTORE_A_PACKAGE_VERSION_FOR_THE_AUTHENTICATED_USER",
+    "title": "Restore a package version for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_RESTORE_PACKAGE_VERSION_FOR_AN_ORGANIZATION",
+    "title": "Restore package version for an organization"
+   },
+   {
+    "slug": "GITHUB_RESTORE_PACKAGE_VERSION_FOR_A_USER",
+    "title": "Restore package version for a user"
+   },
+   {
+    "slug": "GITHUB_RETIRE_SPONSORS_TIER",
+    "title": "Retire Sponsors Tier"
+   },
+   {
+    "slug": "GITHUB_REVIEW_ACCESS_WITH_PERSONAL_TOKEN",
+    "title": "Review access with personal token"
+   },
+   {
+    "slug": "GITHUB_REVIEW_DEPLOYMENT_PROTECTION_RULES",
+    "title": "Review Custom Deployment Rules For Workflow Run"
+   },
+   {
+    "slug": "GITHUB_REVIEW_PENDING_DEPLOYMENTS_FOR_A_WORKFLOW_RUN",
+    "title": "Review pending deployments for a workflow run"
+   },
+   {
+    "slug": "GITHUB_REVIEW_RESOURCE_REQUESTS_WITH_FINE_GRAINED_TOKENS",
+    "title": "Review PAT Requests in Bulk"
+   },
+   {
+    "slug": "GITHUB_REVOKE_AN_INSTALLATION_ACCESS_TOKEN",
+    "title": "Revoke an installation access token"
+   },
+   {
+    "slug": "GITHUB_RUN_GRAPH_QL_QUERY",
+    "title": "Run GraphQL Query"
+   },
+   {
+    "slug": "GITHUB_RUN_GRAPH_QL_RELAY_QUERY",
+    "title": "Run GraphQL Relay Query"
+   },
+   {
+    "slug": "GITHUB_SEARCH_CODE",
+    "title": "Search code"
+   },
+   {
+    "slug": "GITHUB_SEARCH_CODE_ALL_PAGES",
+    "title": "Search code (all pages)"
+   },
+   {
+    "slug": "GITHUB_SEARCH_COMMITS",
+    "title": "Search commits"
+   },
+   {
+    "slug": "GITHUB_SEARCH_COMMITS_BY_AUTHOR",
+    "title": "Search commits by author across repos"
+   },
+   {
+    "slug": "GITHUB_SEARCH_GITHUB_GRAPHQL",
+    "title": "GitHub GraphQL Search"
+   },
+   {
+    "slug": "GITHUB_SEARCH_ISSUES",
+    "title": "Search issues and pull requests"
+   },
+   {
+    "slug": "GITHUB_SEARCH_ISSUES_AND_PULL_REQUESTS",
+    "title": "Search issues and pull requests"
+   },
+   {
+    "slug": "GITHUB_SEARCH_LABELS",
+    "title": "Search labels"
+   },
+   {
+    "slug": "GITHUB_SEARCH_REPOSITORIES",
+    "title": "Search repositories"
+   },
+   {
+    "slug": "GITHUB_SEARCH_TOPICS",
+    "title": "Search topics"
+   },
+   {
+    "slug": "GITHUB_SEARCH_USERS",
+    "title": "Search users"
+   },
+   {
+    "slug": "GITHUB_SET_ADMIN_BRANCH_PROTECTION",
+    "title": "Set admin branch protection"
+   },
+   {
+    "slug": "GITHUB_SET_APP_ACCESS_RESTRICTIONS",
+    "title": "Set app access restrictions"
+   },
+   {
+    "slug": "GITHUB_SET_A_REPOSITORY_SUBSCRIPTION",
+    "title": "Set a repository subscription"
+   },
+   {
+    "slug": "GITHUB_SET_A_THREAD_SUBSCRIPTION",
+    "title": "Set a thread subscription"
+   },
+   {
+    "slug": "GITHUB_SET_DEFAULT_WORKFLOW_PERMISSIONS_FOR_AN_ORGANIZATION",
+    "title": "Set default workflow permissions for an organization"
+   },
+   {
+    "slug": "GITHUB_SET_DEFAULT_WORKFLOW_PERMISSIONS_FOR_A_REPOSITORY",
+    "title": "Set default workflow permissions for a repository"
+   },
+   {
+    "slug": "GITHUB_SET_EMAIL_VISIBILITY",
+    "title": "Set primary email visibility"
+   },
+   {
+    "slug": "GITHUB_SET_GITHUB_ACTIONS_PERMISSIONS_FOR_AN_ORGANIZATION",
+    "title": "Set GitHub Actions permissions for an organization"
+   },
+   {
+    "slug": "GITHUB_SET_GITHUB_ACTIONS_PERMISSIONS_FOR_A_REPOSITORY",
+    "title": "Set github actions permissions for a repository"
+   },
+   {
+    "slug": "GITHUB_SET_INTERACTION_RESTRICTIONS_FOR_AN_ORGANIZATION",
+    "title": "Set interaction restrictions for an organization"
+   },
+   {
+    "slug": "GITHUB_SET_INTERACTION_RESTRICTIONS_FOR_A_REPOSITORY",
+    "title": "Set interaction restrictions for a repository"
+   },
+   {
+    "slug": "GITHUB_SET_INTERACTION_RESTRICTIONS_FOR_YOUR_PUBLIC_REPOS",
+    "title": "Set interaction restrictions for your public repositories"
+   },
+   {
+    "slug": "GITHUB_SET_LABELS_FOR_AN_ISSUE",
+    "title": "Set labels for an issue"
+   },
+   {
+    "slug": "GITHUB_SET_OIDC_SUBJECT_CLAIM_TEMPLATE",
+    "title": "Set custom OIDC subject claim template"
+   },
+   {
+    "slug": "GITHUB_SET_ORG_ALLOWED_ACTIONS",
+    "title": "Set allowed actions and workflows for an organization"
+   },
+   {
+    "slug": "GITHUB_SET_ORG_RUNNER_LABELS",
+    "title": "Set custom labels for a self-hosted runner for an organization"
+   },
+   {
+    "slug": "GITHUB_SET_REPO_ALLOWED_ACTIONS",
+    "title": "Set repo allowed actions"
+   },
+   {
+    "slug": "GITHUB_SET_REPO_RUNNER_LABELS",
+    "title": "Set custom labels for repo runner"
+   },
+   {
+    "slug": "GITHUB_SET_SELECTED_REPOS_FOR_ORG_VARIABLE",
+    "title": "Set selected repositories for an organization variable"
+   },
+   {
+    "slug": "GITHUB_SET_SELECTED_REPOSITORIES_FOR_AN_ORGANIZATION_SECRET",
+    "title": "Set selected repositories for an organization secret"
+   },
+   {
+    "slug": "GITHUB_SET_SELECTED_REPOSITORIES_FOR_A_USER_SECRET",
+    "title": "Set selected repositories for a user secret"
+   },
+   {
+    "slug": "GITHUB_SET_STATUS_CHECK_CONTEXTS",
+    "title": "Set status check contexts"
+   },
+   {
+    "slug": "GITHUB_SET_TEAM_ACCESS_RESTRICTIONS",
+    "title": "Set team access restrictions"
+   },
+   {
+    "slug": "GITHUB_SET_USER_ACCESS_RESTRICTIONS",
+    "title": "Set user access restrictions"
+   },
+   {
+    "slug": "GITHUB_SET_USER_INTERACTION_LIMIT_GRAPH_QL",
+    "title": "Set User Interaction Limit (GraphQL)"
+   },
+   {
+    "slug": "GITHUB_SET_WORKFLOW_EXTERNAL_ACCESS",
+    "title": "Set workflow access level outside repository"
+   },
+   {
+    "slug": "GITHUB_STAR_A_GIST",
+    "title": "Star a gist"
+   },
+   {
+    "slug": "GITHUB_STAR_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER",
+    "title": "Star a specified repository (requires owner and repo)"
+   },
+   {
+    "slug": "GITHUB_START_A_CODESPACE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Start a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_STOP_A_CODESPACE_FOR_AN_ORGANIZATION_USER",
+    "title": "Stop a codespace for an organization user"
+   },
+   {
+    "slug": "GITHUB_STOP_A_CODESPACE_FOR_THE_AUTHENTICATED_USER",
+    "title": "Stop a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_SUBMIT_A_REVIEW_FOR_A_PULL_REQUEST",
+    "title": "Submit a review for a pull request"
+   },
+   {
+    "slug": "GITHUB_SYNC_FORK_BRANCH_WITH_UPSTREAM",
+    "title": "Sync a fork branch with the upstream repository"
+   },
+   {
+    "slug": "GITHUB_TEST_REPOSITORY_WEBHOOK",
+    "title": "Test the push repository webhook"
+   },
+   {
+    "slug": "GITHUB_TRANSFER_A_REPOSITORY",
+    "title": "Transfer a repository"
+   },
+   {
+    "slug": "GITHUB_UNBLOCK_A_USER",
+    "title": "Unblock a user"
+   },
+   {
+    "slug": "GITHUB_UNBLOCK_USER_FROM_ORGANIZATION",
+    "title": "Unblock a user from an organization"
+   },
+   {
+    "slug": "GITHUB_UNFOLLOW_A_USER",
+    "title": "Unfollow a user"
+   },
+   {
+    "slug": "GITHUB_UNFOLLOW_ORGANIZATION",
+    "title": "Unfollow organization"
+   },
+   {
+    "slug": "GITHUB_UNFOLLOW_USER",
+    "title": "Unfollow user"
+   },
+   {
+    "slug": "GITHUB_UNLOCK_AN_ISSUE",
+    "title": "Unlock an issue"
+   },
+   {
+    "slug": "GITHUB_UNLOCK_ORGANIZATION_REPOSITORY",
+    "title": "Unlock an organization repository"
+   },
+   {
+    "slug": "GITHUB_UNLOCK_USER_REPOSITORY",
+    "title": "Unlock a user repository"
+   },
+   {
+    "slug": "GITHUB_UNSTAR_A_GIST",
+    "title": "Unstar a gist"
+   },
+   {
+    "slug": "GITHUB_UNSTAR_REPOSITORY",
+    "title": "Unstar a repository"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_CHECK_RUN",
+    "title": "Update a check run"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_CODE_SCANNING_ALERT",
+    "title": "Update a code scanning alert"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_COMMIT_COMMENT",
+    "title": "Update a commit comment"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_CUSTOM_ORGANIZATION_ROLE",
+    "title": "Update a custom organization role"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_DEPLOYMENT_BRANCH_POLICY",
+    "title": "Update a deployment branch policy"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_DISCUSSION",
+    "title": "Update a discussion"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_DISCUSSION_COMMENT",
+    "title": "Update a discussion comment"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_GIST",
+    "title": "Update a gist"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_GIST_COMMENT",
+    "title": "Update a gist comment"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_LABEL",
+    "title": "Update a label"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_MILESTONE",
+    "title": "Update a milestone"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ENVIRONMENT_VARIABLE",
+    "title": "Update an environment variable"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ISSUE",
+    "title": "Update an issue"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ISSUE_COMMENT",
+    "title": "Update an issue comment"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ORGANIZATION",
+    "title": "Update an organization"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ORGANIZATION_VARIABLE",
+    "title": "Update an organization variable"
+   },
+   {
+    "slug": "GITHUB_UPDATE_AN_ORGANIZATION_WEBHOOK",
+    "title": "Update an organization webhook"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_PROJECT",
+    "title": "Update a project"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_PULL_REQUEST",
+    "title": "Update a pull request"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_PULL_REQUEST_BRANCH",
+    "title": "Update a pull request branch"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REFERENCE",
+    "title": "Update a reference"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_RELEASE",
+    "title": "Update a release"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_RELEASE_ASSET",
+    "title": "Update a release asset"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REPOSITORY",
+    "title": "Update a repository"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REPOSITORY_INVITATION",
+    "title": "Update a repository invitation"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REPOSITORY_RULESET",
+    "title": "Update a repository ruleset"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REPOSITORY_VARIABLE",
+    "title": "Update a repository variable"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_REPOSITORY_WEBHOOK",
+    "title": "Update a repository webhook"
+   },
+   {
+    "slug": "GITHUB_UPDATE_A_TEAM",
+    "title": "Update a team"
+   },
+   {
+    "slug": "GITHUB_UPDATE_BRANCH_PROTECTION",
+    "title": "Update branch protection"
+   },
+   {
+    "slug": "GITHUB_UPDATE_CODE_SCANNING_DEFAULT_SETUP",
+    "title": "Update a code scanning default setup configuration"
+   },
+   {
+    "slug": "GITHUB_UPDATE_CODESPACE",
+    "title": "Update a codespace for the authenticated user"
+   },
+   {
+    "slug": "GITHUB_UPDATE_GIT_LFS_PREFERENCE",
+    "title": "Update Git LFS Preference"
+   },
+   {
+    "slug": "GITHUB_UPDATE_ISSUE_TYPE",
+    "title": "Update issue type"
+   },
+   {
+    "slug": "GITHUB_UPDATE_ORGANIZATION_WEBHOOK_CONFIGURATION",
+    "title": "Update a webhook configuration for an organization"
+   },
+   {
+    "slug": "GITHUB_UPDATE_PROJECT_CARD",
+    "title": "Update an existing project card (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_UPDATE_PROJECT_COLUMN",
+    "title": "Update an existing project column (Classic - Deprecated)"
+   },
+   {
+    "slug": "GITHUB_UPDATE_PULL_REQUEST_REVIEW",
+    "title": "Update a review for a pull request"
+   },
+   {
+    "slug": "GITHUB_UPDATE_PULL_REQUEST_REVIEW_COMMENT",
+    "title": "Update a review comment for a pull request"
+   },
+   {
+    "slug": "GITHUB_UPDATE_PULL_REQUEST_REVIEW_PROTECTION",
+    "title": "Update pull request review protection"
+   },
+   {
+    "slug": "GITHUB_UPDATE_REPOSITORY_PREFERENCES_FOR_CHECK_SUITES",
+    "title": "Update repository preferences for check suites"
+   },
+   {
+    "slug": "GITHUB_UPDATE_REPOSITORY_WEBHOOK_CONFIGURATION",
+    "title": "Update a webhook configuration for a repository"
+   },
+   {
+    "slug": "GITHUB_UPDATE_RESOURCE_ACCESS_WITH_TOKENS",
+    "title": "Update resource access with tokens"
+   },
+   {
+    "slug": "GITHUB_UPDATE_STATUS_CHECK_PROTECTION",
+    "title": "Update status check protection"
+   },
+   {
+    "slug": "GITHUB_UPDATE_SUBSCRIPTION",
+    "title": "Update Subscription"
+   },
+   {
+    "slug": "GITHUB_UPDATE_THE_AUTHENTICATED_USER",
+    "title": "Update the authenticated user"
+   },
+   {
+    "slug": "GITHUB_UPDATE_TOKEN_ORG_ACCESS",
+    "title": "Revoke Token Organization Access"
+   },
+   {
+    "slug": "GITHUB_UPDATE_USER_LIST",
+    "title": "Update User List"
+   },
+   {
+    "slug": "GITHUB_UPDATE_USER_LISTS_FOR_ITEM",
+    "title": "Update user lists for item"
+   },
+   {
+    "slug": "GITHUB_UPDATE_USER_PROJECT_ITEM",
+    "title": "Update Project V2 Item for User"
+   },
+   {
+    "slug": "GITHUB_UPDATE_USER_STATUS",
+    "title": "Change User Status"
+   },
+   {
+    "slug": "GITHUB_UPLOAD_RELEASE_ASSET",
+    "title": "Upload a release asset"
+   },
+   {
+    "slug": "GITHUB_UPLOAD_SARIF_ANALYSIS",
+    "title": "Upload an analysis as sarif data"
+   },
+   {
+    "slug": "GITHUB_UPSERT_REPO_CUSTOM_PROPERTY_VALUES",
+    "title": "Create or update repository custom property values"
+   },
+   {
+    "slug": "GITHUB_VALIDATE_CREDENTIAL",
+    "title": "Validate credential"
+   },
+   {
+    "slug": "GITHUB_VERIFY_DEV_CONTAINER_PERMISSIONS_ACCEPTED",
+    "title": "Verify dev container permissions accepted"
+   },
+   {
+    "slug": "GITHUB_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ },
+ "linear": {
+  "name": "Linear",
+  "actions": [
+   {
+    "slug": "LINEAR_ARCHIVE_ISSUE",
+    "title": "Archive issue"
+   },
+   {
+    "slug": "LINEAR_ARCHIVE_PROJECT",
+    "title": "Archive Project"
+   },
+   {
+    "slug": "LINEAR_ARCHIVE_PROJECT_UPDATE",
+    "title": "Archive Project Update"
+   },
+   {
+    "slug": "LINEAR_CREATE_ATTACHMENT",
+    "title": "Create attachment"
+   },
+   {
+    "slug": "LINEAR_CREATE_COMMENT_REACTION",
+    "title": "Add reaction to comment"
+   },
+   {
+    "slug": "LINEAR_CREATE_LINEAR_COMMENT",
+    "title": "Create a comment"
+   },
+   {
+    "slug": "LINEAR_CREATE_LINEAR_ISSUE",
+    "title": "Create linear issue"
+   },
+   {
+    "slug": "LINEAR_CREATE_LINEAR_ISSUE_RELATION",
+    "title": "Create issue relation"
+   },
+   {
+    "slug": "LINEAR_CREATE_LINEAR_LABEL",
+    "title": "Create a label"
+   },
+   {
+    "slug": "LINEAR_CREATE_LINEAR_PROJECT",
+    "title": "Create Project"
+   },
+   {
+    "slug": "LINEAR_CREATE_PROJECT_MILESTONE",
+    "title": "Create Project Milestone"
+   },
+   {
+    "slug": "LINEAR_CREATE_PROJECT_UPDATE",
+    "title": "Create Project Update"
+   },
+   {
+    "slug": "LINEAR_CREATE_TEAM",
+    "title": "Create Team"
+   },
+   {
+    "slug": "LINEAR_DELETE_LINEAR_ISSUE",
+    "title": "Delete issue"
+   },
+   {
+    "slug": "LINEAR_GET_ALL_LINEAR_TEAMS",
+    "title": "Get all teams (Deprecated)"
+   },
+   {
+    "slug": "LINEAR_GET_ATTACHMENT",
+    "title": "Download issue files"
+   },
+   {
+    "slug": "LINEAR_GET_COMMENT",
+    "title": "Get a comment"
+   },
+   {
+    "slug": "LINEAR_GET_CURRENT_USER",
+    "title": "Get current user"
+   },
+   {
+    "slug": "LINEAR_GET_CYCLES_BY_TEAM_ID",
+    "title": "Get cycles by team ID"
+   },
+   {
+    "slug": "LINEAR_GET_ISSUE_DEFAULTS",
+    "title": "Get create issue default params"
+   },
+   {
+    "slug": "LINEAR_GET_LINEAR_ISSUE",
+    "title": "Get Linear issue"
+   },
+   {
+    "slug": "LINEAR_GET_LINEAR_PROJECT",
+    "title": "Get Linear project"
+   },
+   {
+    "slug": "LINEAR_GET_PROJECT_UPDATE",
+    "title": "Get Project Update"
+   },
+   {
+    "slug": "LINEAR_LIST_COMMENTS",
+    "title": "List comments"
+   },
+   {
+    "slug": "LINEAR_LIST_ISSUE_DRAFTS",
+    "title": "List issue drafts"
+   },
+   {
+    "slug": "LINEAR_LIST_ISSUES_BY_TEAM_ID",
+    "title": "List issues by team ID"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_CYCLES",
+    "title": "Get all cycles"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_ISSUES",
+    "title": "List Linear issues"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_LABELS",
+    "title": "Get labels"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_PROJECTS",
+    "title": "List linear projects"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_STATES",
+    "title": "List Linear states"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_TEAMS",
+    "title": "Get teams"
+   },
+   {
+    "slug": "LINEAR_LIST_LINEAR_USERS",
+    "title": "List Linear users"
+   },
+   {
+    "slug": "LINEAR_LIST_PROJECT_UPDATES",
+    "title": "List project updates"
+   },
+   {
+    "slug": "LINEAR_REMOVE_ISSUE_LABEL",
+    "title": "Remove label from Linear issue"
+   },
+   {
+    "slug": "LINEAR_REMOVE_REACTION",
+    "title": "Remove reaction from comment"
+   },
+   {
+    "slug": "LINEAR_RESOLVE_COMMENT",
+    "title": "Resolve comment"
+   },
+   {
+    "slug": "LINEAR_RUN_QUERY_OR_MUTATION",
+    "title": "Run Query or Mutation"
+   },
+   {
+    "slug": "LINEAR_SEARCH_ISSUES",
+    "title": "Search Linear issues"
+   },
+   {
+    "slug": "LINEAR_UNARCHIVE_PROJECT_UPDATE",
+    "title": "Unarchive Project Update"
+   },
+   {
+    "slug": "LINEAR_UNRESOLVE_COMMENT",
+    "title": "Unresolve a comment"
+   },
+   {
+    "slug": "LINEAR_UPDATE_ISSUE",
+    "title": "Update issue"
+   },
+   {
+    "slug": "LINEAR_UPDATE_LINEAR_COMMENT",
+    "title": "Update a comment"
+   },
+   {
+    "slug": "LINEAR_UPDATE_LINEAR_PROJECT",
+    "title": "Update Project"
+   },
+   {
+    "slug": "LINEAR_UPDATE_PROJECT_UPDATE",
+    "title": "Update Project Update"
+   },
+   {
+    "slug": "LINEAR_UPDATE_TEAM",
+    "title": "Update Team"
+   },
+   {
+    "slug": "LINEAR_VALIDATE_CREDENTIAL",
+    "title": "Validate credential"
+   },
+   {
+    "slug": "LINEAR_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ },
+ "outlook": {
+  "name": "Outlook",
+  "actions": [
+   {
+    "slug": "OUTLOOK_ACCEPT_EVENT",
+    "title": "Accept calendar event invite"
+   },
+   {
+    "slug": "OUTLOOK_ADD_EVENT_ATTACHMENT",
+    "title": "Add event attachment"
+   },
+   {
+    "slug": "OUTLOOK_ADD_MAIL_ATTACHMENT",
+    "title": "Add mail attachment"
+   },
+   {
+    "slug": "OUTLOOK_BATCH_MOVE_MESSAGES",
+    "title": "Batch move messages"
+   },
+   {
+    "slug": "OUTLOOK_BATCH_UPDATE_MESSAGES",
+    "title": "Batch update messages"
+   },
+   {
+    "slug": "OUTLOOK_CALENDAR_CREATE_EVENT",
+    "title": "Create Calendar Event"
+   },
+   {
+    "slug": "OUTLOOK_CANCEL_CALENDAR_EVENT",
+    "title": "Cancel user's calendar event"
+   },
+   {
+    "slug": "OUTLOOK_CANCEL_CALENDAR_GROUP_CALENDAR_EVENT",
+    "title": "Cancel user calendar group event"
+   },
+   {
+    "slug": "OUTLOOK_CANCEL_EVENT",
+    "title": "Cancel user calendar event"
+   },
+   {
+    "slug": "OUTLOOK_COPY_MAIL_FOLDER",
+    "title": "Copy user's mail folder"
+   },
+   {
+    "slug": "OUTLOOK_COPY_ME_MAIL_FOLDER",
+    "title": "Copy child mail folder"
+   },
+   {
+    "slug": "OUTLOOK_COPY_MESSAGE",
+    "title": "Copy message to folder"
+   },
+   {
+    "slug": "OUTLOOK_COPY_MESSAGE_FROM_CHILD_FOLDER",
+    "title": "Copy message from child folder"
+   },
+   {
+    "slug": "OUTLOOK_COPY_MESSAGE_FROM_MAIL_FOLDER",
+    "title": "Copy user message from folder"
+   },
+   {
+    "slug": "OUTLOOK_COUNT_MESSAGES",
+    "title": "Count messages"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ATTACHMENT_UPLOAD_SESSION_IN_CHILD_FOLDER",
+    "title": "Create attachment upload session in child folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR",
+    "title": "Create calendar"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_EVENT",
+    "title": "Create Event in Calendar (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_EVENT_ATTACHMENT",
+    "title": "Create calendar event attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_EVENT_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create calendar event attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_EVENT_IN_CALENDAR",
+    "title": "Create event in specific calendar"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_GROUP",
+    "title": "Create calendar group"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_GROUP_CALENDAR_EVENT_ATTACHMENT",
+    "title": "Create user calendar group event attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_GROUP_CALENDAR_EVENT_EXTENSION",
+    "title": "Create event extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CALENDAR_PERMISSION",
+    "title": "Create Calendar Permission"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CAL_GROUP_EVENT_ATTACH_UPLOAD",
+    "title": "Create calendar group event attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CONTACT",
+    "title": "Create contact"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CONTACT_FOLDER",
+    "title": "Create contact folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_CONTACT_FOLDER_CHILD_FOLDER",
+    "title": "Create user contact folder child folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_DRAFT",
+    "title": "Create email draft"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_DRAFT_REPLY",
+    "title": "Create a draft reply"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_EMAIL_RULE",
+    "title": "Create Email Rule"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_EVENT_ATTACHMENT",
+    "title": "Create user calendar event attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_EVENT_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create event attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_FORWARD_DRAFT",
+    "title": "Create user mail folder message forward draft"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_GROUP_EVENT",
+    "title": "Create Microsoft 365 group event"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MAIL_FOLDER",
+    "title": "Create mail folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MAIL_FOLDER_MESSAGE",
+    "title": "Create message in mail folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MAIL_FOLDER_MESSAGE_ATTACHMENT",
+    "title": "Create mail folder message attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MAIL_FOLDER_MESSAGE_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create mail folder message attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MAIL_FOLDER_MESSAGE_RULE",
+    "title": "Create User Mail Folder Message Rule"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MASTER_CATEGORY",
+    "title": "Create master category (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CALENDAR_EVENT_EXTENSION",
+    "title": "Create user calendar event extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CALENDAR_PERMISSION",
+    "title": "Create user calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CHILD_FOLDER_MESSAGE",
+    "title": "Create message in user's child folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CONTACT_FOLDERS_CONTACTS",
+    "title": "Create user contact in folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CONTACT_FOLDERS_CONTACTS_EXTENSIONS",
+    "title": "Create user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CONTACT_FOLDERS_EXTENSIONS",
+    "title": "Create contact extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_CONTACT_IN_CHILD_FOLDER",
+    "title": "Create contact in child folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_EVENT",
+    "title": "Create calendar event for user"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_EVENT_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create me event attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_FORWARD_DRAFT",
+    "title": "Create forward draft"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_INFERENCE_CLASSIFICATION_OVERRIDE",
+    "title": "Create user Focused Inbox override"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_MAIL_FOLDER_MESSAGE_REPLY_ALL_DRAFT",
+    "title": "Create reply-all draft for mail folder message"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_MESSAGE_REPLY_ALL_DRAFT",
+    "title": "Create reply-all draft for user message"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_REPLY_ALL_DRAFT",
+    "title": "Create reply-all draft for child folder message"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_ME_REPLY_DRAFT",
+    "title": "Create reply draft"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_MESSAGE_ATTACHMENT",
+    "title": "Create message attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_REPLY_ALL_DRAFT",
+    "title": "Create reply-all draft in folder"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_TASK",
+    "title": "Create To Do task"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_CALENDAR_EVENT_ATTACHMENT",
+    "title": "Create user calendar event attachment"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_CALENDAR_GROUP_CALENDAR",
+    "title": "Create calendar in user's calendar group"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_CALENDAR_GROUP_EVENT",
+    "title": "Create user calendar group event"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_CONTACTS_EXTENSIONS",
+    "title": "Create user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_EVENT_ATTACHMENT_UPLOAD_SESSION",
+    "title": "Create user event attachment upload session"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_EVENT_CALENDAR_PERMISSION",
+    "title": "Create calendar permission via event"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MAIL_CHILD_FOLDER_MSG_EXT",
+    "title": "Create user message extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MAIL_FOLDER_MESSAGE_EXTENSION",
+    "title": "Create user mail folder message extension"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MAIL_FOLDER_MESSAGE_REPLY_DRAFT",
+    "title": "Create reply draft for user mail folder message"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MAIL_FOLDERS_CHILD_FOLDERS",
+    "title": "Create user mail folders child folders"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MASTER_CATEGORY",
+    "title": "Create user master category"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MESSAGE",
+    "title": "Create user message"
+   },
+   {
+    "slug": "OUTLOOK_CREATE_USER_MESSAGE_ATTACHMENT",
+    "title": "Create user message attachment"
+   },
+   {
+    "slug": "OUTLOOK_DECLINE_EVENT",
+    "title": "Decline calendar event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR",
+    "title": "Delete calendar"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_EVENT",
+    "title": "Delete calendar event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_EVENT_ATTACHMENT",
+    "title": "Delete user calendar event attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_EVENT_FROM_SPECIFIC_CALENDAR",
+    "title": "Delete event from specific calendar"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_FROM_GROUP",
+    "title": "Delete user calendar group calendar"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_GROUP",
+    "title": "Delete calendar group"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_GROUP_CALENDAR_EVENT",
+    "title": "Delete user calendar group calendar event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_GROUP_EVENT_ATTACHMENT",
+    "title": "Delete calendar group event attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_GROUP_EVENT_PERMANENTLY",
+    "title": "Permanently Delete Calendar Group Event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_PERMANENTLY",
+    "title": "Permanently Delete Calendar"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CALENDAR_PERMISSION",
+    "title": "Delete User Calendar Group Calendar Permission"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CHILD_CONTACT_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete Child Contact Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CHILD_FOLDER_MESSAGE",
+    "title": "Delete Child Folder Message"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT",
+    "title": "Delete Contact"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FOLDER",
+    "title": "Delete contact folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FOLDER_CHILD_FOLDER",
+    "title": "Delete user contact folder child folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FOLDER_CONTACT",
+    "title": "Delete Contact from Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete Contact Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FROM_CHILD_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete User Contact from Child Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_FROM_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete Contact from Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACT_PERMANENTLY",
+    "title": "Permanently Delete Contact"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_CONTACTS_EXTENSIONS",
+    "title": "Delete contact extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_EMAIL_RULE",
+    "title": "Delete Email Rule"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_EVENT",
+    "title": "Delete calendar event (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_EVENT_ATTACHMENT",
+    "title": "Delete event attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_EVENT_EXTENSION",
+    "title": "Delete event extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_EVENT_PERMANENTLY",
+    "title": "Permanently Delete Event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MAIL_FOLDER",
+    "title": "Delete mail folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MAIL_FOLDER_MESSAGE",
+    "title": "Delete Mail Folder Message"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MASTER_CATEGORY",
+    "title": "Delete master category"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_CALENDAR_PERMISSION",
+    "title": "Delete User Calendars Calendar Permission"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_CONTACT_EXTENSION",
+    "title": "Delete contact extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_CONTACT_FOLDER_CONTACT_EXTENSION",
+    "title": "Delete user contact folder contact extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_EVENT_EXTENSION",
+    "title": "Delete user event extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_EVENTS_ATTACHMENTS",
+    "title": "Delete user event attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_INFERENCE_CLASSIFICATION_OVERRIDE",
+    "title": "Delete inference classification override"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDER_CHILD_FOLDER",
+    "title": "Delete mail folder child folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDER_CHILD_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete Child Mail Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDER_MESSAGE_RULE",
+    "title": "Delete mail folder message rule"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDERS_CHILD_FOLDERS_MESSAGES_EXTENS",
+    "title": "Delete user message extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDERS_MESSAGES_ATTACHMENTS",
+    "title": "Delete Message Attachment (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MAIL_FOLDERS_MESSAGES_EXTENSIONS",
+    "title": "Delete message extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_ME_MESSAGES_ATTACHMENTS",
+    "title": "Delete Message Attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MESSAGE",
+    "title": "Delete Message"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MESSAGE_ATTACHMENT",
+    "title": "Delete Message Attachment"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MESSAGE_EXTENSION",
+    "title": "Delete message extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_MESSAGE_PERMANENTLY_FROM_FOLDER",
+    "title": "Permanently Delete Message (Folder-Scoped) (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_PRIMARY_CALENDAR_PERMISSION",
+    "title": "Delete User Calendar Permission"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_TODO_TASK",
+    "title": "Delete To Do task"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_CALENDAR_EVENT_PERMANENTLY",
+    "title": "Permanently Delete User Calendar Event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_CHILD_FOLDER_CONTACT",
+    "title": "Delete Contact from User's Child Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_CHILD_FOLDER_MESSAGE_PERMANENTLY",
+    "title": "Delete User Child Folder Message Permanently"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_CONTACT_EXTENSION",
+    "title": "Delete user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_EVENT_PERMANENTLY",
+    "title": "Permanently Delete User Event"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_MAIL_FOLDER_PERMANENTLY",
+    "title": "Permanently Delete User Mail Folder"
+   },
+   {
+    "slug": "OUTLOOK_DELETE_USER_MESSAGE_ATTACHMENT",
+    "title": "Delete user message attachment"
+   },
+   {
+    "slug": "OUTLOOK_DISMISS_CALENDAR_EVENT_REMINDER",
+    "title": "Dismiss user calendar event reminder"
+   },
+   {
+    "slug": "OUTLOOK_DISMISS_EVENT_REMINDER",
+    "title": "Dismiss event reminder"
+   },
+   {
+    "slug": "OUTLOOK_DISMISS_EVENT_REMINDER_FROM_GROUP",
+    "title": "Dismiss user calendar group event reminder"
+   },
+   {
+    "slug": "OUTLOOK_DISMISS_USER_EVENT_REMINDER",
+    "title": "Dismiss user event reminder"
+   },
+   {
+    "slug": "OUTLOOK_DOWNLOAD_OUTLOOK_ATTACHMENT",
+    "title": "Download Outlook attachment"
+   },
+   {
+    "slug": "OUTLOOK_FIND_MEETING_TIMES",
+    "title": "Find Meeting Times"
+   },
+   {
+    "slug": "OUTLOOK_FORWARD_MESSAGE",
+    "title": "Forward message"
+   },
+   {
+    "slug": "OUTLOOK_FORWARD_USER_CALENDAR_EVENT",
+    "title": "Forward user calendar event"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR",
+    "title": "Get specific calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_EVENT",
+    "title": "Get event from calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_EVENT_ATTACHMENT",
+    "title": "Get calendar event attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_FROM_EVENT",
+    "title": "Get calendar from event"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_FROM_GROUP",
+    "title": "Get calendar from calendar group"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_GROUP",
+    "title": "Get calendar group"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_GROUP_CALENDAR_EVENT_EXTENSION",
+    "title": "Get event extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_GROUP_EVENT_ATTACHMENT",
+    "title": "Get calendar group event attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_GROUP_SCHEDULE",
+    "title": "Get User Calendar Group Schedule"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_PERMISSION",
+    "title": "Get user calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_PERMISSION_FROM_CALENDAR",
+    "title": "Get user calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_SCHEDULE",
+    "title": "Get Calendar Schedule"
+   },
+   {
+    "slug": "OUTLOOK_GET_CALENDAR_VIEW",
+    "title": "Get Calendar View"
+   },
+   {
+    "slug": "OUTLOOK_GET_CHILD_FOLDER_MESSAGE",
+    "title": "Get child folder message"
+   },
+   {
+    "slug": "OUTLOOK_GET_CHILD_FOLDER_MESSAGE_CONTENT",
+    "title": "Get child folder message MIME content"
+   },
+   {
+    "slug": "OUTLOOK_GET_CHILD_MAIL_FOLDER",
+    "title": "Get child mail folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_CONTACT_EXTENSION",
+    "title": "Get contact extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_CONTACT_FOLDER",
+    "title": "Get contact folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_CONTACT_FOLDERS",
+    "title": "List user contact folders"
+   },
+   {
+    "slug": "OUTLOOK_GET_CONTACT_FROM_FOLDER",
+    "title": "Get contact from folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_DRAFTS_MAIL_FOLDER",
+    "title": "Get drafts mail folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_DRIVE_ITEM",
+    "title": "Get drive item"
+   },
+   {
+    "slug": "OUTLOOK_GET_EVENT",
+    "title": "Get calendar event"
+   },
+   {
+    "slug": "OUTLOOK_GET_EVENT_ATTACHMENT",
+    "title": "Get event attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_EVENT_CALENDAR_FROM_GROUP",
+    "title": "Get event calendar from calendar group"
+   },
+   {
+    "slug": "OUTLOOK_GET_GROUP",
+    "title": "Get Microsoft Graph group"
+   },
+   {
+    "slug": "OUTLOOK_GET_GROUP_CALENDAR",
+    "title": "Get Microsoft 365 group calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_GROUP_EVENT",
+    "title": "Get Microsoft 365 group event"
+   },
+   {
+    "slug": "OUTLOOK_GET_GROUP_POST_ATTACHMENT",
+    "title": "Get group post attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_INFERENCE_CLASSIFICATION",
+    "title": "Get inference classification"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAILBOX_SETTINGS",
+    "title": "Get mailbox settings"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAIL_DELTA",
+    "title": "Get mail delta"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAIL_FOLDER",
+    "title": "Get mail folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAIL_FOLDER_MESSAGE",
+    "title": "Get mail folder message"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAIL_FOLDER_MESSAGE_RULE",
+    "title": "Get user mail folder message rule"
+   },
+   {
+    "slug": "OUTLOOK_GET_MAIL_TIPS",
+    "title": "Get mail tips"
+   },
+   {
+    "slug": "OUTLOOK_GET_MASTER_CATEGORIES",
+    "title": "Get master categories"
+   },
+   {
+    "slug": "OUTLOOK_GET_MASTER_CATEGORY",
+    "title": "Get master category"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CALENDAR",
+    "title": "Get user's default calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CONTACT_FOLDERS_CHILD_FOLDER",
+    "title": "Get user child contact folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CONTACT_FROM_CHILD_FOLDER",
+    "title": "Get contact from child folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CONTACT_PHOTO",
+    "title": "Get contact photo"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CONTACTS",
+    "title": "Get contact"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_CONTACTS_EXTENSIONS",
+    "title": "Get user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_EVENT_ATTACHMENT",
+    "title": "Get user event attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_EVENT_CALENDAR",
+    "title": "Get event calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_MAIL_FOLDER_MESSAGE_ATTACHMENT",
+    "title": "Get mail folder message attachment (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_MAIL_FOLDERS_MESSAGES_EXTENSIONS",
+    "title": "Get message extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_MESSAGE_MIME_CONTENT",
+    "title": "Get message MIME content"
+   },
+   {
+    "slug": "OUTLOOK_GET_ME_OUTLOOK",
+    "title": "Get user outlook"
+   },
+   {
+    "slug": "OUTLOOK_GET_MESSAGE",
+    "title": "Get email message"
+   },
+   {
+    "slug": "OUTLOOK_GET_MESSAGE_EXTENSION",
+    "title": "Get user message extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_NESTED_FOLDER_MESSAGE_ATTACHMENT",
+    "title": "Get attachment from nested folder message"
+   },
+   {
+    "slug": "OUTLOOK_GET_PLANNER_PLAN",
+    "title": "Get Planner plan"
+   },
+   {
+    "slug": "OUTLOOK_GET_PROFILE",
+    "title": "Get Outlook profile"
+   },
+   {
+    "slug": "OUTLOOK_GET_SCHEDULE",
+    "title": "Get schedule"
+   },
+   {
+    "slug": "OUTLOOK_GET_SUPPORTED_LANGUAGES",
+    "title": "Get supported languages"
+   },
+   {
+    "slug": "OUTLOOK_GET_SUPPORTED_TIME_ZONES",
+    "title": "Get supported time zones"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_BY_EMAIL",
+    "title": "Get user by email"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR",
+    "title": "Get user's calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR_ALLOWED_SHARING_ROLES",
+    "title": "Get allowed calendar sharing roles for user calendar"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR_EVENT",
+    "title": "Get user calendar event"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR_GROUP_CALENDAR_PERMISSION",
+    "title": "Get user calendar group calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR_GROUP_EVENT",
+    "title": "Get user calendar group event"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CALENDAR_GROUP_EVENT_ATTACHMENT",
+    "title": "Get user calendar group event attachment"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_CHILD_FOLDER_MESSAGE",
+    "title": "Get message from child folder"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_EVENT_EXTENSION",
+    "title": "Get event extension"
+   },
+   {
+    "slug": "OUTLOOK_GET_USER_MESSAGES_ATTACHMENTS",
+    "title": "Get user message attachment"
+   },
+   {
+    "slug": "OUTLOOK_LIST_ASSIGNED_PLANNER_TASKS",
+    "title": "List assigned Planner tasks"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_CALENDAR_VIEW",
+    "title": "List Calendar Calendar View (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_EVENT_ATTACHMENTS",
+    "title": "List user calendar event attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_GROUP_CALENDAR_EVENTS",
+    "title": "List user calendar group calendar events"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_GROUP_CALENDARS",
+    "title": "List calendars in calendar group"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_GROUP_EVENT_ATTACHMENTS",
+    "title": "List user calendar group event attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_GROUPS",
+    "title": "List Outlook calendar groups"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_PERMISSIONS",
+    "title": "List calendar permissions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDARS",
+    "title": "List Outlook calendars"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CALENDAR_VIEW_DELTA",
+    "title": "List calendar view delta"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CHAT_MESSAGES",
+    "title": "List chat messages"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CHATS",
+    "title": "List Teams chats"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CHILD_FOLDER_CONTACTS",
+    "title": "List user child folder contacts"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CHILD_FOLDER_MESSAGES",
+    "title": "List child folder messages"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CHILD_MAIL_FOLDERS",
+    "title": "List child mail folders"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CONTACT_FOLDER_CHILD_FOLDERS",
+    "title": "List contact folder child folders"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CONTACT_FOLDERS_DELTA",
+    "title": "List contact folders delta"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CONTACTS",
+    "title": "List Outlook contacts (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_LIST_CONTACTS_DELTA",
+    "title": "List contacts delta"
+   },
+   {
+    "slug": "OUTLOOK_LIST_DIRECT_GROUP_MEMBERSHIPS",
+    "title": "List direct group memberships"
+   },
+   {
+    "slug": "OUTLOOK_LIST_EMAIL_RULES",
+    "title": "List Email Rules"
+   },
+   {
+    "slug": "OUTLOOK_LIST_EVENT_ATTACHMENTS",
+    "title": "List event attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_EVENT_CALENDAR_CALENDAR_PERMISSIONS",
+    "title": "List event calendar permissions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_EVENT_INSTANCES",
+    "title": "List event instances"
+   },
+   {
+    "slug": "OUTLOOK_LIST_EVENTS",
+    "title": "List events"
+   },
+   {
+    "slug": "OUTLOOK_LIST_GROUP_CONVERSATIONS",
+    "title": "List group conversations"
+   },
+   {
+    "slug": "OUTLOOK_LIST_GROUP_THREAD_POSTS",
+    "title": "List group thread posts"
+   },
+   {
+    "slug": "OUTLOOK_LIST_GROUP_THREADS",
+    "title": "List Outlook group threads"
+   },
+   {
+    "slug": "OUTLOOK_LIST_INFERENCE_CLASSIFICATION_OVERRIDES",
+    "title": "List Inference Classification Overrides"
+   },
+   {
+    "slug": "OUTLOOK_LIST_LICENSE_DETAILS",
+    "title": "List license details"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MAIL_FOLDER_MESSAGE_ATTACHMENTS",
+    "title": "List mail folder message attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MAIL_FOLDER_MESSAGE_RULES",
+    "title": "List mail folder message rules"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MAIL_FOLDER_MESSAGES",
+    "title": "List mail folder messages"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MAIL_FOLDERS",
+    "title": "List mail folders"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MAIL_FOLDERS_DELTA",
+    "title": "List mail folders delta"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MASTER_CATEGORIES",
+    "title": "List master categories"
+   },
+   {
+    "slug": "OUTLOOK_LIST_ME_CALENDAR_PERMISSIONS",
+    "title": "List user calendar permissions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_ME_EVENT_INSTANCES",
+    "title": "List me event instances (Deprecated)"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MESSAGE_ATTACHMENTS_FROM_CHILD_FOLDER",
+    "title": "List message attachments from child folder"
+   },
+   {
+    "slug": "OUTLOOK_LIST_MESSAGES",
+    "title": "List Messages"
+   },
+   {
+    "slug": "OUTLOOK_LIST_NOTIFICATION_SUBSCRIPTIONS",
+    "title": "List notification subscriptions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_ORGANIZATIONS",
+    "title": "List organizations"
+   },
+   {
+    "slug": "OUTLOOK_LIST_OUTLOOK_ATTACHMENTS",
+    "title": "List Outlook attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_PLACES",
+    "title": "List places"
+   },
+   {
+    "slug": "OUTLOOK_LIST_PLANNER_PLAN_BUCKETS",
+    "title": "List Planner plan buckets"
+   },
+   {
+    "slug": "OUTLOOK_LIST_PRIMARY_CALENDAR_PERMISSIONS",
+    "title": "List primary calendar permissions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_REMINDERS",
+    "title": "List event reminders"
+   },
+   {
+    "slug": "OUTLOOK_LIST_SENT_ITEMS_MESSAGES",
+    "title": "List sent items messages"
+   },
+   {
+    "slug": "OUTLOOK_LIST_TO_DO_LISTS",
+    "title": "List To Do task lists"
+   },
+   {
+    "slug": "OUTLOOK_LIST_TODO_TASKS",
+    "title": "List tasks from a To Do list"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDAR_EVENT_INSTANCES",
+    "title": "List calendar event instances"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDAR_EVENTS_ATTACHMENTS",
+    "title": "List user calendar event attachments"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDAR_GROUP_EVENT_INSTANCES",
+    "title": "List event instances"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDAR_GROUPS_CALENDAR_VIEW",
+    "title": "Get Calendar View from User Calendar Group"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDARS_CALENDAR_PERMISSIONS",
+    "title": "List user calendar permissions"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDARS_EVENTS",
+    "title": "List user calendars events"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CALENDAR_VIEW",
+    "title": "Get calendar view from user's calendar"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USER_CONTACTS",
+    "title": "List user contacts"
+   },
+   {
+    "slug": "OUTLOOK_LIST_USERS",
+    "title": "List users"
+   },
+   {
+    "slug": "OUTLOOK_MOVE_MAIL_FOLDER",
+    "title": "Move mail folder"
+   },
+   {
+    "slug": "OUTLOOK_MOVE_ME_MAIL_FOLDER",
+    "title": "Move child mail folder"
+   },
+   {
+    "slug": "OUTLOOK_MOVE_MESSAGE",
+    "title": "Move message to folder"
+   },
+   {
+    "slug": "OUTLOOK_MOVE_MESSAGE_FROM_CHILD_FOLDER",
+    "title": "Move message from child folder"
+   },
+   {
+    "slug": "OUTLOOK_MOVE_MESSAGE_FROM_FOLDER",
+    "title": "Move message from folder"
+   },
+   {
+    "slug": "OUTLOOK_PERMANENT_DELETE_MESSAGE",
+    "title": "Permanently Delete Message"
+   },
+   {
+    "slug": "OUTLOOK_PIN_MESSAGE",
+    "title": "Pin message"
+   },
+   {
+    "slug": "OUTLOOK_QUERY_EMAILS",
+    "title": "Query Emails"
+   },
+   {
+    "slug": "OUTLOOK_REPLY_ALL",
+    "title": "Reply all"
+   },
+   {
+    "slug": "OUTLOOK_REPLY_EMAIL",
+    "title": "Reply to Email"
+   },
+   {
+    "slug": "OUTLOOK_SEARCH_EVENTS",
+    "title": "Search calendar events"
+   },
+   {
+    "slug": "OUTLOOK_SEARCH_MESSAGES",
+    "title": "Search Outlook messages"
+   },
+   {
+    "slug": "OUTLOOK_SEARCH_PEOPLE",
+    "title": "Search Outlook people"
+   },
+   {
+    "slug": "OUTLOOK_SEARCH_SITES",
+    "title": "Search SharePoint sites"
+   },
+   {
+    "slug": "OUTLOOK_SEND_DRAFT",
+    "title": "Send draft"
+   },
+   {
+    "slug": "OUTLOOK_SEND_EMAIL",
+    "title": "Send email"
+   },
+   {
+    "slug": "OUTLOOK_SNOOZE_CALENDAR_GROUP_EVENT_REMINDER",
+    "title": "Snooze user calendar group event reminder"
+   },
+   {
+    "slug": "OUTLOOK_SNOOZE_EVENT_REMINDER",
+    "title": "Snooze event reminder"
+   },
+   {
+    "slug": "OUTLOOK_SNOOZE_USER_CALENDAR_EVENT_REMINDER",
+    "title": "Snooze user calendar event reminder"
+   },
+   {
+    "slug": "OUTLOOK_SNOOZE_USER_EVENT_REMINDER",
+    "title": "Snooze user event reminder"
+   },
+   {
+    "slug": "OUTLOOK_TRANSLATE_EXCHANGE_IDS",
+    "title": "Translate Exchange IDs"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_EVENT",
+    "title": "Update calendar event"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_EVENT_IN_CALENDAR",
+    "title": "Update event in specific calendar"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_GROUP",
+    "title": "Update calendar group"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_GROUP_CALENDAR_PERMISSION",
+    "title": "Update Calendar Group Calendar Permission"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_GROUPS_CALENDARS",
+    "title": "Update user calendar in calendar group"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_GROUPS_CALENDARS_EVENTS",
+    "title": "Update user calendar group event"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CALENDAR_PERMISSION",
+    "title": "Update calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CHILD_FOLDER_CONTACT",
+    "title": "Update child folder contact"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CONTACT",
+    "title": "Update Contact"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CONTACT_FOLDER",
+    "title": "Update user contact folder"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CONTACT_FOLDER_CHILD_FOLDER",
+    "title": "Update user contact folder child folder"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_CONTACT_FOLDERS_CONTACTS",
+    "title": "Update contact in folder"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_EMAIL",
+    "title": "Update email message"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_EMAIL_RULE",
+    "title": "Update Email Rule"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_EVENT_EXTENSION",
+    "title": "Update event extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_EVENT_EXTENSION_IN_CALENDAR_GROUP",
+    "title": "Update event extension in calendar group"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_INFERENCE_CLASSIFICATION",
+    "title": "Update Inference Classification"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_MAILBOX_SETTINGS",
+    "title": "Update mailbox settings"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_MAIL_FOLDER",
+    "title": "Update mail folder"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_MASTER_CATEGORY",
+    "title": "Update master category"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_ME_CONTACTS_EXTENSIONS",
+    "title": "Update contact extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_TODO_TASK",
+    "title": "Update To Do task"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CALENDAR",
+    "title": "Update user calendar"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CALENDAR_CALENDAR_EVENT",
+    "title": "Update user calendar event"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CALENDAR_EVENT",
+    "title": "Update user calendar event"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CALENDAR_PERMISSION",
+    "title": "Update user calendar permission"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CALENDARS",
+    "title": "Update user calendar by ID"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CHILD_FOLDER_MESSAGE",
+    "title": "Update user child folder message"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CONTACT_EXTENSION",
+    "title": "Update user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CONTACTS_EXTENSIONS",
+    "title": "Update user contact extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_CONTACTS_EXTENSIONS_DIRECT",
+    "title": "Update user contact extension (v3)"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_EVENT_EXTENSION",
+    "title": "Update user event extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_EVENTS_EXTENSIONS",
+    "title": "Update user events extensions"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_INFERENCE_CLASSIFICATION_OVERRIDE",
+    "title": "Update User Inference Classification Override"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_MAIL_FOLDER_MESSAGE",
+    "title": "Update user mail folder message"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_MAIL_FOLDER_MESSAGE_EXTENSION",
+    "title": "Update user message extension"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_MAIL_FOLDER_MESSAGE_RULE",
+    "title": "Update user mail folder message rule"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_MAIL_FOLDERS_CHILD_FOLDERS",
+    "title": "Update user mail folder child folder"
+   },
+   {
+    "slug": "OUTLOOK_UPDATE_USER_MESSAGE_EXTENSION",
+    "title": "Update user message extension"
+   },
+   {
+    "slug": "OUTLOOK_WHO_AM_I",
+    "title": "Who Am I"
+   }
+  ]
+ }
+}

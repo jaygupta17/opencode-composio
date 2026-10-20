@@ -1,0 +1,37 @@
+{
+  "name": "opencode-composio",
+  "version": "0.1.0",
+  "description": "Your apps (Gmail, Calendar, Slack, GitHub…) as OpenCode tools, one per action, each with its own permission.",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "composio",
+    "gmail",
+    "calendar",
+    "slack"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaygupta17/opencode-composio.git"
+  },
+  "homepage": "https://github.com/jaygupta17/opencode-composio#readme",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./permissions.json": "./permissions.json"
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "permissions.json"
+  ],
+  "scripts": {
+    "catalog": "bun scripts/catalog.ts && bun scripts/permissions.ts",
+    "permissions": "bun scripts/permissions.ts",
+    "prepublishOnly": "bun scripts/permissions.ts"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": "^2.1.0"
+  }
+}
